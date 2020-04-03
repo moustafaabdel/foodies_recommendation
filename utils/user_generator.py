@@ -65,7 +65,6 @@ def generate_rand_friends(user_id, output):
     return output
 
 
-#execute main
 def main():
 
     # Generate random food users

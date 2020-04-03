@@ -1,0 +1,13 @@
+restaurant_id,restaurant_name,price_range,address,cuisine
+1001,Piattini,2,"226 Newbury St, Boston, MA 02116",Italian
+1002,Giacomo's Ristorante,2,"431 Columbus Ave, Boston, MA 02116",Italian
+1003,Viga,1,"140 Clarendon St, Boston, MA 02116",Italian
+1004,Bottega di Capri,1,"41 Harvard St, Brookline, MA 02445",Italian
+1005,Sorellina,4,"1 Huntington Ave, Boston, MA, 02116",Italian
+1006,Teatro,3,"177 Tremont St, Boston, MA 02111",Italian
+1007,El Pel—n,1,"92 Peterborough St, Boston, MA 02215",Mexican
+1008,Annas Taqueria Mit,1,"84 Massachusetts Ave # 100, Cambridge, MA 02139",Mexican
+1009,Papagayo,2,"15 West St, Boston, MA 02111",Mexican
+1010,Casa Romero,2,"30 Gloucester St, Boston, MA 02115",Mexican
+1011,Citrus and Salt,3,"142 Berkeley St, Boston, MA 02116",Mexican
+1012,Temazcal Tequila Cantina,3,"250 Northern Ave #2, Boston, MA 02210",Mexican

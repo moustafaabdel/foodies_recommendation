@@ -1,0 +1,494 @@
+restaurant_id,item,category, item_price ,food_id
+1001,Ceasar Salad,Insalate, $11.00 ,1
+1001,Almond and Apple Salad,Insalate, $12.00 ,2
+1001,Arugula,Insalate, $11.00 ,3
+1001,Spinach,Insalate, $12.00 ,4
+1001,Kale Bowl,Insalate, $12.00 ,5
+1001,Chopped Salad,Insalate, $12.00 ,6
+1001,Gamberetti,Insalate, $12.00 ,7
+1001,Misto Formaggio,Piattini Cold, $16.00 ,8
+1001,Caprese,Piattini Cold, $12.00 ,9
+1001,Piattini Antipasto,Piattini Cold, $14.00 ,10
+1001,Bruschetta Trio,Piattini Cold, $14.00 ,11
+1001,Burrata,Piattini Cold, $15.00 ,12
+1001,Tuna Tartare,Piattini Cold, $16.00 ,13
+1001,Zucchini Ripieno,Piattini Hot, $12.00 ,14
+1001,Lamb,Piattini Hot, $15.00 ,15
+1001,Ravioli Di Zucca Gialla,Piattini Hot, $12.00 ,16
+1001,Melanzane Affumicate,Piattini Hot, $13.00 ,17
+1001,Cavolfiore,Piattini Hot, $9.00 ,18
+1001,Spinach Gnocchi,Piattini Hot, $12.00 ,19
+1001,Ravioli D'Aragosta,Piattini Hot, $15.00 ,20
+1001,Scallops,Piattini Hot, $16.00 ,21
+1001,Homemade Meatballs,Piattini Hot, $12.00 ,22
+1001,Cozze Con Vino,Piattini Hot, $14.00 ,23
+1001,Porcini Tortelloni,Piattini Hot, $13.00 ,24
+1001,Flatbread Margherita,Piattini Hot, $10.00 ,25
+1001,Flatbread Bianca,Piattini Hot, $12.00 ,26
+1001,Pesto Di Cavolo,Pasta, $22.00 ,27
+1001,Alla Norma,Pasta, $22.00 ,28
+1001,Fusilli Pesto,Pasta, $19.00 ,29
+1001,Root Vegetable Ravioli ,Pasta, $22.00 ,30
+1001,Boscaiola,Pasta, $22.00 ,31
+1001,Penne Con Zucca,Pasta, $22.00 ,32
+1001,Bolognese,Pasta, $23.00 ,33
+1001,Capesante,Pasta, $26.00 ,34
+1001,Ravioli D'Aragosta,Pasta, $28.00 ,35
+1001,Black Truffle Ravioli,Pasta, $25.00 ,36
+1001,Scampi,Pasta, $23.00 ,37
+1001,Burrata Ravioli,Pasta, $24.00 ,38
+1001,Penne Pomodoro,Pasta, $16.00 ,39
+1001,Vitello Al Funghi,Secondi, $24.00 ,40
+1001,Vitello Salrimbocca ,Secondi, $25.00 ,41
+1001,Pollo Ai Carciofi,Secondi, $25.00 ,42
+1001,Costolette Di Agnello,Secondi, $28.00 ,43
+1001,Salmone Scottato,Secondi, $27.00 ,44
+1001,Frutti Di Mare,Secondi, $28.00 ,45
+1002,Fried Calamari,Appetizers, $10.00 ,46
+1002,Mussels,Appetizers, $9.00 ,47
+1002,Homemade Maine Crab Cakes,Appetizers, $10.00 ,48
+1002,Sauted Broccoli Raab,Appetizers, $7.00 ,49
+1002,Broccoli,Appetizers, $6.00 ,50
+1002,Mozzarella Marinara,Appetizers, $5.00 ,51
+1002,Garlic Bread,Appetizers, $3.00 ,52
+1002,House Salad,Salads, $4.00 ,53
+1002,Ceasar Salad,Salads, $9.00 ,54
+1002,Baby Spinach Salad,Salads, $8.00 ,55
+1002,Caprese,Salads, $9.00 ,56
+1002,Antipasto,Salads, $13.00 ,57
+1002,Mussels Or Calamari ,House Seafood, $14.00 ,58
+1002,Mussels & Calamari,House Seafood, $15.00 ,59
+1002,Clams,House Seafood, $15.00 ,60
+1002,Mussels & clams,House Seafood, $16.00 ,61
+1002,Scallops,House Seafood, $15.00 ,62
+1002,Shrimp,House Seafood, $15.00 ,63
+1002,Shrimp & Scallops ,House Seafood, $16.00 ,64
+1002,Frutti Di Mare,House Seafood, $19.00 ,65
+1002,"Mussels, Clams & Half Lobster",House Seafood, $20.00 ,66
+1002,Zuppa Di Pesce,House Seafood, $55.00 ,67
+1002,Fettuccine with Proscuitto and Peas,Pasta, $14.00 ,68
+1002,Fettuccine with Salmon,Pasta, $14.00 ,69
+1002,Squid Ink Papardelle,Pasta, $16.00 ,70
+1002,Penne with Chicken and Shrimp,Pasta, $15.00 ,71
+1002,Penne with Chicken and Broccoli,Pasta, $14.00 ,72
+1002,Penne Amatriciana,Pasta, $14.00 ,73
+1002,Lemon Fettuccine with Grilled Shrimp and Scallops,Pasta, $17.00 ,74
+1002,Linguini Puttanesca,Pasta, $14.00 ,75
+1002,Gnocchi Filled with Roasted Red Peppers and Goat Cheese,Pasta, $18.00 ,76
+1002,Lobster Ravioli,Pasta, $16.00 ,77
+1002,Butternut Squash Ravioli,Pasta, $15.00 ,78
+1002,Eggplant Parmigiana,Vegetarian, $14.00 ,79
+1002,Fusilli Siciliana,Vegetarian, $14.00 ,80
+1002,Pumpkin Tortellini,Vegetarian, $14.00 ,81
+1002,Grilled Sirloin Steak,Entrees, $19.00 ,82
+1002,Bakes Chicken Breast,Entrees, $17.00 ,83
+1002,Chicken or Veal Parmigiana,Entrees, $15.00 ,84
+1002,Chicken or Veal Marsala,Entrees, $15.00 ,85
+1002,Chicken or Veal Piccata,Entrees, $15.00 ,86
+1002,Grilled Salmon,Entrees, $19.00 ,87
+1002,Grilled Swordfish,Entrees, $19.00 ,88
+1002,Grilled Tuna,Entrees, $19.00 ,89
+1002,Pan Roasted Cod Loin,Entrees, $19.00 ,90
+1003,Chicken Parmesan,Hot Sandwiches, $8.29 ,91
+1003,Eggplant Parmesan,Hot Sandwiches, $8.29 ,92
+1003,Gigilia,Hot Sandwiches, $8.49 ,93
+1003,Grilled Chicken or Steak,Hot Sandwiches, $9.49 ,94
+1003,"Grilled Sausage, Peppers, & Onions",Hot Sandwiches, $7.69 ,95
+1003,Meatball,Hot Sandwiches, $7.69 ,96
+1003,Basilcata,Cold Sandwiches, $9.49 ,97
+1003,Chicken Pesto,Cold Sandwiches, $8.49 ,98
+1003,Doccia,Cold Sandwiches, $9.49 ,99
+1003,Milano,Cold Sandwiches, $7.69 ,100
+1003,Pavarotti,Cold Sandwiches, $8.19 ,101
+1003,Peasant Chicken,Cold Sandwiches, $7.29 ,102
+1003,Prato,Cold Sandwiches, $8.49 ,103
+1003,Sam Buco,Cold Sandwiches, $7.29 ,104
+1003,Viga Chicken Club,Cold Sandwiches, $8.39 ,105
+1003,Terra Luna,Lighter Side Sandwiches, $7.69 ,106
+1003,Tuscany,Lighter Side Sandwiches, $7.29 ,107
+1003,Vegetariano,Lighter Side Sandwiches, $7.29 ,108
+1003,"Small 12""",Whole Pizza, $10.29 ,109
+1003,"Large 18""",Whole Pizza, $15.99 ,110
+1003,Viga Calzone,Calzones, $5.59 ,111
+1003,Antipasto,Salads, $7.79 ,112
+1003,Ceasar Salad,Salads, $5.69 ,113
+1003,Ceasar Salad with Grilled Chicken,Salads, $7.49 ,114
+1003,Chef,Salads, $7.79 ,115
+1003,Garden,Salads, $5.49 ,116
+1003,Greek,Salads, $7.49 ,117
+1003,Salad Specials,Salads, $5.19 ,118
+1003,Seasonal Fresh Fruit Cup,Salads, $5.49 ,119
+1003,Baked Zitti,Pasta, $7.49 ,120
+1003,Chicken Parmesan,Pasta, $5.49 ,121
+1003,Eggplant Parmesan,Pasta, $8.49 ,122
+1003,Italian Sweet Sausage,Pasta, $7.59 ,123
+1003,Lasagna,Pasta, $6.89 ,124
+1003,Meatballs,Pasta, $9.49 ,125
+1003,Viga-Made Marinara Sauce,Pasta, $5.39 ,126
+1004,Proscuitto di Parma,Panini, $9.50 ,127
+1004,Tacchino,Panini, $9.50 ,128
+1004,Caprese,Panini, $9.50 ,129
+1004,Tuscany,Panini, $9.50 ,130
+1004,Bottega di Capri,Panini, $9.50 ,131
+1004,Daniel's Panino,Panini, $9.50 ,132
+1004,Roast Beef Panino,Panini, $9.50 ,133
+1004,The Vegan,Panini, $9.50 ,134
+1004,Capri,Cold Sandwiches, $8.50 ,135
+1004,Bresaola,Cold Sandwiches, $8.50 ,136
+1004,Proscuitto Domestico,Cold Sandwiches, $8.50 ,137
+1004,Italiano,Cold Sandwiches, $8.50 ,138
+1004,Club,Cold Sandwiches, $8.50 ,139
+1004,Roast Beef,Cold Sandwiches, $8.50 ,140
+1004,Vegetable,Cold Sandwiches, $8.50 ,141
+1004,Caprese,Cold Sandwiches, $8.50 ,142
+1004,Pollo,Cold Sandwiches, $8.50 ,143
+1004,Tonno,Cold Sandwiches, $8.50 ,144
+1004,Turkey,Cold Sandwiches, $8.50 ,145
+1004,Italian Meatball,Hot Sandwiches, $9.50 ,146
+1004,Chicken Parmesan,Hot Sandwiches, $9.50 ,147
+1004,Italian Chicken with Vegetables,Hot Sandwiches, $9.50 ,148
+1004,Chicken Broccoli Ziti,Pasta Pollo/Chicken, $12.00 ,149
+1004,Farfalle DaVinci,Pasta Pollo/Chicken, $12.00 ,150
+1004,Penne alla Dante,Pasta Pollo/Chicken, $12.00 ,151
+1004,Fettuccine di Carlo,Pasta Pollo/Chicken, $12.00 ,152
+1004,Penne di Georgio's,Pasta Pollo/Chicken, $12.00 ,153
+1004,Pesto Alfredo,Pasta Pollo/Chicken, $12.00 ,154
+1004,Pasta Amalfitana,Pasta Pollo/Chicken, $12.00 ,155
+1004,Angel Hair & Shrimp,Pasta Pesce/Seafood, $14.00 ,156
+1004,"Linguini Scallops, Clams, Shrimps",Pasta Pesce/Seafood, $14.00 ,157
+1004,Pasta alla Pesce,Pasta Pesce/Seafood, $14.00 ,158
+1004,Camila's,Pasta Pesce/Seafood, $14.00 ,159
+1004,Shrimp Scampi,Pasta Pesce/Seafood, $14.00 ,160
+1004,Catalina's Pasta,Pasta Pesce/Seafood, $14.00 ,161
+1004,Garden Salad,Insalate, $9.00 ,162
+1004,Italian Deluxe,Insalate, $10.00 ,163
+1004,Arugula,Insalate, $10.00 ,164
+1004,Fresh Spinach Salad,Insalate, $10.00 ,165
+1004,Grilled Pear Salad,Insalate, $10.00 ,166
+1004,Ceasar Salad,Insalate, $8.00 ,167
+1004,Soup of the day,Insalate, $6.00 ,168
+1004,Proscuitto di Parma,Antipasti/Appetizers, $14.00 ,169
+1004,Bresaola,Antipasti/Appetizers, $14.00 ,170
+1004,Assorted Meats,Antipasti/Appetizers, $14.00 ,171
+1004,Caprese,Antipasti/Appetizers, $11.00 ,172
+1004,Bruschetta,Antipasti/Appetizers, $7.00 ,173
+1004,Calamari Fritti,Antipasti/Appetizers, $9.00 ,174
+1004,Zucchini Fritti,Antipasti/Appetizers, $8.00 ,175
+1004,"Spagetti, Penne, Fusili, Fettuccine, Linguini, Bowtie",Pasta, $10.00 ,176
+1004,"Tortellini w/ cheese, Procini, Pumpkin",Pasta, $12.00 ,177
+1004,"Ravioli with Cheese, Meat, Spinach, Pumpkin",Pasta, $13.00 ,178
+1004,Lobster Ravioli,Pasta, $15.00 ,179
+1004,Gnocchi  ,Pasta, $13.00 ,180
+1004,Homemade Meatballs and Pasta,Everyday Special , $12.00 ,181
+1004,Chicken Parmesan with Pasta,Everyday Special , $12.00 ,182
+1004,Linguini Frutti di Mare,Everyday Special , $17.00 ,183
+1004,Lobster Scampi,Everyday Special , $17.00 ,184
+1004,Spaghetti a la Toscana,Everyday Special , $14.00 ,185
+1004,Risotto Frutti di Mare,Everyday Special , $16.00 ,186
+1004,Lobster Ravioli Fra Diavolo,Everyday Special , $16.00 ,187
+1004,Cod Fish Risotto or Mashed Potatoes,Everyday Special , $16.00 ,188
+1004,Salmon ,Everyday Special , $18.00 ,189
+1004,Grilled Ribeye Steak,Everyday Special , $19.00 ,190
+1004,Petti di Pollo alla Milanese,Everyday Special , $12.00 ,191
+1005,Romaine,Primi, $17.00 ,192
+1005,Argula,Primi, $18.00 ,193
+1005,Artichoke Carpaccio,Primi, $28.00 ,194
+1005,Mozzarella di Bufalo,Primi, $26.00 ,195
+1005,Oysters,Primi, $22.00 ,196
+1005,Crudo,Primi, $24.00 ,197
+1005,Tuna  ,Primi, $23.00 ,198
+1005,Salmon Tartare,Primi, $27.00 ,199
+1005,Polpo,Primi, $24.00 ,200
+1005,Foie Gras,Primi, $26.00 ,201
+1005,Steak Tartare,Primi, $22.00 ,202
+1005,Gnocchi,Pasta, $28.00 ,203
+1005,Orecchiette Primi,Pasta, $18.00 ,204
+1005,Orecchiette Secondi,Pasta, $34.00 ,205
+1005,Risotto Primi,Pasta, $26.00 ,206
+1005,Risotto Secondi,Pasta, $51.00 ,207
+1005,Maccheroncelli Primi,Pasta, $20.00 ,208
+1005,Maccheroncelli Secondi,Pasta, $39.00 ,209
+1005,Scallops Maine,Secondi, $46.00 ,210
+1005,Branzinno Greece,Secondi, $42.00 ,211
+1005,"Salmon Faroe Islands, Denmark",Secondi, $40.00 ,212
+1005,"Chicken Feather Brook Farms, MA",Secondi, $37.00 ,213
+1005,Milanese New York,Secondi, $48.00 ,214
+1005,"Veal Perigueux, France",Secondi, $45.00 ,215
+1005,Lamb Chops Colorado,Secondi, $59.00 ,216
+1005,"Filet Mignon Greater Omaha, Nebraska",Secondi, $46.00 ,217
+1005,"Ribeye Greater Omaha, Nebraska",Secondi, $48.00 ,218
+1005,Truffle Fries Parmigiano Chives,Contorni, $13.00 ,219
+1005,"Eggplant Rollatini Ricotta, mortared Pesto Genovese",Contorni, $13.00 ,220
+1005,"Exotic Mushrooms Black garlic, black truffles",Contorni, $18.00 ,221
+1005,"Broccoli Rabe crispy garlic, Calabrian chilis",Contorni, $15.00 ,222
+1005,Whipped Potatoes Vermont Butter,Contorni, $8.00 ,223
+1005,Soft Polenta Parmigiano,Contorni, $8.00 ,224
+1006,Argula,Insalata, $14.00 ,225
+1006,Romaine,Insalata, $14.00 ,226
+1006,Iceberg,Insalata, $14.00 ,227
+1006,Sugar Beets,Insalata, $15.00 ,228
+1006,Soup  ,Antipasti , $14.00 ,229
+1006,Octopus,Antipasti , $15.00 ,230
+1006,Bruschetta,Antipasti , $15.00 ,231
+1006,Calamari  ,Antipasti , $15.00 ,232
+1006,Arancini,Antipasti , $15.00 ,233
+1006,Mussels,Antipasti , $16.00 ,234
+1006,Crudo,Antipasti , $17.00 ,235
+1006,Carpaccio,Antipasti , $17.00 ,236
+1006,Lumache,Homemade Pasta, $24.00 ,237
+1006,Ravioli ,Homemade Pasta, $24.00 ,238
+1006,Gramigna,Homemade Pasta, $24.00 ,239
+1006,Gnocchi,Homemade Pasta, $24.00 ,240
+1006,"Spagetti, Penne, Fusili, Fettuccine, Linguini, Bowtie",Homemade Pasta, $26.00 ,241
+1006,Orecchiette,Homemade Pasta, $26.00 ,242
+1006,Linguini,Homemade Pasta, $28.00 ,243
+1006,Scungilli,Homemade Pasta, $30.00 ,244
+1006,Tomato,Pizza, $17.00 ,245
+1006,White,Pizza, $17.00 ,246
+1006,Funghi,Pizza, $18.00 ,247
+1006,Sausage,Pizza, $18.00 ,248
+1006,Proscuitto,Pizza, $19.00 ,249
+1006,Eggplant,Secondi, $22.00 ,250
+1006,Chicken,Secondi, $25.00 ,251
+1006,Salmon,Secondi, $27.00 ,252
+1006,Swordfish,Secondi, $27.00 ,253
+1006,Veal  ,Secondi, $28.00 ,254
+1006,Chicken Parmigiana,Secondi, $28.00 ,255
+1006,Scallops,Secondi, $29.00 ,256
+1006,"Ribeye Greater Omaha, Nebraska",Secondi, $30.00 ,257
+1006,Antipasto di Salumi,Featured Items, $16.00 ,258
+1006,Antipasto di Vendure,, $16.00 ,259
+1006,Rapini,Contorni, $6.00 ,260
+1006,Garlic Spinach,Contorni, $6.00 ,261
+1006,Eggplant Rollantini,Contorni, $7.00 ,262
+1006,Roasted Shishito Pepper,Contorni, $7.00 ,263
+1006,Rosemary Sea Salt Fries,Contorni, $7.00 ,264
+1006,Parmesan Truffle Fries,Contorni, $9.00 ,265
+1006,Tuesday Chicken Parmigiana,Chef's Specialities, $28.00 ,266
+1006,Wednesday Spaghetti & Meatball,Chef's Specialities, $22.00 ,267
+1006,Thursday Chicken Lasagna,Chef's Specialities, $27.00 ,268
+1006,Friday Frutti di Mare,Chef's Specialities, $32.00 ,269
+1006,Panna Cotta,Dolce , $8.00 ,270
+1006,Tiramisu,Dolce , $9.00 ,271
+1006,Chocolate Crema,Dolce , $8.00 ,272
+1006,Biscotti con Caffe,Dolce , $7.00 ,273
+1006,Homemade Sorbetto e Gelato,Dolce , $7.00 ,274
+1007,Taquitos,AntoJitos, $5.95 ,275
+1007,Tostada,AntoJitos, $5.75 ,276
+1007,Plantains,AntoJitos, $5.75 ,277
+1007,Chips & Salsa,AntoJitos, $4.25 ,278
+1007,Cheese Quesadilla,Quesadillas, $4.50 ,279
+1007,Pollo (Grilled Chicken) Quesadilla,Quesadillas, $6.50 ,280
+1007,Carnitas (Braised Pork) Quesadilla,Quesadillas, $6.50 ,281
+1007,Carne Asada (Grilled Steak) Quesadilla,Quesadillas, $6.50 ,282
+1007,Black Bean Quesadilla,Quesadillas, $5.25 ,283
+1007,Pollo (Grilled Chicken) Torta,Tortas, $6.95 ,284
+1007,Carnitas (Braised Pork) Torta,Tortas, $6.95 ,285
+1007,Carne Asada (Grilled Steak) Torta,Tortas, $6.95 ,286
+1007,Pollo (Grilled Chicken) Burrito,Burritos, $8.50 ,287
+1007,Bean & Cheese Burrito,Burritos, $5.75 ,288
+1007,Carne Asada (Grilled Steak) Burrito,Burritos, $8.50 ,289
+1007,Calabacitas (Veggies) Burrito,Burritos, $6.95 ,290
+1007,Carnitas (Braised Pork) Burrito,Burritos, $8.50 ,291
+1007,El Guapo Burrito,Burritos, $8.95 ,292
+1007,Pescado (Fish) Burrito,Burritos, $8.95 ,293
+1007,Single (Braised Pork) Taco,Single Tacos, $2.95 ,294
+1007,Single (Grilled Chicken) Taco,Single Tacos, $2.95 ,295
+1007,Single (Grilled Steak) Taco,Single Tacos, $2.95 ,296
+1007,Chicken Chimichanga,Specials, $5.75 ,297
+1007,Tamale,Specials, $3.50 ,298
+1007,Vegan Tamale,Specials, $3.50 ,299
+1007,Pescado  ,Tacos de La Casa, $8.95 ,300
+1007,Rajas con Queso,Tacos de La Casa, $6.50 ,301
+1007,Caramelos,Tacos de La Casa, $8.95 ,302
+1007,Americanos,Tacos de La Casa, $7.50 ,303
+1007,Pollo (Grilled Chickenn) Enchilladas,Enchinladas, $6.95 ,304
+1007,Carnitas (Braised Pork) Enchiladas,Enchinladas, $6.95 ,305
+1007,Carne Asada (Grilled Steak) Enchiladas,Enchinladas, $6.95 ,306
+1007,Cheese Enchiladas,Enchinladas, $5.75 ,307
+1007,Chicken Plate,Platos, $8.95 ,308
+1007,Pork Plate,Platos, $8.95 ,309
+1007,Veggie Plate,Platos, $8.95 ,310
+1007,Steak Plate,Platos, $8.95 ,311
+1007,Fish Plate,Platos, $8.95 ,312
+1008,Breakfast Burrito,Breakfast, $7.00 ,313
+1008,Breakfast Burrito Super,Breakfast, $8.00 ,314
+1008,Breakfast Taco,Breakfast, $4.00 ,315
+1008,Mexican Plate,Breakfast, $8.40 ,316
+1008,Salad,Salad, $9.40 ,317
+1008,Grilled Chicken Regular ,Burritos, $8.00 ,318
+1008,Grilled Chicken Super,Burritos, $8.90 ,319
+1008,Steak Regular,Burritos, $8.00 ,320
+1008,Steak Super,Burritos, $8.90 ,321
+1008,Carnitas Regular,Burritos, $8.00 ,322
+1008,Carnitas Super,Burritos, $8.90 ,323
+1008,Carnitas Super-Super,Burritos, $17.80 ,324
+1008,Chicken Ranchero (spicy Chicken) ,Burritos, $8.00 ,325
+1008,Steak En Salsa Roja,Burritos, $8.00 ,326
+1008,Chile Verde,Burritos, $8.00 ,327
+1008,Grilled Vegetables,Burritos, $8.00 ,328
+1008,Al Pastor,Burritos, $8.00 ,329
+1008,Lengua,Burritos, $8.00 ,330
+1008,Boiled Chicken,Burritos, $8.00 ,331
+1008,Beans and Rice,Burritos, $8.00 ,332
+1008,Grilled Chicken,Quesadillas, $8.60 ,333
+1008,Steak,Quesadillas, $8.60 ,334
+1008,Carnitas,Quesadillas, $8.60 ,335
+1008,Chicken Ranchero (spicy Chicken) ,Quesadillas, $8.60 ,336
+1008,Steak en Salsa Roja,Quesadillas, $8.60 ,337
+1008,Chile Verde,Quesadillas, $8.60 ,338
+1008,Grilled Vegetables,Quesadillas, $8.60 ,339
+1008,Al Pastor,Quesadillas, $8.60 ,340
+1008,Lengua,Quesadillas, $8.60 ,341
+1008,Boiled Chicken,Quesadillas, $8.60 ,342
+1008,Beans and Rice,Quesadillas, $8.60 ,343
+1008,Grilled Chicken,Taco , $4.20 ,344
+1008,Steak,Taco , $4.20 ,345
+1008,Carnitas,Taco , $4.20 ,346
+1008,Chicken Ranchero (spicy Chicken) ,Taco , $4.20 ,347
+1008,Steak en Salsa Roja,Taco , $4.20 ,348
+1008,Chile Verde,Taco , $4.20 ,349
+1008,Grilled Vegetables,Taco , $4.20 ,350
+1008,Al Pastor,Taco , $4.20 ,351
+1008,Lengua,Taco , $4.20 ,352
+1008,Boiled Chicken,Taco , $4.20 ,353
+1008,Beans and Rice,Taco , $4.20 ,354
+1009,Hand Hacked Guacamole,Antojitos/ Appetizers, $9.95 ,355
+1009,Mexican Street Corn,Antojitos/ Appetizers, $9.95 ,356
+1009,Chorizo Flambado,Antojitos/ Appetizers, $8.95 ,357
+1009,Empanadas,Antojitos/ Appetizers, $9.95 ,358
+1009,Queso Dip,Antojitos/ Appetizers, $9.95 ,359
+1009,Flautas,Antojitos/ Appetizers, $8.95 ,360
+1009,Chili Dusted Calamari,Antojitos/ Appetizers, $10.95 ,361
+1009,Mexican Pizza,Antojitos/ Appetizers, $11.95 ,362
+1009,Chicken Tortilla Soup,Ensaladas y Sopas, $6.95 ,363
+1009,Black Bean Soup,Ensaladas y Sopas, $6.95 ,364
+1009,Chipotle BBQ Chicken Salad,Ensaladas y Sopas, $14.95 ,365
+1009,Chili Bronzed Salmon Salad,Ensaladas y Sopas, $15.95 ,366
+1009,Tostada Grande,Ensaladas y Sopas, $14.95 ,367
+1009,Shrimp and Avocado Salad,Ensaladas y Sopas, $16.95 ,368
+1009,Hamburger,Tortas y Burgezas, $11.95 ,369
+1009,Mexican Burger,Tortas y Burgezas, $13.95 ,370
+1009,Grilled Chicken Sandwich,Tortas y Burgezas, $12.95 ,371
+1009,Torta Adobado,Tortas y Burgezas, $12.95 ,372
+1009,Tacos,Platos Fuertes, $11.95 ,373
+1009,Enchiladas,Platos Fuertes, $12.95 ,374
+1009,Vegetarian Enchiladas,Platos Fuertes, $12.95 ,375
+1009,Quesadilla,Platos Fuertes, $11.95 ,376
+1009,Classic burritos,Platos Fuertes, $13.95 ,377
+1009,Verde Enchilladas,Platos Fuertes, $13.95 ,378
+1009,Fajitas,Platos Fuertes, $15.95 ,379
+1009,Papagayo Mexican Rice Bowl,Platos Fuertes, $14.95 ,380
+1009,Pollo A La Brasa,Especiales de la Casa, $18.95 ,381
+1009,Roasted Salmon fillet,Especiales de la Casa, $19.95 ,382
+1009,Tacos Al Pastor,Especiales de la Casa, $19.95 ,383
+1009,Carne Asada,Especiales de la Casa, $19.95 ,384
+1009,Salmon Taco,Heart Healthy, $13.95 ,385
+1009,Seared Shrimp Taco,Heart Healthy, $15.95 ,386
+1009,Ahi Tuna Taco,Heart Healthy, $14.95 ,387
+1009,Trailer Park Taco,Street Tacos, $11.95 ,388
+1009,Vegetable Taco,Street Tacos, $11.95 ,389
+1009,Cochinita en Pibil Taco,Street Tacos, $11.95 ,390
+1009,Fish Taco ,Street Tacos, $12.95 ,391
+1009,Shrimp Taco,Street Tacos, $13.95 ,392
+1010,"Chicken Flautas with Guacamole, Sour cream & Pico de Gallo",Los Antojitos, $8.75 ,393
+1010,"""Caramelos"" Grilled Beef & Cheese Tacos Wrapped in a Flour Tortilla",Los Antojitos, $13.00 ,394
+1010,"Oaxaca Style Pork Tamale, Wrapped in a Banana Leaf",Los Antojitos, $8.75 ,395
+1010,Marinated Chicken wings in rich Mole Poblano sauce & Deep Fried Plantains,Los Antojitos, $8.50 ,396
+1010,Chicken Quesadilla,Los Antojitos, $13.00 ,397
+1010,Side rice and beans,Los Antojitos - Vegetarian, $5.00 ,398
+1010,Sautéed Huitlacoche Mushrooms Wrapped in spinach tortilla,Los Antojitos - Vegetarian, $12.75 ,399
+1010,Grilled Quesadillas of Cheese & roasted poblano Peppers,Los Antojitos - Vegetarian, $8.75 ,400
+1010,Chile Relleno with Cheese in a Tomato and Chipotle Sauce,Los Antojitos - Vegetarian, $11.00 ,401
+1010,Baked Cheese with Roasted Poblano Peppers,Los Antojitos - Vegetarian, $9.75 ,402
+1010,Huitlacoche Tamale served on a Creamy Huitlacoche Sauce,Los Antojitos - Vegetarian, $9.75 ,403
+1010,Fish Taco ,Los Antojitos - Seafood, $9.50 ,404
+1010,Shrimp Flautas,Los Antojitos - Seafood, $9.50 ,405
+1010,Shrimp & Avocado (Ceviches),Los Antojitos - Seafood, $11.95 ,406
+1010,Fresh Fish (ceviches),Los Antojitos - Seafood, $11.95 ,407
+1010,Caldo Tarasco,Las Sopas Soups, $7.50 ,408
+1010,Pozole,Las Sopas Soups, $8.50 ,409
+1010,Sopa Del Dia,Las Sopas Soups, $7.50 ,410
+1010,Ensaladas Casa Romero,Las Ensaladas - Salads, $7.75 ,411
+1010,Ensalada Mexicana,Las Ensaladas - Salads, $9.75 ,412
+1010,Puerco Adobado en Chipotle y Naranja,Especialidades ( Specialties), $26.00 ,413
+1010,Puntas de Filete Puerco en Salsa de Tomatillo y Chile Poblano,Especialidades ( Specialties), $20.50 ,414
+1010,Cochinita Pibil,Especialidades ( Specialties), $19.50 ,415
+1010,Enchiladas Verdes,Especialidades ( Specialties), $18.75 ,416
+1010,Enchiladas Poblanas,Especialidades ( Specialties), $18.75 ,417
+1010,Pechuga de Pollo Rellena con Nopalitos,Especialidades ( Specialties), $24.50 ,418
+1010,Pechuga de Pollo a la Mexicana,Especialidades ( Specialties), $23.00 ,419
+1010,Pollo al Cilantro,Especialidades ( Specialties), $22.00 ,420
+1010,Steak Taco Dinner,Especialidades ( Specialties), $19.50 ,421
+1010,Fajitas de Pollo Estilo Chihuahua,Especialidades ( Specialties), $23.00 ,422
+1010,Solomillo de Res Estilo Patricia Quintana,Especialidades ( Specialties), $29.00 ,423
+1010,Huarache de Filete de Res,Especialidades ( Specialties), $23.50 ,424
+1010,Carne Asada,Especialidades ( Specialties), $26.00 ,425
+1010,Vegetales Asados De La Temporada,Especialidades - Vegetarian, $20.00 ,426
+1010,Enchiladas Rellenas De Nopalitos,Especialidades - Vegetarian, $18.25 ,427
+1010,Enchiladas Rellenas De Plátano Macho,Especialidades - Vegetarian, $18.25 ,428
+1010,Enchiladas Venetarianas en Salsa Verde o Poblana,Especialidades - Vegetarian, $18.25 ,429
+1010,Enchiladas de Cangrejo y Comarón,Especialidades - Seafood, $26.00 ,430
+1010,Tilapia a la Veracruzana o al Mojo de Ajo,Especialidades - Seafood, $23.00 ,431
+1010,Tacos de Atún,Especialidades - Seafood, $26.00 ,432
+1010,Camarones al Huitlacoche,Especialidades - Seafood, $26.00 ,433
+1010,Camarones a la Parrilla en Salsa Cilantro,Especialidades - Seafood, $26.00 ,434
+1010,Camerones a la Diabla,Especialidades - Seafood, $26.00 ,435
+1011,Ahi Tuna Ceviche,Raw bar, $14.00 ,436
+1011,Fresh-Made Jalapeno Kettle Chips and Guacamole,Raw bar, $12.00 ,437
+1011,New England Lobster Taco,Tacos  , $16.00 ,438
+1011,Fried Mahi Taco,Tacos  , $11.00 ,439
+1011,Blackened Mahi Taco,Tacos  , $11.00 ,440
+1011,Cumin-Cursted Sea Scallops,Featured Items, $16.00 ,441
+1011,Sweet and Hot Charred Octopus,Featured Items, $16.00 ,442
+1011,Pan-Roasted Mussels,Featured Items, $15.00 ,443
+1011,Churro Bites,Desserts, $10.00 ,444
+1011,Dole Whip,Desserts, $7.00 ,445
+1012,Mexican Street Corn Chowder,Starters, $8.00 ,446
+1012,Chicken Tortilla Soup,Starters, $8.00 ,447
+1012,Corn Crusted Calamari,Starters, $13.00 ,448
+1012,Shrimp Ceviche,Starters, $12.00 ,449
+1012,Huaraches Carnitas,Starters, $12.00 ,450
+1012,Lobster Guacamole,Starters, $19.00 ,451
+1012,Guacamole,Starters, $13.00 ,452
+1012,Roasted Chicken Taquitos,Starters, $12.00 ,453
+1012,Carne Empanadas,Starters, $13.00 ,454
+1012,Tuna Tartare Stack,Starters, $13.00 ,455
+1012,Queso Fundido,Starters, $10.00 ,456
+1012,Nachos,Starters, $15.00 ,457
+1012,Grilled Vegetable Quesadilla,Starters, $16.00 ,458
+1012,Quesadilla,Starters, $17.00 ,459
+1012,Temazcal Antojitos Platter,Starters, $15.00 ,460
+1012,Scallop Rollitos,Starters, $15.00 ,461
+1012,Beracruzana Grain Salad,Salads, $15.00 ,462
+1012,Ceasar Salad,Salads, $12.00 ,463
+1012,Mexican Chopped Salad,Salads, $14.00 ,464
+1012,Temazcal Beet Salad,Salads, $14.00 ,465
+1012,Acapulco Tuna salad,Salads, $18.00 ,466
+1012,Chorizo Spinach Salad,Salads, $14.00 ,467
+1012,Tortilla Garden Salad,Salads, $11.00 ,468
+1012,Grilled Vegetable Tacos,Tacos, $14.00 ,469
+1012,Fish Tacos,Tacos, $18.00 ,470
+1012,Lettuce Wrap Ahi Tuna Tacos,Tacos, $19.00 ,471
+1012,Grilled Salmon Taco,Tacos, $18.00 ,472
+1012,Asada Skirt Steak Tacos,Tacos, $19.00 ,473
+1012,Grilled Chicken Tacos,Tacos, $16.00 ,474
+1012,Tacos Mechados,Tacos, $17.00 ,475
+1012,Rojo or Berde Enchiladas,House Specialities, $19.00 ,476
+1012,Mole Enchiladas,House Specialities, $19.00 ,477
+1012,Chorizo Enchiladas,House Specialities, $19.00 ,478
+1012,Chile Relleno  ,House Specialities, $18.00 ,479
+1012,Temazcal Mixtas Grill,House Specialities, $26.00 ,480
+1012,Adobo Braised Short Ribs,House Specialities, $23.00 ,481
+1012,Camarones Al Ajillo,House Specialities, $24.00 ,482
+1012,Salmon Puebla Style,House Specialities, $25.00 ,483
+1012,Grilled Skirt Steak Tampiquena,House Specialities, $27.00 ,484
+1012,Scallops Al Pastor,House Specialities, $27.00 ,485
+1012,Pork Chuleta en Café,House Specialities, $23.00 ,486
+1012,Vegetable Chilaquiles,House Specialities, $18.00 ,487
+1012,Filet Alambre,House Specialities, $26.00 ,488
+1012,Poblanpo Stuffed Chicken Mole,House Specialities, $22.00 ,489
+1012,Grilles Skirt Steak,Fajitas, $24.00 ,490
+1012,Shrimp Fajita,Fajitas, $23.00 ,491
+1012,Grilled Chicken,Fajitas, $21.00 ,492
+1012,Mixtas Fajita,Fajitas, $25.00 ,493
