@@ -29,6 +29,21 @@ MATCH (r:Restaurant) where r.restaurant_id = f.restaurant_id
 MERGE (f)-[:menu_item]->(p)
 
 
+LOAD CSV FROM 'file:///random_food_orders.csv' AS line
+CREATE (:Orders { order_id: line[0], user_id: line[1], menu_id: line[2], order_count: line[3]})
+
+MATCH (o:Orders)
+MATCH (n:Person) where o.user_id = n.user_id
+MERGE (o)-[:ordered_by]->(n)
+
+MATCH (o:Orders)-[r:ordered_by]->(n:Person) where n.user_id = '1'
+RETURN o, r, n
+
+MATCH (o:Orders)
+MATCH (f:Food) where o.menu_id = f.menu_id
+MERGE (o)-[r:ordered_item]->(f)
+
+
 // -------- Viewing Data Cyphers --------
 
 MATCH (n:Person)-[r:friends_with]->(friend:Person) where n.user_id = '1'
@@ -39,3 +54,6 @@ RETURN n, r, f
 
 MATCH (f:Food)-[r:menu_item]->(n:Restaurant) where f.restaurant_id = '1001'
 RETURN f, r, n
+
+MATCH (o:Orders)-[r:ordered_item]->(f:Food) where o.order_id = '1'
+RETURN o, r, f
