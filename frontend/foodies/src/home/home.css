@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.link {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.link-text {
+    color: #616161;
+    text-decoration: none;
+}
+
+.main-header {
+    height: 90vh;
+    background-color: #ffe8d4;
+}
+
+.headline {
+    font-size: 55px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.description {
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-rec {
+    margin-top: 20px;
+}

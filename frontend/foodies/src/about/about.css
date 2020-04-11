@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: left;
+    height: 35px;
+}
+
+.link {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.link-text {
+    color: #616161;
+    text-decoration: none;
+}
+
+.headline {
+    font-size: 55px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.main-header {
+    height: 90vh;
+    background-color: #ffe8d4;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-text {
+    width: 70%;
+}
