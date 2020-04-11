@@ -1,3 +1,5 @@
+
+
 / -------- Recommendation Algorithms --------
 
 // Recommendation #1 : Basic recommendation of top 5 food orders that my friends like
@@ -57,3 +59,19 @@ MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_o
 WHERE NOT (p2_recommended_order = p2_top_order) AND (p2_recommended_dish.restaurant_id = r.restaurant_id)
 RETURN p1, p2, p2_recommended_dish
 ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1
+
+
+// Recommendation #6: Recommend a dish of the same category at the same restaurant
+MATCH (p1:Person {user_id: '1'})<-[:ordered_by]-(p1_top_order:Orders)-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant)
+WITH p1, p1_top_food, p1_top_order, r
+ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1
+MATCH (p1_top_food)<-[:ordered_item]-(p2_top_order:Orders)
+WHERE NOT (p2_top_order = p1_top_order)
+WITH p1, p1_top_food, p1_top_order, p2_top_order, r
+ORDER BY toInteger(p2_top_order.order_count) DESC LIMIT 1
+MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)-[:ordered_item]->(p2_recommended_dish:Food)
+WHERE NOT (p2_recommended_order = p2_top_order) AND (p2_recommended_dish.restaurant_id = r.restaurant_id) AND (p2_recommended_dish.category = p1_top_food.category)
+RETURN p1, p2, p2_recommended_dish
+ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1
+
+
