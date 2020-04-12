@@ -12,7 +12,7 @@ class Neo4J_API:
 
     def init_connection(self, app):
         self.app = app
-        self.driver = self.connect('bolt://localhost:7687', 'neo4j', 'Lolip00p')
+        self.driver = self.connect('bolt://localhost:7687', 'neo4j', 'Student2020')
         self.session = self.driver.session()
 
 
@@ -49,10 +49,19 @@ class Neo4J_API:
         return json
 
 
-    # query recommendation:
+    # recommendation #1: based on users with similar tastes at same restaurant
     def recommend_dish_based_on_similar_users(self, id):
 
-        query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food, p1_top_order, r ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1 MATCH (p1_top_food)<-[:ordered_item]-(p2_top_order:Orders) WHERE NOT (p2_top_order = p1_top_order) WITH p1, p1_top_order, p2_top_order, r ORDER BY toInteger(p2_top_order.order_count) DESC LIMIT 1 MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)-[:ordered_item]->(p2_recommended_dish:Food) WHERE NOT (p2_recommended_order = p2_top_order) AND (p2_recommended_dish.restaurant_id = r.restaurant_id) RETURN p2_recommended_dish ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
+        query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)" \
+                "-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food," \
+                " p1_top_order, r ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1 MATCH " \
+                "(p1_top_food)<-[:ordered_item]-(p2_top_order:Orders) WHERE NOT (p2_top_order = " \
+                "p1_top_order) WITH p1, p1_top_food, p1_top_order, p2_top_order, r ORDER BY " \
+                "toInteger(p2_top_order.order_count) DESC LIMIT 1 MATCH (p2_top_order)-" \
+                "[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)-" \
+                "[:ordered_item]->(p2_recommended_dish:Food) WHERE NOT (p2_recommended_order"\
+                " = p2_top_order) AND (p2_recommended_dish.restaurant_id = r.restaurant_id) " \
+                "RETURN p1_top_food, r, p2_recommended_dish ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
 
         return self.session.run(query)
 
@@ -63,28 +72,90 @@ class Neo4J_API:
 
         # Only one line in result
         for line in res:
+            favorite_dish = line['p1_top_food']
+            restaurant = line['r']
             recommended_dish = line['p2_recommended_dish']
-        # print(recommended_dish)
-        # print(recommended_dish['item'])
-
 
         json = []
 
-        json.append({'item': recommended_dish['item'],
-                    'food_id': recommended_dish['food_id'],
-                    'category': recommended_dish['category'],
-                    'restaurant_id': recommended_dish['restaurant_id']})
+        try:
+
+            json.append({'item': favorite_dish['item'],
+                        'food_id': favorite_dish['food_id'],
+                        'category': favorite_dish['category'],
+                        'restaurant_id': favorite_dish['restaurant_id']})
+            json.append({'cuisine': restaurant['cuisine'],
+                        'price_range': restaurant['price_range'],
+                        'address': restaurant['address'],
+                        'restaurant_id': restaurant['restaurant_id'],
+                        'restaurant_name': restaurant['restaurant_name']})
+            json.append({'item': recommended_dish['item'],
+                        'food_id': recommended_dish['food_id'],
+                        'category': recommended_dish['category'],
+                        'restaurant_id': recommended_dish['restaurant_id']})
+
+        except UnboundLocalError:
+
+            # No value for this (no recommended dish!)
+            json.append({'item': 'none'})
 
         return json
 
+#recommendation #2, dish in the same category 
+    def recommend_dish_similar_users_category(self, id):
+        query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)-[:ordered_item]\
+                ->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food, p1_top_order, r \
+                ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1\
+                MATCH (p1_top_food)<-[:ordered_item]-(p2_top_order:Orders)\
+                WHERE NOT (p2_top_order = p1_top_order) WITH p1, p1_top_food, p1_top_order, p2_top_order, r \
+                ORDER BY toInteger(p2_top_order.order_count) DESC LIMIT 1\
+                MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)\
+                -[:ordered_item]->(p2_recommended_dish:Food) WHERE NOT (p2_recommended_order = p2_top_order) \
+                AND (p2_recommended_dish.restaurant_id = r.restaurant_id) AND \
+                (p2_recommended_dish.category = p1_top_food.category) RETURN p1_top_food, r, p2_recommended_dish \
+                ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
+        return self.session.run(query)
+# wrapper for getting recommendation data for second methond 
+    def get_recommendation_2(self, id):
+        res = self.recommend_dish_similar_users_category(id)
 
-# for debugging purposes
+        # Only one line in result
+        for line in res:
+            favorite_dish = line['p1_top_food']
+            restaurant = line['r']
+            recommended_dish = line['p2_recommended_dish']
+
+        json = []
+
+        try:
+
+            json.append({'item': favorite_dish['item'],
+                        'food_id': favorite_dish['food_id'],
+                        'category': favorite_dish['category'],
+                        'restaurant_id': favorite_dish['restaurant_id']})
+            json.append({'cuisine': restaurant['cuisine'],
+                        'price_range': restaurant['price_range'],
+                        'address': restaurant['address'],
+                        'restaurant_id': restaurant['restaurant_id'],
+                        'restaurant_name': restaurant['restaurant_name']})
+            json.append({'item': recommended_dish['item'],
+                        'food_id': recommended_dish['food_id'],
+                        'category': recommended_dish['category'],
+                        'restaurant_id': recommended_dish['restaurant_id']})
+
+        except UnboundLocalError:
+
+            # No value for this (no recommended dish!)
+            json.append({'item': 'none'})
+
+        return json    
+#for debugging purposes
 def main():
 
     db = Neo4J_API()
     db.init_connection('debugging')
 
-    print(db.get_recommendation(1))
+    print(db.get_recommendation_2(3))
 
 
 main()
