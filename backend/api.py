@@ -28,8 +28,8 @@ def get_user_by_id(user_id):
     return jsonify(neo4j.get_users_json(user_id))
 
 
-# TODO: Endpoint --> recommendation by user id
-@app.route('/api/users/<int:user_id>/recommendation')
+# Endpoint --> recommendation #1 (by users w/ similar taste) by user id
+@app.route('/api/users/<int:user_id>/recommendation_1')
 @cross_origin()
 def get_recommendation_by_user_id(user_id):
     return jsonify(neo4j.get_recommendation(user_id))
