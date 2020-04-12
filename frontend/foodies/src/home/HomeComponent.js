@@ -1,8 +1,8 @@
 import React from 'react';
 import './home.css';
-import { findAllUsers } from '../services/UserService';
+import { findAllUsers, findSimilarUserDishRecommendation, findUserFavorites } from '../services/UserService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils, faFrown } from '@fortawesome/free-solid-svg-icons';
 
 class HomeComponent extends React.Component {
 
@@ -11,12 +11,20 @@ class HomeComponent extends React.Component {
         selectedUser: '',
         chosenUser: false,
         selectedRec: '',
-        chosenRec: false
+        chosenRec: false,
+        recommended: []
     }
 
-    // Query server (Neo4J) for recommendation for
-    // the selected user
+    // Query server (Neo4J) for recommendation for selected user
     getRecommendedDish(user_id, rec_type) {
+
+        if (rec_type === '2') {
+
+            findSimilarUserDishRecommendation(user_id)
+                .then(dish => {this.setState(
+                    {recommended: dish}
+                )})
+        }
 
     }
 
@@ -66,18 +74,39 @@ class HomeComponent extends React.Component {
                                    chosenRec: true
                                })}}>
                             <option value="Select Method:" disabled>Select Method:</option>
-                            <option value="Recommendation 1">By Friends</option>
-                            <option value="Recommendation 2">By Restaurant</option>
-                            <option value="Recommendation 3">By Genre</option>
+                            <option value="1">By Friends</option>
+                            <option value="2">By Restaurant</option>
+                            <option value="3">By Genre</option>
                         </select>
                     </React.Fragment>
                     }
 
                     {this.state.chosenRec &&
-                    <button className="button-rec">
+                    <button className="button-rec"
+                        onClick={() => {this.getRecommendedDish(this.state.selectedUser, 
+                                            this.state.selectedRec)}}>
                         Find the perfect food for me!
                     </button>
                     
+                    }
+
+                    {Object.keys(this.state.recommended).length === 3 &&
+                    <div className='container'>
+                        <span className='recommendation'>
+                            Hmmm... this person seems to order <b>{this.state.recommended[0].item}</b> from <b>{this.state.recommended[1].restaurant_name}</b> a lot.
+                        </span>
+                        <span className='recommendation'>
+                        Others like this person like ordering <b>{this.state.recommended[2].item}</b>.
+                        </span>
+                    </div>
+                    }
+
+                    {Object.keys(this.state.recommended).length === 1 &&
+                    <div className='container'>
+                        <span className='recommendation'>
+                            Uh-oh, looks like we couldn't find a recommendation for this person <FontAwesomeIcon icon={faFrown}/>.
+                        </span>
+                    </div>
                     }
                 </div>
             </div>

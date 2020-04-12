@@ -15,7 +15,7 @@
 }
 
 .main-header {
-    height: 90vh;
+    height: 100vh;
     background-color: #ffe8d4;
 }
 
@@ -42,4 +42,11 @@
 
 .button-rec {
     margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.recommendation {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
