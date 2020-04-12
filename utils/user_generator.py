@@ -8,7 +8,7 @@ from scipy.stats import expon
 
 
 # 10000 users to represent Northeastern student body
-NUM_USERS = 10000
+NUM_USERS = 5000
 
 
 def generate_user(user_id, output):
@@ -49,22 +49,22 @@ def get_list_of_weights():
     # Considering there is inefficient data to create and actual
     # scale-free distribution, we created a rough scale free distribution
     # EXTREMELY ROUGH SCALE-FREE DISTRIBUTION:
-    #       0     -   100    followers = 43%       [weights_first]
-    #       100   -   250    followers = 42%       [weights_second]
-    #       250   -   800    followers = 10%       [weights_third]
-    #       800   -   1200   followers = 4.5%      [weights_fourth]
-    #       1200  -   10000   followers = 0.5%      [weights_fifth]
-    first_ceiling = 100
-    second_ceiling = 250
-    third_ceiling = 800
-    fourth_ceiling = 1200
-    fifth_ceiling = 10000
+    #       0     -   5    followers = 80%       [weights_first]
+    #       5   -   15    followers = 10%       [weights_second]
+    #       15   -   50    followers = 8%       [weights_third]
+    #       50   -   100   followers = 2%      [weights_fourth]
+    #       100  -   10000   followers = 0%      [weights_fifth]
+    first_ceiling = 5
+    second_ceiling = 15
+    third_ceiling = 50
+    fourth_ceiling = 100
+    fifth_ceiling = 5000
 
-    dist_first = 0.43
-    dist_second = 0.42
-    dist_third = 0.10
-    dist_fourth = 0.045
-    dist_fifth = 0.005
+    dist_first = 0.80
+    dist_second = 0.10
+    dist_third = 0.08
+    dist_fourth = 0.02
+    dist_fifth = 0.0
 
     num_elements_first = first_ceiling
     num_elements_second = second_ceiling - first_ceiling
