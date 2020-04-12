@@ -1,0 +1,209 @@
+restaurant_id,restaurant_name,price_range,street,city,cuisines
+586,Flames Restaurant II,,746 Huntington Ave,BOSTON,['Caribbean']
+167,Betty's Wok and Noodle Diner,$$$,250 Huntington Ave,BOSTON,"['Chinese', 'Cuban']"
+353794,Cafe G,$$,280 Fenway,BOSTON,"['American (New)', 'Coffee &amp; Tea']"
+1447,Tigerlily,,8 Westland Ave,BOSTON,['Thai']
+230,Brigham Circle Diner,,737 Huntington Ave,BOSTON,"['American', 'Diner']"
+344598,Towne Stove and Spirits,$,900 Boylston St,Boston,"['American (New)', 'Cocktails', 'Eclectic &amp; International', 'Seafood']"
+335420,Wings Over Boston,$,325 Huntington Ave,Boston,"['Chicken', 'Wings']"
+184845,Cold Stone Creamery,$,61 Station Lndg,Medford,"['American', 'Ice Cream', 'Smoothies &amp; Juices']"
+1040,Pizza Pie-er,,182 Massachusetts Ave,BOSTON,"['American', 'Pizza']"
+29319947,Cafe 47,,47 Massachusetts Ave,BOSTON,"['American', 'Pizza']"
+297372,Mama's Place,$$,764a Huntington Ave,Boston,"['Burgers', 'Greek', 'Sandwiches']"
+477865,ChaTime - Huntington St,$$,333 Huntington St,Boston,"['Asian (other)', 'Teahouses']"
+18065,Cold Stone Creamery,,94 Belvidere St,Boston,['Desserts']
+395985,Pasta Pot,$,Location Varies,Boston,['Italian']
+281667,Rice Bowl,$$,6 Hemenway St,Boston,"['Chinese', 'Japanese', 'Sushi']"
+306206,Mass Ave Pita,$,197-A Massachusetts Ave,Boston,"['Mediterranean', 'Middle Eastern', 'Vegetarian']"
+250541,Pourhouse,$,909 Boylston St,BOSTON,[]
+503431,Bread & Butter,,90 Exeter St,Boston,[]
+358350,Le Patissier,$$,140 Boylston St,Boston,"['Coffee &amp; Tea', 'Desserts']"
+503537,Yamato II,$$,545 Boylston St,BOSTON,[]
+479981,Precinct Kitchen + Bar,$$,154 Berkeley St,BOSTON,[]
+1970,Map Room Cafe,$,700 Boylston St,BOSTON,"['Bakery &amp; Pastries', 'Coffee &amp; Tea', 'Sandwiches']"
+423624,Maggiano's  BOS,$$,4 Columbus Ave,BOSTON,[]
+109,B.GOOD,$,131 Dartmouth St,Boston,"['Burgers', 'Healthy', 'Local/Organic', 'Sandwiches']"
+616,Globe Bar & Cafe,$$,565 Boylston St,Boston,"['American', 'Sandwiches']"
+720,Jacob Wirth Restaurant,$,31 Stuart St,BOSTON,"['American', 'German']"
+392,Clery's,$,113 Dartmouth St,BOSTON,"['American', 'Bar Food', 'Pizza']"
+663,Herrera's Mexican Grill,$$,8 Park Plz,BOSTON,['Mexican']
+990,Parish Cafe,$$$,361 Boylston St,BOSTON,"['American (New)', 'Coffee &amp; Tea', 'Sandwiches', 'Vegetarian']"
+306214,Snappy Sushi,$$,108 Newbury St,Boston,['Sushi']
+352,Charlie's Sandwich Shoppe,,429 Columbus Ave,Boston,"['Diner', 'Sandwiches']"
+340811,Oak Long Bar & Kitchen,$$$,138 St James Ave,Boston,"['American (New)', 'Local/Organic']"
+225,Brasserie Jo,$$$,120 Huntington Ave,BOSTON,['French']
+1023,Piattini,$,226 Newbury St,BOSTON,"['Alcohol', 'Italian', 'Tapas']"
+349980,Appleton Cafe,$$$,123 Appleton St,Boston,"['Bakery &amp; Pastries', 'Coffee &amp; Tea', 'Sandwiches']"
+343986,The Cafe at Taj Boston,$,15 Arlington St,BOSTON,"['American (New)', 'Indian', 'New England']"
+1198,Shino Express Sushi,$$,144 Newbury St,BOSTON,"['Japanese', 'Sushi']"
+546,Emilios Pizza,$$,536 Tremont St,BOSTON,"['Italian', 'Pizza', 'Sandwiches']"
+1288,Stephanie's on Newbury,$$$$,190 Newbury St,Boston,"['American (New)', 'Cocktails', 'New England']"
+1118,Remington's of Boston,$$,124 Boylston St,BOSTON,"['American', 'Pub Food']"
+1471,Troquet,$$$,140 Boylston St,Boston,['French']
+361363,Panera Bread,$,115 Stuart Street,Boston,"['American', 'Sandwiches', 'Soups']"
+389274,Fin's Sushi & Grill,$$,62 Boylston St,Boston,"['Japanese', 'Sushi']"
+359617,The Salty Pig,$,130 Dartmouth St,BOSTON,"['American (New)', 'Sandwiches', 'Tapas']"
+362114,Sweet Tomatoes Pizza Truck,$,Location Varies,Boston,['Pizza']
+352260,Cuffs,$$$,350 Stuart St,Boston,"['Cocktails', 'Irish', 'New England']"
+258602,Coda,$,329 Columbus Ave,Boston,"['American', 'American (New)', 'Cocktails']"
+353611,Giorgiana's,$,532 Tremont St,BOSTON,"['Greek', 'Mediterranean', 'Sandwiches']"
+362947,Taco Party,$$,Location Varies,Boston,"['Mexican', 'Vegan', 'Vegetarian']"
+352614,Storyville,$$,90 Exeter St,BOSTON,"['American (New)', 'Cocktails']"
+298252,The Upper Crust Pizzeria - Newbury,$,222 Newbury St,BOSTON,"['Italian', 'Pasta', 'Pizza', 'Sandwiches', 'Seafood']"
+337715,Emerald Lounge,$$$,200 Stuart St,Boston,"['American (New)', 'Cocktails']"
+302310,Cha Cha Cha Taqueria,$,145 Dartmouth St,Boston,['Mexican']
+372894,Limelight Stage and Studios,$$,204 Tremont St,Boston,[]
+269168,La Voile,$$$,261 Newbury St,Boston,['French']
+18768,Beijing on the Common,$$,62 Boylston St,BOSTON,['Chinese']
+395579,Trophy Room,$,26 Chandler St,BOSTON,"['American (New)', 'Tapas']"
+354121,Vapiano,$$,191 Stuart St,Boston,['Italian']
+321163,Wichit,$$,244 Newbury St,Boston,"['American (New)', 'Sandwiches']"
+314787,Trattoria Newbury,$$$,264 Newbury St,Boston,['Italian']
+396048,Viga,$,140 Clarendon St,Boston,"['Italian', 'Pizza', 'Sandwiches']"
+303716,Met Back Bay,$,279 Dartmouth St,Boston,"['American', 'American (New)', 'Steak']"
+362467,Blue Glass Cafe,$,200 Clarendon St,BOSTON,"['Asian Fusion', 'Sandwiches', 'Sushi']"
+340128,Max Brenner,$$$,745 Boylston St,BOSTON,"['American', 'Desserts']"
+291636,Six Burner,,130 Dartmouth St,BOSTON,['Southern']
+613,Giacomo's Ristorante,$$$,431 Columbus Ave,BOSTON,"['Italian', 'Vegetarian']"
+365934,Georgetown Cupcakes,$$$,83 Newbury St,BOSTON,['Desserts']
+361423,Rooftop @ Revere,$$$,200 Stuart St,BOSTON,"['American (New)', 'Cocktails']"
+478621,Piattini Cafe & Gelateria,$,224 Newbury St,BOSTON,['Italian']
+274411,Bostone Pizza,$$$,225 Newbury St,BOSTON,"['Healthy', 'Italian', 'Pasta', 'Pizza', 'Salads', 'Subs', 'Wings']"
+1340,Tantric Bar & Grill,,123 Stuart St,Boston,['Indian']
+521164,Ben & Jerry's,,174 Newbury Street,Boston,[]
+951,Oak Room,$,138 Saint James Ave,BOSTON,"['American', 'Steak']"
+382,Ciao Bella,$,240 Newbury St Ste A,BOSTON,['Italian']
+281109,Cafe Of India,$$$,279 Newbury St,BOSTON,['Indian']
+396024,Sofa Cafe,$,217 Newbury St,Boston,['Coffee &amp; Tea']
+363623,South End Buttery,$$,37 Clarendon St,BOSTON,"['American', 'Bakery &amp; Pastries']"
+384233,Bottega Fiorentina,$,264 Newbury St,Boston,[]
+1507,Vox Populi,$$,755 Boylston St,BOSTON,['American']
+1233,Xhale,$,47 Huntington Ave,Boston,"['American', 'Bar Food']"
+157,Berkeley Perk Cafe,,69 Berkeley St,BOSTON,['Coffee &amp; Tea']
+1200,Sibling Rivalry,$,525 Tremont St,BOSTON,"['American', 'American (New)']"
+1053,Uno Pizzeria & Grill,$$$,731 Boylston St,Boston,"['Italian', 'Pizza']"
+825,Maggiano's Little Italy,$$$$,4 Columbus Ave,Boston,['Italian']
+822,M.J. O'Conner's Irish Pub,$$$,27 Columbus Ave,BOSTON,"['Bar Food', 'Cocktails', 'Irish']"
+379432,Delux Cafe,$$$,100 Chandler St,Boston,['Bar Food']
+1342,Tapeo,$$,266 Newbury St,Boston,"['Spanish', 'Tapas']"
+355827,Panera Bread,$,450 Boylston Street,Boston,"['American', 'Sandwiches', 'Soups']"
+78,Atlantic Fish Company,$,761 Boylston St,BOSTON,"['New England', 'Seafood']"
+1008,P.F. Chang's,$$$,8 Park Plaza,Boston,"['Asian Fusion', 'Chinese']"
+355945,Back Bay Sandwich,$,31 Saint James Ave,BOSTON,['Sandwiches']
+484849,Samurai Express Eatery,,31 Saint James Ave,Boston,['Japanese']
+2437,Tealuxe,$,108 Newbury St,BOSTON,"['American', 'Coffee &amp; Tea']"
+342367,Red Lantern,$$$$,39 Stanhope St,BOSTON,"['Cocktails', 'Japanese', 'Steak', 'Sushi']"
+445,Davio's ,$$,75 Arlington St,Boston,"['Italian', 'Steak']"
+704,Intermission Tavern,$$,228 Tremont St,BOSTON,"['American', 'Bar Food', 'Burgers', 'Cocktails', 'Sandwiches', 'Wings']"
+301933,UMAI ,$,224 Newbury St,Boston,"['Japanese', 'Sushi']"
+367178,Boloco,$$,2 Park Plz,BOSTON,"['Mexican', 'Vegetarian']"
+509302,Wabora,,254 Newbury St,BOSTON,[]
+359661,Redbones Food Truck,$$,Location Varies,Boston,['Barbecue']
+503516,Wen's Yunnan Noodle & Ramen,$,247 Newbury St,BOSTON,[]
+359637,Itadaki,$$$,269 Newbury St,Boston,"['Japanese', 'Sushi', 'Tapas']"
+475913,Wink & Nod,$$$,3 Appleton St,BOSTON,"['American (New)', 'Cocktails']"
+278676,Gratis Eats,$$,439 Tremont St,BOSTON,"['American', 'American (New)']"
+336287,Brownstone,$,111 Dartmouth St,BOSTON,"['American', 'Bar Food']"
+360290,sweetgreen,$$,659 Boylston St,Boston,"['Local/Organic', 'Salads', 'Vegan', 'Vegetarian']"
+500282,Luke's Lobster,,75 Exeter St,BOSTON,['Seafood']
+389295,Merrill & Co.,$$,1 Appleton St,BOSTON,"['American (New)', 'Gastropub', 'Seafood']"
+323374,Dirty Water Dough,$$$,222 Newbury St,Boston ,['Pizza']
+476876,B.GOOD,$$$,665 Boylston St,Boston,"['Burgers', 'Healthy', 'Local/Organic', 'Sandwiches']"
+353440,Lolita,$,271 Dartmouth St,BOSTON,"['Mexican', 'Nuevo Latino']"
+334979,Abby Lane,$$,255 Tremont St,BOSTON,"['American', 'Local/Organic', 'Pizza']"
+900,Montien Thai Restaurant,$$$,63 Stuart St,Boston,"['Japanese', 'Sushi', 'Thai']"
+778,La Famiglia Giorgio's,,250 Newbury St,BOSTON,['Italian']
+734,Jewel Of Newbury,,254 Newbury St,BOSTON,['American']
+360511,Back Bay Social Club,$$$,867 Boylston St,BOSTON,"['American (New)', 'Gastropub']"
+387,City Bar,$$,61 Exeter St,BOSTON,"['Cocktails', 'Tapas']"
+789,Legal Sea Foods,$,26 Park Plz,BOSTON,"['New England', 'Seafood']"
+388962,Stoked,$$$,Location Varies,Boston,['Pizza']
+588,Fleming's Steakhouse,$$$,217 Stuart St,Boston,['Steak']
+366,Chilli Duck,$$$,829 Boylston St,Boston,['Thai']
+277381,Kickass Cupcakes,,Location Varies,Boston,['Desserts']
+1136,Rock Bottom Restaurant & Brewery,$$,115 Stuart Street,Boston,"['American', 'Bar Food', 'Burgers', 'Pizza']"
+350083,Statler Lounge,$$,64 Arlington St,Boston,"['American', 'Tapas']"
+306215,Noche,$$,3 Appleton St,BOSTON,[]
+415,Cottonwood Cafe,,222 Berkeley St,BOSTON,"['American', 'Southwestern']"
+1212,Solas Irish Pub,$$$,710 Boylston St,BOSTON,"['Bar Food', 'Irish']"
+319371,Laffa,$,31 St. James Ave,Boston,[]
+1099,Rebecca's Cafe,$$$$,500 Boylston St,Boston,"['Bakery &amp; Pastries', 'Deli Food', 'Sandwiches']"
+1517,Whiskey's,,885 Boylston St,BOSTON,"['Bar Food', 'Barbecue', 'Southwestern']"
+1359,T.G.I. Friday's,$,26 Exeter St,BOSTON,['American']
+373311,Pret A Manger,$,507 Boylston St,Boston,"['Salads', 'Sandwiches', 'Soups']"
+260700,Bouchee Boston,,159 Newbury St,BOSTON,['French']
+291485,Bistro du Midi,$,272 Boylston St,Boston,"['Bistro', 'French', 'Wild Game']"
+294559,Sweetwater Tavern,$$,3 Boylston Pl,Boston,"['American', 'Bar Food', 'Burgers', 'Sandwiches']"
+336619,Champions Sports Bar,$,110 Huntington Ave,Boston,"['American', 'Bar Food']"
+361825,Chicken & Rice Guys,$,Location Varies,Boston,['Middle Eastern']
+358409,Firebrand Saints,$$,1 Broadway,BOSTON,"['American (New)', 'Bar Food', 'Burgers']"
+365030,Kitchen,$$,560 Tremont St,Boston,"['American', 'Cocktails']"
+340056,Market,$$,100 Stuart St,Boston,"['American (New)', 'Italian', 'Seafood']"
+258601,Da Vinci Restaurant,$$$$,162 Columbus Ave,Boston,['Italian']
+292653,Mumbai Chopstix,,254 Newbury St,BOSTON,"['Asian', 'Chinese', 'Indian']"
+364866,Bento Express,$$,62 Boylston St,Boston,"['Japanese', 'Sushi']"
+482568,Freshii Cafe,$,185 Dartmouth St,BOSTON,[]
+363334,American Fare,$,Location Varies,Boston,"['American', 'Sandwiches']"
+496750,Woods Hill Table,$,24 Commonwealth Ave,BOSTON,['American (New)']
+379193,Ikura,$$,254 Newbury St,Boston,"['Japanese', 'Sushi']"
+389271,Liquid Art House,$,100 Arlington St,BOSTON,['Eclectic &amp; International']
+367689,The Courtyard Restaurant,$,700 Boylston St,Boston,['American (New)']
+284238,Pazzo,,269 Newbury St,BOSTON,['Italian']
+396433,Beantown Pho & Grill,$$,272 Newbury St,Boston,"['Noodles', 'Vietnamese']"
+335394,Genki Ya - Boston,$$,232 Tremont St,Boston,"['Japanese', 'Sushi']"
+1361,Thai Basil,,132 Newbury St,Boston,['Thai']
+742,Joe's American Bar and Grill,$$$,181 Newbury St,Boston,"['American', 'Bar Food']"
+367022,Minibar,$$,51 Huntington Ave,Boston,"['Bar Food', 'Cocktails', 'Eclectic &amp; International']"
+332792390,Post 390,$,406 Stuart St,Boston,"['American', 'Cocktails', 'Gastropub', 'Local/Organic', 'New England']"
+501221,Griddler's Burgers & Dogs,$,134 Boylston St,Boston,"['Burgers', 'Hot Dogs']"
+303717,Forum,$,755 Boylston St,Boston,"['American (New)', 'Cocktails']"
+508136,Amsterdam Falafelshop Catering,$,248 Beacon St,BOSTON,[]
+389133,Chatime,$,251 Newbury St,BOSTON,"['Asian (other)', 'Teahouses']"
+357264,Mobile Home,$,Location Varies,Boston,"['Hot Dogs', 'Sandwiches']"
+307644,Boston Kitchen Pizza,$$$,1 Stuart St,Boston,"['Pizza', 'Sandwiches']"
+277119,Mike and Patty's,$$,12 Church St,BOSTON,"['Local/Organic', 'Sandwiches']"
+358,The Cheesecake Factory,,800 Boylston St,BOSTON,"['American', 'Burgers', 'Desserts', 'Pasta', 'Pizza', 'Sandwiches']"
+893,Mistral,$,223 Columbus Ave,BOSTON,"['French', 'Mediterranean']"
+2587187,7-Eleven,,391 Beacon St,Boston,['American']
+303719,The Brahmin American Cuisine & Cocktails,$,33 Stanhope St,Boston,"['American (New)', 'Cocktails', 'Tapas']"
+389273,Scissors & Pie,$$$$,225 Newbury St,Boston,['Pizza']
+389214,Precinct Kitchen + Bar,$,350 Stuart St,BOSTON,['American']
+302990,Geoffrey's Cafe,$,142 Berkeley St,BOSTON,"['American', 'American (New)']"
+353103,flour bakery + cafe,$$,131 Clarendon St,BOSTON,"['Bakery &amp; Pastries', 'Coffee &amp; Tea', 'Diner']"
+258600,b.good,,272 Newbury St,BOSTON,"['American', 'Burgers', 'Chicken', 'Salads']"
+373370,Mother Juice,$$,Location Varies,Boston,"['Local/Organic', 'Smoothies &amp; Juices', 'Vegan', 'Vegetarian']"
+277042,Samurai,$,827 Boylston St,Boston,"['Japanese', 'Korean', 'Sushi']"
+753,Kashmir,$$$,279 Newbury St,Boston,"['Indian', 'Vegetarian']"
+63723,Grill 23 & Bar,$,161 Berkeley St,BOSTON,"['American (New)', 'New England', 'Steak']"
+932,New York Pizza,$$$,224 Tremont St,Boston,"['Deli Food', 'Pizza', 'Sandwiches']"
+13,Addis Red Sea Ethiopian Restaurant,$$,544 Tremont St,Boston,"['African', 'Ethiopian']"
+248917,Sasso,,116 Huntington Ave,BOSTON,['Italian']
+280239,Osushi,$,10 Huntington Ave,BOSTON,"['Asian', 'Japanese', 'Sushi']"
+326729,Club Cafe,$$,209 Columbus Ave,Boston,"['American (New)', 'Bistro', 'Cocktails']"
+476129,Roost Bistro,$,259 Newbury St,BOSTON,"['American (New)', 'Bistro']"
+268597,Beehive,$,541 Tremont St,BOSTON,"['American (New)', 'Bar Food', 'Cocktails']"
+268111,Rustic Kitchen,$,210 Stuart St,Boston,"['American (New)', 'Bistro', 'Italian']"
+268936,Vlora,$,545 Boylston St,Boston,"['Mediterranean', 'Vegetarian']"
+260830,B&G Oysters,$,550 Tremont St,Boston,"['New England', 'Seafood']"
+362597,Firehouse Subs,$$,545 Boylston St,Boston,['Sandwiches']
+396000,Thinking Cup,$$,85 Newbury St,Boston,"['Coffee &amp; Tea', 'Sandwiches']"
+476296,Wow Barbeque,$,Location Varies,Boston,"['Barbecue', 'Chinese']"
+906,Morton's The Steakhouse,,699 Boylston St,BOSTON,"['Fine Dining', 'Seafood', 'Steak']"
+137060,Seattle's Best Coffee,,92 Newbury St,BOSTON,"['American', 'Bakery &amp; Pastries', 'Coffee &amp; Tea', 'Diner']"
+1218,Sorellina,$,1 Huntington Ave,BOSTON,['Italian']
+1028,Picco,$$,513 Tremont St,BOSTON,"['Desserts', 'Italian', 'Pizza']"
+1362,Thai Dish,,259 Newbury St,BOSTON,['Thai']
+352104,Erbaluce,$$,69 Church St,BOSTON,['Italian']
+344501,Tico,$$,222 Berkeley St,BOSTON,"['Nuevo Latino', 'Spanish', 'Tapas']"
+1476,Typhoon Asian Bistro,$$$,725 Boylston St,Boston,"['Asian Fusion', 'Japanese', 'Sushi', 'Vegan', 'Vegetarian', 'Vietnamese']"
+283265,Tremont Street Cafe,,418 Tremont St,Boston,"['Deli Food', 'Pizza', 'Sandwiches']"
+353201,Zocalo,$$,35 Stanhope St,Boston,"['Cocktails', 'Mexican']"
+520045,Noon Mediterranean (formerly Verts),,545 Boylston St,Boston,[]
+11,Abe & Louie's Steakhouse,$,793 Boylston St,BOSTON,"['Seafood', 'Steak']"
+234,The Bristol Restaurant and Bar,$,200 Boylston St,BOSTON,"['American (New)', 'Vegetarian']"
+843,Masa,$$,439 Tremont St,Boston,"['Southwestern', 'Tapas']"
+382864,Papa Razzi,$,271 Dartmouth St,Boston,[]
+1141,Rome Pizza,$$,416 Tremont St,Boston,"['Pizza', 'Sandwiches', 'Wings']"
+366233,Mei Mei Street Kitchen,$,Location Varies,Boston,['Chinese']
+373578,Back Bay Harry's,$$$,142 Berkeley St,Boston,['American']
+342065,The Courtyard Restaurant,$,230 Dartmouth St,BOSTON,['American']

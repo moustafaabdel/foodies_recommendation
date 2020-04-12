@@ -1,0 +1,2074 @@
+menu_id,restaurant_id,menu_item_name,subsection,price
+1,586,Green Plantain Chips,Starters - Appetizers,2.0
+2,586,Brown Stewed,Entrees - Chicken Dishes,8.5
+3,586,King Fish,Seafood,12.0
+4,586,Coconut Drops,Dessert,2.0
+5,586,Carrot Cake,Dessert,2.0
+6,586,Beef,Starters - Roti Dishes,8.5
+7,586,Curried Vegetables,Entrees - Vegetarian,7.0
+8,586,BBQ Chicken,Entrees - Chicken Dishes,8.5
+9,586,Fried/Boiled Dumplings,Side Orders,2.0
+10,586,Pecan Pie,Dessert,2.5
+11,167,Good Luck Luna,Dim Sum Dee Lites,8.0
+12,167,Asian-Style Sake Glazed Ribs,Betty-Licious Combos,18.0
+13,167,Sparkling ShaghaI,Betty-Licious Combos,16.0
+14,167,Chopped Salad,Cool Salads,5.0
+15,167,Spicy Sesame Noodle,Noodle Specials,10.0
+16,167,Sparkling Shangai,Noodle Specials,10.0
+17,167,Szechuan Eggplant,House Specials,8.0
+18,167,Crispy Chicken Tropical,House Specials,12.0
+19,167,Cool Cuc's and Weed,Dim Sum Dee Lites,12.0
+20,167,Shu-Shumai,Dim Sum Dee Lites,12.0
+21,353794,"Pressed Salami, Eggplant And Gruyere Sandwich",Main Plates,15.0
+22,353794,12 Tariquet Ugni Blanc / Columbard,Beer And Wine,8.0
+23,353794,12 Cooper Hill Pinot Noir,Beer And Wine,12.0
+24,353794,Cappuccino,Loose Leaf Tea And Coffee,4.5
+25,353794,Cheese Plate,Desserts,7.0
+26,353794,Winter Root Vegetable And Fish Stew,Main Plates,12.0
+27,353794,12 Domaine Jean David Cotes Du Rhone,Beer And Wine,9.0
+28,353794,Nv Cristalino Brut Cava,Beer And Wine,9.0
+29,353794,Espresso,Drinks,3.0
+30,353794,Crispy Chicken Drumsticks,First Plates,6.0
+31,1447,6. Calamari,Appetizers,6.95
+32,1447,7b. Fried Samosas,Appetizers,4.95
+33,1447,2. Tom Yum Soup - Chicken,Soup,3.95
+34,1447,5. Seafood and Scrambled Egg Chow Fun,Noodles,9.5
+35,1447,7. Seafood Mee Hoon,Noodles,9.5
+36,1447,3. Sayur Masak,Vegetable Dishes,9.5
+37,1447,Jumbo Shrimp,Grilled Dishes,18.95
+38,1447,7d. Malaysian Platter,Appetizers,9.0
+39,1447,8c. Har Toss,Appetizers,4.95
+40,1447,d. Crispy Spring Roll,Appetizers,4.95
+41,230,"Pepper, Onion and Cheese",Omelets,3.89
+42,230,"Mushroom, Pepper, Onion and Cheese",Omelets,4.25
+43,230,Spanish,Omelets,5.5
+44,230,Bacon Cheeseburger,Sandwiches on Toast,2.99
+45,230,Mango Lasai,Drinks,3.0
+46,230,Sausage,Side Orders,1.35
+47,230,Special 3,Breakfast Served All Day,3.99
+48,230,Western,Omelets,4.15
+49,230,Grilled Cheese with Bacon or Ham,Sandwiches on Toast,2.59
+50,230,Toast,Side Orders,0.75
+51,344598,4 Points Lobster Flatbread,Lunch/Bar Menu,30.0
+52,344598,Pan Seared Atlantic Salmon,Lunch/Bar Menu,28.0
+53,344598,Chicken Quesadilla,Lunch/Bar Menu,12.0
+54,344598,Chicken & Waffles,Brunch Menu,18.0
+55,344598,Side Sausage,Brunch Menu,5.0
+56,344598,Grilled Tuna Steak,Dinner Menu,34.0
+57,344598,Lobster Fra Diavolo,Dinner Menu,34.0
+58,344598,Veggie Stir Fry,Dinner Menu,25.0
+59,344598,Juice,Beverages,4.0
+60,344598,French Dip Brunch,Breakfast Sandwiches,16.0
+61,335420,F 16 Wing,Traditional Wings,15.59
+62,335420,1 Lb. DC 10 Boneless Wing,Boneless Wings,13.99
+63,335420,Buffalo Chicken,Sandwiches and Wraps,7.29
+64,335420,12 oz. Can Soda,Beverages,1.59
+65,335420,Chicken Bacon Ranch Combo,Sandwiches and Wraps,10.48
+66,335420,Loaded Tots,Sides,4.29
+67,335420,6 Lb. Zeppelin Boneless Wing,Boneless Wings,75.99
+68,335420,Hangar 2 Combo,Combo Packs,25.69
+69,335420,Fried Chicken Combo,Sandwiches and Wraps,10.28
+70,335420,Southwest Chicken Sandwich Combo,Sandwiches and Wraps,10.48
+71,184845,Sprite,Drinks,2.64
+72,184845,Mine,Tubs,9.99
+73,184845,Ours,Tubs,12.49
+74,184845,Chocolate Devotion® Ice Cream,Signature Creations,6.69
+75,184845,Our Strawberry Blonde® Ice Cream,Signature Creations,6.69
+76,184845,Harvest Pumpkin Cheesecake Creation Ice Cream,Signature Creations,6.49
+77,184845,Peanut Butter Cup Perfection® Ice Cream,Signature Creations,6.69
+78,184845,Founder's Favorite® Ice Cream,Signature Creations,6.69
+79,184845,The Pie Who Loved Me Ice Cream,Signature Creations,6.69
+80,184845,Coffee Lovers Only® Ice Cream,Signature Creations,6.69
+81,1040,Mozzarella Sticks,Appetizers,4.99
+82,1040,Jalapeno Poppers,Appetizers,5.99
+83,1040,Cajun Sauce Personal Pizza,Create Your Own Pizza,4.99
+84,1040,Puttanesca Sauce Personal Pizza,Create Your Own Pizza,5.99
+85,1040,Personal Pizza Grande,Specialty Pizzas,9.75
+86,1040,Pizza Grande,Specialty Pizzas,18.89
+87,1040,Harvest Chicken Personal Pizza,Lite-er Pie-er,8.89
+88,1040,Personal Pizza Puttanesca,Lite-er Pie-er,9.89
+89,1040,Body Fit Personal Pizza,Lite-er Pie-er,6.64
+90,1040,Pizza Pocket,Pizza Sandwiches,5.5
+91,29319947,Chicken Pesto Panini,"Gourmet Burger, Sub, Hot Panini, Wrap",7.0
+92,29319947,Vegetable Wrap,"Gourmet Burger, Sub, Hot Panini, Wrap",7.0
+93,29319947,BBQ Chicken,Pizza,8.0
+94,29319947,Spinach & Bacon,Pizza,8.0
+95,29319947,Trio Of Sweet Mini Cupcakes,Dessert,6.0
+96,29319947,Homemade Traditional Flan,Dessert,5.0
+97,29319947,Caesar,Salad,6.0
+98,29319947,Baja Shrimp,Salad,8.0
+99,29319947,Grilled Marinated Steak Tips,Entree,16.0
+100,29319947,Three Cheese,Pizza,2.5
+101,297372,Poland Spring Water,Beverages,1.95
+102,297372,Pilgrim Wrap,Mama's Wraps,9.4
+103,297372,Chicken Parmigiana Sub,Subs,9.95
+104,297372,Beef Gyro Basket,Baskets,11.95
+105,297372,Macaroni and Cheese Bites,Side Orders,8.95
+106,297372,Nantucket Nectar,Beverages,3.35
+107,297372,Ice Tea Snapple,Beverages,3.1
+108,297372,Goat Cheese Salad,Fresh Salads,9.75
+109,297372,Caesar Salad,Fresh Salads,6.95
+110,297372,House Salad,Fresh Salads,7.25
+111,477865,Mango Green Tea,Fruity Juicy,4.0
+112,477865,Kiwi Lemonade,Fruity Juicy,4.0
+113,477865,Eco-Friendly Plates and Utensil Kit,Beverages,0.4
+114,477865,Passion Fruit Green Tea,Fruity Juicy,4.0
+115,477865,Black Tea Latte,Special Drinks,4.0
+116,477865,12 Cans of Coke,Beverages,18.0
+117,477865,Burner,Beverages,3.0
+118,477865,Special Milk Tea,Chatime Milk Tea,5.0
+119,477865,Eco-Friendly Plates,Beverages,0.25
+120,477865,Lemon Iced Tea,Fruity Juicy,4.0
+121,18065,Sprite,Beverages,2.5
+122,18065,Cheesecake Fantasty® Ice Cream,Signature Creations,7.19
+123,18065,Crème Berry Brûlée Ice Cream,Signature Creations,6.49
+124,18065,Ours,Tubs,13.74
+125,18065,Birthday Cake Remix Ice Cream,Signature Creations,7.19
+126,18065,Mint Mint Chocolate Chip® Ice Cream,Signature Creations,7.19
+127,18065,Create Your Own Ice Cream,Signature Creations,5.99
+128,18065,The Pie Who Loved Me Ice Cream,Signature Creations,7.19
+129,18065,Coffee Lovers Only® Ice Cream,Signature Creations,7.19
+130,18065,Mine,Tubs,10.24
+131,395985,Fresh Cannoli,For Your Sweet Tooth,4.0
+132,395985,Hot Donuts,For Your Sweet Tooth,6.0
+133,395985,Snapple,Beverages,3.0
+134,395985,Homemade Lemonade (Seasonal),Beverages,3.0
+135,395985,Spring Mix on a Flour Tortilla,Entrees,7.0
+136,395985,Parmesan Subs,Entrees,7.0
+137,395985,Hot Dogs,Faire Favorites,3.0
+138,395985,Caprese Salad Wrap,Entrees,
+139,395985,French Fries,Faire Favorites,5.0
+140,395985,Water,Beverages,1.5
+141,281667,Apple Green Tea,Fruit-Flavored Bubble Tea,4.25
+142,281667,Passion Fruit Green Tea,Fruit-Flavored Bubble Tea,4.25
+143,281667,Shumai Appetizer,Appetizers,4.5
+144,281667,Vegetable Tempura Appetizer,Appetizers,5.5
+145,281667,Appetizer Sampler,Appetizers,18.5
+146,281667,Tofu Miso Soup,Soup and Salad,2.5
+147,281667,Chicken Udon Soup,Soup and Salad,7.75
+148,281667,Natural Brown Rice,Rice and Noodles,3.0
+149,281667,Teriyaki Beef Bowl,Rice Bowl,7.5
+150,281667,Hotate,Sushi and Sashimi A La Carte,3.25
+151,306206,Chicken Shawarma Pita Roll,Pita Roll Ups,7.25
+152,306206,Grape Leave Pita Roll,Pita Roll Ups,7.25
+153,306206,Chicken Shish Kabobs Combo Plate,Combo Plates,11.25
+154,306206,Sampler Plate,Combo Plates,10.75
+155,306206,Extra Garlic Sauce,Sides,0.7
+156,306206,Pita Bread,Sides,1.1
+157,306206,Beef Shawarma Salad,Salads,11.25
+158,306206,Tabouli,Sides,5.85
+159,306206,Orangina,Beverages,2.75
+160,306206,Chicken Shawarma Salad,Salads,11.0
+161,250541,Da Bomb,Super Sandwiches,8.95
+162,250541,Grilled Cheese,Super Sandwiches,5.25
+163,250541,North Dakota,Stately Burgers,5.75
+164,250541,Philly Cheese Steak,Thats a Wrap,6.95
+165,250541,Buffalo Chicken,Every Wednesday,6.95
+166,250541,Pumpkin Pie Pancakes,Panhandlers,7.45
+167,250541,The Pan Piglet,The Pig Pen,11.95
+168,250541,Tips N Eggs,Potbelly Pleasers,10.45
+169,250541,Super Homefries,Potbelly Pleasers,8.95
+170,250541,Wisconsin,Stately Burgers,5.75
+171,503431,Water,Beverages,2.0
+172,503431,Hand-Dipped Éclairs,From the Bakery,3.95
+173,503431,Gluten-Free Muffin,From the Bakery,3.25
+174,503431,"Catering - Afternoon Break Combo # 1 (Price per Person, minimum of 10)",Catering - Lunch,6.95
+175,503431,Yogurt Parfait,Breakfast,4.95
+176,503431,House Spreads,Breakfast,0.5
+177,503431,Kale and Farro Salad,Salads,10.45
+178,503431,Tuna Salad  Sandwich,Sandwiches,9.75
+179,503431,Side of Mixed Greens Salad,Add A Side Salad,4.25
+180,503431,French Meringue Macaroons,From the Bakery,4.99
+181,358350,Pear And Almond Tart,Seasonal,9.75
+182,358350,Apple Crisp Couffle,Seasonal,6.25
+183,358350,Dark Chocolate Souffle,Chocolate,11.75
+184,358350,Flourless Chocolate Cake,Chocolate,9.75
+185,358350,Milk Chocolate Peanut Delice,Chocolate,5.5
+186,358350,Fall Squash Bisque,Savory,8.75
+187,358350,Milk Chocolate Peanut Delice,Chocolate,8.75
+188,358350,Apple Crisp Souffle,Seasonal,11.75
+189,358350,Dark Chocolate Souffle,Chocolate,7.25
+190,358350,Six Cheeses,A Selection Of Cheeses,24.0
+191,503537,Tako Su,Sushi Bar Appetizers,6.95
+192,503537,Bomb Maki,Uncooked Makimono,6.5
+193,503537,Tako,Cooked Sushi and Sashimi,5.95
+194,503537,Saba,Uncooked Sushi and Sashimi,4.95
+195,503537,Chef's Special Sashimi,Chef's Specials,20.0
+196,503537,Ebi Mango,House Special Roll,13.5
+197,503537,B4. Chicken Katsu Lunch Box,Lunch Box,10.5
+198,503537,Harumaki,Appetizers,6.5
+199,503537,Yakitori,Appetizers,7.95
+200,503537,Sashimi Appetizers,Sushi Bar Appetizers,11.0
+201,479981,Cinnamon Sugar Beignets,Sweets,10.0
+202,479981,Two Eggs Any Style,Classic and Regional,18.0
+203,479981,Steak & Eggs,Classic and Regional,19.0
+204,479981,Steel Cut Oatmeal Brulee,Morning Light,10.0
+205,479981,Kale Juice,Something Healthy,9.0
+206,479981,Croissant,Sides,6.0
+207,479981,Fresh Baled Biscuits,Sides,6.0
+208,479981,Margherita Flatbread San Morzono Tomatoes,Flatbreads,14.0
+209,479981,Chopped Greek Salad,Light Bites,12.0
+210,479981,Salad and 1/2 Sandwich,Create Your Own,14.0
+211,1970,Fudge Brownie,Sweets,
+212,1970,Fresh-Baked Assorted Muffins,Breakfast Menu,
+213,1970,Assorted Soda and Bottled Water,Beverages,
+214,1970,Homemade Banana Walnut Bread,Breakfast Menu,
+215,1970,Fresh Fruit Cup,Breakfast Menu,
+216,1970,Whole Seasonal Fruits,Breakfast Menu,
+217,1970,Apricot Chicken Salad,Sandwiches,
+218,1970,Egg Salad,Sandwiches,
+219,1970,New England Clam Chowder or Native Lobster Bisque,Soups,
+220,1970,Asian Grilled Chicken Breast,Sandwiches,
+221,423624,Sausage & Peppers,Starters,
+222,423624,Fettuccine Alfredo,Pastas,
+223,423624,Italian Beef,Bruschetta Bar,1.95
+224,423624,Chef's Featured Pasta,Chef's Featured Pasta,
+225,423624,Shrimp Scampi,Seafood,24.5
+226,423624,Linguine di Mare,Seafood,26.95
+227,423624,Spaghetti,Pastas,
+228,423624,Chicken Parmesan^,Signature Cuts,
+229,423624,Veal Marsala^,Signature Cuts,
+230,423624,Braised Beef Contadina,Signature Cuts,
+231,109,Adopted Luke,Burgers and Sandwiches,
+232,109,Curry and Grilled Avocado,Kale and Grain Bowls,
+233,109,Seasonal Special 4 Bean Chili,Sides,
+234,109,9 oz. Kale Crush Smoothie,Kids Smoothies,
+235,109,The Classic,Egg Bowls,
+236,109,Coffee,Drinks,
+237,109,Power Bowl,Kale and Grain Bowls,
+238,109,Kale Crush,Smoothies,
+239,109,Deep C,Smoothies,
+240,109,Chocolate,Milk Shakes,
+241,616,Sesame Tuna ,Starters,13.95
+242,616,California Shrimp Salad ,Salads,15.95
+243,616,Pesto Shrimp,Entrees,16.95
+244,616,Turkey and Brie Sandwich,Sandwiches,11.95
+245,616,Tenders ,Starters,9.95
+246,616,Asian Tuna Salad,Salads,17.95
+247,616,Frutti di Mare,Entrees,17.95
+248,616,Latin BBQ Pork Sandwich ,Sandwiches,11.95
+249,616,Philly Cheese Steak,Sandwiches,11.95
+250,616,Crab Rangoon,Bar Bites,4.95
+251,720,Our Award-Winning New England Clam Chowder,Soups,4.95
+252,720,Beer Battered Fish and Chips,Featured Entrees,16.95
+253,720,Broiled Swordfish Steak with Chipotle Compound Butte,Featured Entrees,17.95
+254,720,Crispy Calamari,Small Plates,12.95
+255,720,Fried Chicken BLT,Signature Sandwiches,11.95
+256,720,Steamed Bratwurst,Wursts,11.95
+257,720,Steamed Knockwurst,Wursts,11.95
+258,720,Cheese & Vegetable Quesadilla,Kids,5.95
+259,720,1 Scoop of Chocolate Ice Cream,Kids Dessert,1.0
+260,720,Spretcher Root Beer Float,Dessert,4.0
+261,392,Burger,Mains,13.0
+262,392,Honey Hot Shrimp,Starters,14.0
+263,392,Hash and Eggs,Brunch,12.0
+264,392,Reuben Sammy,Mains,13.0
+265,392,Truffle Tots,Starters,12.0
+266,392,Nachos,Starters,12.0
+267,392,3 Fish Tacos,Starters,15.0
+268,392,Buffalo Shrimp Salad,Salads,15.0
+269,392,Fried Chicken Pot Pie,Mains,17.0
+270,392,Beef Stew,Starters,10.0
+271,663,Bean and Cheese,Burritos,6.89
+272,663,Spinach and Garlic Quesadilla,Breakfast Served Until 11 AM. - Quesadillas,7.75
+273,663,Grilled Steak Quesadilla,Breakfast Served Until 11 AM. - Quesadillas,8.75
+274,663,Bean and Cheese,Tacos,2.75
+275,663,Mexican Roast Pork,Tacos,3.69
+276,663,Jalapenos,Sides and Extras,0.5
+277,663,Breakfast Tacos,Breakfast,5.75
+278,663,Grilled Veggie Quesadilla,Breakfast Served Until 11 AM. - Quesadillas,7.75
+279,663,Steak,Breakfast Served Until 11 AM. - Nachos and Chips,9.5
+280,663,Grilled Veggie,Burritos,7.5
+281,990,Pasta Bolognese,Entrees,15.5
+282,990,The Parish Chicken Sandwich,Sandwiches - Poultry,12.75
+283,990,The dbar,Sandwiches - Beef,15.25
+284,990,Sean's Simple Meatball,Appetizers,6.5
+285,990,Vegetarian Corn Cakes,Appetizers,10.25
+286,990,The Hot and Cold Chicken Salad,Salads,12.5
+287,990,Beet Salad,Salads,11.25
+288,990,Black Pepper Tuna,Entrees,16.0
+289,990,Roasted Reggae Wings,Appetizers,10.25
+290,990,Baked Mac and Cheese,Entrees,14.0
+291,306214,Tobiko Shumai,Appetizers,8.95
+292,306214,Kakuni Pork Bun,Appetizers,9.95
+293,306214,Chilled Sesame Ramen,Ramen,19.95
+294,306214,Salmon Roe Nigiri,Nigiri,4.5
+295,306214,Spicy Shrimp Tempura Roll,Fancy Rolls,16.95
+296,306214,Yellowtail Roll,Makimono,8.95
+297,306214,Salmon Cucumber Roll,Makimono,8.95
+298,306214,Yellowtail Avocado Roll,Makimono,8.95
+299,306214,Yellowtail Avocado Roll,Makimono,9.95
+300,306214,Fresh Brewed Unsweetened Iced Tea,Non Alcoholic Drinks,6.0
+301,352,Scrambled And Cheese,Breakfast,5.75
+302,352,Soup Of The Day,Soups,3.95
+303,352,Charlie's Cold Salad Plate,Salads,7.95
+304,352,Tuna,Sandwiches,4.85
+305,352,Chicken Salad,Sandwiches,5.65
+306,352,Jumbo All Beef Hot Dog,Sandwiches,3.65
+307,352,Cold Roast Beef On A Roll,Sandwiches,5.75
+308,352,Ham And Cheese Omelette,Old Fashioned Omelettes,7.65
+309,352,Mushroom And Cheese Omelette,Old Fashioned Omelettes,7.65
+310,352,Hot Chocolate,Thirst Quenchers,1.5
+311,340811,Gelato & Sorbetto,Desserts,9.0
+312,340811,Cinnamon Monkey Bread,For The Table,11.0
+313,340811,Chocolate Hazelnut French Toast,For Yourself,18.0
+314,340811,Back Bay Breakfast,Day Starters,19.0
+315,340811,Smoked Bluefish Toast,For The Table,14.0
+316,340811,Lobster Roll,Large Plates,29.0
+317,340811,Roasted Maine Potatoes,Sides,6.0
+318,340811,Beef Tartare,For The Table,18.0
+319,340811,Smoked Bone Marrow,For The Table,11.0
+320,340811,Salt & Vinegar Fries,For The Table,10.0
+321,225,Poached Eggs,Oeufs (Egg),14.95
+322,225,Steak Tartare,Plats Principaux,19.95
+323,225,Quiche du Jour,Eggs & Crepes,14.95
+324,225,Crepe Newburg,Eggs & Crepes,21.95
+325,225,Skate en Fritot,Sandwiches,18.95
+326,225,Belgian Endive Salade,Starter,
+327,225,Le Demi Croque Monsieur,Sandwiches,
+328,225,Berkshire Pork Chop,Plats Principaux,26.95
+329,225,Mussels Riesling Mariniere,Plats Principaux,25.95
+330,225,Pan Seared Duck Breast,Plats Principaux,24.95
+331,1023,Scampi,Pasta,12.0
+332,1023,Cheese Melt,Panini,9.0
+333,1023,Quinoa Ravioli,Pastas,
+334,1023,Ravioli Di Zucca Gialla,Piattini Hot,
+335,1023,Lemon Crusted Lamb,Secondi,
+336,1023,Ravioli Daragosta,Pasta,12.0
+337,1023,Misto Formaggi,Piattini Cold,13.0
+338,1023,Meatballs,Panini,10.0
+339,1023,Smoked Salmon,Piattini Cold,
+340,1023,Risotto Scallops,Secondi,
+341,349980,Box Of Coffee,Beverages,14.0
+342,349980,Cupcakes,Treats,
+343,349980,Lemon Brioche,Baked Goods,
+344,349980,Bread Puddings,Treats,
+345,349980,Baby Spinach,Salads $6.75,
+346,349980,Breakfast Burrito,Sandwiches & Entrees,6.0
+347,349980,Field Greens,Salads $6.75,
+348,349980,Hummus & Veggies Wrap,Sandwiches $7.75,
+349,349980,Spartan,Sandwiches $7.75,
+350,349980,Croissant,Baked Goods,
+351,343986,Maple Smoked Bacon or Sausage,Accompaniments,7.0
+352,343986,American,Breakfast Specials,27.0
+353,343986,Low Caffeine,Hot Beverages Tea,4.5
+354,343986,Waldorf Salad,Salads,20.0
+355,343986,Tuna Sashimi,Seafood Appetizers,22.0
+356,343986,Murgh Seekh Kebab,Hot Appetizers,18.0
+357,343986,Breakfast Potatoes,Accompaniments,6.0
+358,343986,Country Oatmeal,Breakfast Specials,10.0
+359,343986,Green Tea,Hot Beverages Tea,4.5
+360,343986,Herbal Special Tea,Hot Beverages Tea,4.5
+361,1198,Fried Tofu Wrapper (Inari),A la Carte - Nigiri Sashimi,1.0
+362,1198,Octopus,A la Carte - Nigiri Sashimi,1.0
+363,1198,Mamemaki Roll,Fancy Rolls,9.95
+364,1198,Italian Garden,Battera,10.95
+365,1198,Salmon Tataki Salad,Salads,10.95
+366,1198,Pickles,Roll,3.95
+367,1198,Mackerel,A la Carte - Nigiri Sashimi,1.0
+368,1198,Flying Fish Roe,A la Carte - Nigiri Sashimi,2.0
+369,1198,Salmon Roe,A la Carte - Nigiri Sashimi,2.0
+370,1198,Eel,A la Carte - Nigiri Sashimi,2.0
+371,546,Bottled Soda,Beverages,2.5
+372,546,Chicken Salad,Salads,8.5
+373,546,One Topping Pizza,Pizza,10.5
+374,546,Vegeterian Pizza,Pizza,15.0
+375,546,Prosciutto Pizza,Pizza,11.75
+376,546,Hawaiian Pizza,Pizza,12.0
+377,546,Shaved Steak Calzone,Calzones,12.0
+378,546,1 Topping Calzone,Calzones,10.25
+379,546,"Hot Pastrami 12"" Hot Sub","12"" Hot Sub Sandwiches",8.25
+380,546,"Steak Parmesan 12"" Hot Sub","12"" Hot Sub Sandwiches",8.25
+381,1288,Thai Lettuce Wraps Lunch,Lunch Appetizers,17.0
+382,1288,Grilled Skirt Steak Salad Lunch,Lunch Signature Salads,22.0
+383,1288,Lobster Pot Pie Lunch,Lunch Entrees,26.0
+384,1288,Open Faced Thanksgiving Sandwich Lunch,Lunch Sandwiches,20.0
+385,1288,Ultimate Steak Sandwich Lunch,Lunch Sandwiches,19.0
+386,1288,Open Faced Thanksgiving Sandwich Lunch,Lunch Sandwiches,20.0
+387,1288,Egg Shakshuka Brunch,Brunch Breakfast,19.0
+388,1288,Greek Style Chopped Salad Brunch,Brunch,22.0
+389,1288,Roast Turkey Club Goes Salad,Brunch,19.0
+390,1288,Fried Chicken Sandwich Brunch,Brunch,18.0
+391,1118,Mimosas,Drink_A,
+392,1118,Traditional Caesar Salad,Salad Alley,8.25
+393,1118,5 Piece Shrimp Cocktail,In The Beginning,10.0
+394,1118,Maryland Crab Cakes,In The Beginning,8.25
+395,1118,Steak & Eggs,Sunday Brunch,8.95
+396,1118,"Cold Antipasto Skewers .Cheese, Pepperoni, Peppers and Olives",Function Menu - Cold Trays,100.0
+397,1118,Jalepeno Poppers Stuffed With Cream Cheese,Function Menu - Hors D'Oeuvres,100.0
+398,1118,Assorted Petite Quiche,Function Menu - Hors D'Oeuvres,150.0
+399,1118,Chicken Quesadillas,In The Beginning,9.25
+400,1118,Unplain Skins,In The Beginning,8.95
+401,1471,Dry Aged Creekstone Ribeye,Entrees,100.0
+402,1471,Oven Roasted Pemaquid Mussels,Bar Menu,14.0
+403,1471,Valrhona Chocolate Souffle,Desserts,20.0
+404,1471,Chocolate Passionfruit Panna Cotta,Desserts,14.0
+405,1471,Shrimp - White Clam Stone Pie,Bar Menu,16.0
+406,1471,East Coast Halibut,Entrees,42.0
+407,1471,Roasted Jurgielewicz Duck,Entrees,42.0
+408,1471,Roasted Cervena Venison Saddle,Entrees,48.0
+409,1471,Whole Roasted Dover Sole,Entrees,60.0
+410,1471,Shrimp Cocktail,Bar Menu,18.0
+411,361363,Steel Cut Oatmeal with Strawberries & Pecans,Breakfast,
+412,361363,"Ham, Egg & Cheese Breakfast Sandwich",Breakfast,
+413,361363,Ham & Swiss,Breakfast,
+414,361363,Summer Fruit Cup,Breakfast,
+415,361363,Chocolate Chipper Cookie,Bakery,
+416,361363,Oatmeal Raisin with Berries Cookie,Bakery,
+417,361363,Raspberry Almond Thumbprint Cookie,Bakery,
+418,361363,Tomato Basil,Freshly-Baked Breads,
+419,361363,Chai Tea Latte,Hot Drinks,
+420,361363,Hot Teas,Hot Drinks,
+421,389274,Fried Spring Roll,Appetizers From Kitchen,5.25
+422,389274,Grilled Eggplant,Appetizers From Kitchen,6.95
+423,389274,Kara-Age,Appetizers From Kitchen,4.95
+424,389274,French Salmon Tata,Appetizers From Kitchen,7.95
+425,389274,House Salad,Soup and Salad,3.25
+426,389274,Fancy Sake Don,Sushi Entrees,14.95
+427,389274,Miso Salmon,Sushi Entrees,16.95
+428,389274,Miso Salmon,House Entree,16.95
+429,389274,Beef Don,House Entree,13.95
+430,389274,Salmon Teriyaki,House Entree,14.95
+431,359617,Rotating Selection,Salty Pig Parts,7.0
+432,359617,Prosciutto,Sandwiches,12.0
+433,359617,Stilton,Farmstead Board,17.0
+434,359617,Rotating Selection,Chefs Choice,18.0
+435,359617,Margherita,Pizza,13.0
+436,359617,Pizza Fratelli,Pizza,16.0
+437,359617,Chorizo Iberico de Bellota,Salty Pig Parts,8.0
+438,359617,Miranda,Stinky Cheeses,7.0
+439,359617,SP Meatball,Sandwiches,13.0
+440,359617,The Salty Pig Sandwich,Sandwiches,13.0
+441,362114,Plain Cheese,Slices,3.0
+442,362114,Special,Slices,4.0
+443,362114,Pepperoni,Slices,3.5
+444,362114,Pesto Splash,Slices,4.0
+445,362114,Baby Spinach,Side Salads,4.25
+446,362114,Arugula,Side Salads,4.25
+447,352260,Mac And Cheese,Starters,7.0
+448,352260,Cobb,Salads,4.0
+449,352260,Margarita,Flat Bread,14.0
+450,352260,Blue Moon,Brews - Bottled,5.0
+451,352260,Bud Light,Brews - Bottled,5.0
+452,352260,"280. 2008 Saarstein Estate Riesling, Germany",White,10.0
+453,352260,"360. 2008 Mcwilliams Pinot Noir, Australia",Red,9.0
+454,352260,"210. 2009 Dilenardo Pinot Grigio, Italy",White,25.0
+455,352260,"325. 2008 Mirassou Merlot, California",Red,32.0
+456,352260,"335. 2008 Macmurray Ranch Pinot Noir, California",Red,38.0
+457,258602,Fried Chicken,Sandwiches,12.0
+458,258602,Lamb Burger,Sandwiches,12.0
+459,258602,Chicken and Waffles,Brunch Main,12.0
+460,258602,Omelette,Brunch Main,9.0
+461,258602,Mac and Cheese,Brunch Main,12.0
+462,258602,Brunch Burger,Brunch Main,9.0
+463,258602,Little Gem,Small Plates,10.0
+464,258602,Pork Tenderloin,Large Plates,20.0
+465,258602,French Toast,Brunch Main,10.0
+466,258602,Roasted Pork,Sandwiches,11.0
+467,353611,Spinach & Feta Pie,To Go,5.5
+468,353611,Rueben,Specialty Sandwiches,8.0
+469,353611,Falafel Wrap,Specialty Sandwiches,8.0
+470,353611,Grilled Chicken,Specialty Sandwiches,8.0
+471,353611,Chicken Gyro,Specialty Sandwiches,7.0
+472,353611,Steamed Broccoli by the Pound,Vegetables,7.0
+473,353611,Egg Sandwich with Cheese,Breakfast,4.5
+474,353611,The Donald,Specialty Sandwiches,8.0
+475,353611,Eggplant Parmesan,Specialty Sandwiches,8.5
+476,353611,Roast Beef,Specialty Sandwiches,8.0
+477,362947,Carrot,Big Salad,10.0
+478,362947,Tortilla Chips with Pinto Dip,Sides,3.0
+479,362947,Crispy Fried Tofu,Tortas,7.53
+480,362947,Chimichurri Tempeh,Nachos,4.0
+481,362947,Seated Tofu,Big Salad,10.0
+482,362947,Radish Salad,Big Salad,10.0
+483,362947,Crispy Fried Tofu Taco,Nachos,4.0
+484,362947,Tacos and a Regular Side,Main Menu,10.0
+485,362947,Sesame Seeds Salad,Big Salad,10.0
+486,362947,Nachos,Nachos,6.0
+487,352614,Smoked Bacon,Flatbreads,12.0
+488,352614,Local Island Creek Oysters,Cuisine,24.0
+489,352614,Fig & Pear Salad,Cuisine,12.0
+490,352614,Burrata & Heirloom Apple Salad,Cuisine,13.0
+491,352614,Mini Burgers,Cuisine,12.0
+492,352614,Fried Local Calamari,Cuisine,12.0
+493,352614,Parmesan & Herb Pommes Frites,Cuisine,7.0
+494,352614,Marinated Grilled Lamb Skewers,Cuisine,15.0
+495,352614,Margharita,Flatbreads,12.0
+496,352614,Plate of Cured Meats & Cheese,Cuisine,14.0
+497,298252,Vitamin Water Revive,Beverages,2.25
+498,298252,Salad Platter for 7-10,Salads,45.0
+499,298252,"12"" Calzone",Calzones,11.5
+500,298252,Spinach and Diced Tomato Mini Calzone,Calzones,4.94
+501,298252,Patata Rossa Pizza,Our Specialties,16.6
+502,298252,The Harvard Street Pizza,Our Specialties,16.6
+503,298252,The State House Pizza,Our Specialties,15.75
+504,298252,Pedro's Steak and Gorgonzola Pizza,Our Specialties,15.75
+505,298252,Coke,Beverages,2.25
+506,298252,Dasani,Beverages,2.25
+507,337715,Artis in Cheese,Shared Plates,22.0
+508,337715,New England Lobster Roll,Shared Plates,25.0
+509,337715,Croque Monsieur,Shared Plates,14.0
+510,337715,Olive Medley & Mixed Nuts,Small Bites,5.0
+511,337715,Crispy Chicken Tacos,Shared Plates,14.0
+512,337715,Parmes in Truffle Fries,Small Bites,10.0
+513,337715,Beef Sliders,Shared Plates,15.0
+514,337715,Salted Pretzek Sticks,Small Bites,10.0
+515,337715,Barbeque Spiced Chicken Wings,Small Bites,15.0
+516,337715,Shrimp Cocktail,Small Bites,16.0
+517,302310,Chips And Guacamole,Sides,3.0
+518,302310,Create Your Own Taco,Entrees,2.43
+519,302310,Create Your Own Burrito Plate,Entrees,4.96
+520,302310,Create Your Own Burrito,Entrees,3.98
+521,302310,Create Your Own Grande Burrito,Entrees,4.96
+522,302310,Popcorn,Sides,2.0
+523,302310,Create Your Own Quesadilla,Entrees,3.98
+524,372894,Pinot Grigio,Wine $7,
+525,372894,Bud Light,Beer $5,
+526,372894,Chicken Tenders Served With BBQ Sauce,Small Plates,9.0
+527,372894,"Salad, 1 Vegetarian EntrÃ©e, 1 Meat EntrÃ©e, Dessert",Dinner Buffet,24.0
+528,372894,Garden,Salad,
+529,372894,Corona,Beer $5,
+530,372894,Coors Light,Beer $5,
+531,372894,Caesar,Salad,
+532,372894,Cabernet Sauvignon,Wine $7,
+533,372894,Sprite,Non-Alcoholic Drinks $3,
+534,269168,La Cochonnaille,Cold Appetizers,16.0
+535,269168,House Mesclun,Les Salades,7.0
+536,269168,Smoked Salmon,Les Salades,13.0
+537,269168,Classic Homemade Terrine of Foie Gras,Les Terrines,25.0
+538,269168,Dover Sole Meuniere,Les Poissons,42.0
+539,269168,Le Cabillaud,Lunch - 2 Courses,
+540,269168,Le Croque Monsieur,Lunch - 3 Course,
+541,269168,Les Moules,Lunch - 3 Course,
+542,269168,La Terrine,Le Foie Gras,25.0
+543,269168,Le Loup,La Mer,36.0
+544,18768,Vegetarian Spring Rolls,Appetizers,2.75
+545,18768,Vegetarian Peking Ravioli,Appetizers,4.95
+546,18768,Vegetable Chow Mein or Chop Suey,Chow Mein or Chop Suey,5.5
+547,18768,Beef Chow Foon Slices Rice Noodles,Lo Mein,6.5
+548,18768,Moo-Shi Chicken,Poultry,7.95
+549,18768,Chicken with Pea Pods,Poultry,8.5
+550,18768,Kung Pao Chicken,Poultry,8.5
+551,18768,Chicken Egg Foo Young,Egg Foo Young,5.95
+552,18768,Moo-Shi Beef,Beef,7.95
+553,18768,Beef with Pea Pods,Beef,8.5
+554,395579,Potato Leek Soup,Soups,7.0
+555,395579,Cauli-Wings,Shareable,9.0
+556,395579,Tacos,Shareable,17.0
+557,395579,Torn Chicken Croquettes,Shareable,9.0
+558,395579,"Shrimp, Corn & Clam Chowder",Soup,10.0
+559,395579,Bar Fries,Lunchon,9.0
+560,395579,Wings,Shareable,10.0
+561,395579,Seafood Chowder,Soups,10.0
+562,395579,Cubano,Shareable,11.0
+563,395579,Caprese,Salads,13.0
+564,354121,Insalata Caprese,Insalate,7.95
+565,354121,Greek Salad,Insalate,9.95
+566,354121,Verdure,Panini $9.95,
+567,354121,Crema Di Fragola,Desserts,3.0
+568,354121,Hot Lemon,Vapiano First Aid $2.50,
+569,354121,Vapiano Margarita,Specialty Drinks & Martinis,9.95
+570,354121,Sparkling Applik,Specialty Drinks & Martinis,9.25
+571,354121,Pilsner Urquell,Draft Beer $4.75,
+572,354121,Miller Lite,Domestic Beer $4.50,
+573,354121,Sam Adams Seasonal,Hand Crafted & Import Beer $5,
+574,321163,NY Muscle,Cold Sandwiches,10.99
+575,321163,The Gloucester,Hot Sandwiches,10.99
+576,321163,Signature,Breakfast Sandwiches,7.99
+577,321163,Mediterranean Kale,Fresh Salads,8.99
+578,321163,Goudapest,Hot Sandwiches,9.99
+579,321163,Home Fries,Add Ons,3.99
+580,321163,Wichit Mojito,Cold Drink,4.99
+581,321163,Bottled Water,Cold Drink,1.99
+582,321163,The Caprese,Fresh Salads,8.99
+583,321163,Avocado Quinoa,Fresh Salads,8.99
+584,314787,Pasta Primavera,Pasta,14.95
+585,314787,Roasted Fingerling Potatoes,Sides,5.95
+586,314787,Chicken Livers,Hot Appetizers,8.95
+587,314787,Carpaccio,Cold Appetizers,14.95
+588,314787,Spinach Salad,Salads,11.95
+589,314787,Chicken Milanese,Entrees,17.95
+590,314787,Chicken Marsala,Entrees,18.95
+591,314787,Prosciutto and Melon,Cold Appetizers,12.95
+592,314787,Soup of the Day,Soups,7.95
+593,314787,Caprese Salad,Salads,11.95
+594,396048,Grilled Chicken or Steak with Grilled Steak,Hot Sandwiches,8.49
+595,396048,Peasant Chicken,Cold Sandwiches,6.69
+596,396048,BBQ,Hot Wraps,7.19
+597,396048,Treviso,Hot Wraps,7.19
+598,396048,Vegetarian,Pizza By The Slice,3.59
+599,396048,Pizza,Viga Values,7.79
+600,396048,Bacon and Mash,Seasonal Specials,3.59
+601,396048,Scano Chipotle,Seasonal Specials,7.99
+602,396048,16 Oz Bottled Beverages,Beverages,2.19
+603,396048,Greek,Salads,4.19
+604,303716,Scituate Lobster Cheddar Dip,Appetizers,
+605,303716,Fried Chicken Salad,Meat Salads,
+606,303716,House-made Ricotta,Cheese,
+607,303716,Boston,Met Burger Bar,
+608,303716,Local Day Boat Fish & Chips,"Classics, Roasts, Grills and Seafood",
+609,303716,Zatar Swordfish Kabobs,"Classics, Roasts, Grills and Seafood",
+610,303716,Cauliflower Two Ways,Small Seasonal Plates,
+611,303716,Spinach,Sides,
+612,303716,Crispy Calamari,Snacks,
+613,303716,Short Rib Tacos,Snacks,
+614,362467,Asian Noodle Bowl,Wednesday,
+615,362467,Berkeley Cafe Hot Entree,Thursday,
+616,362467,Daily Soup Specials,Wednesday,
+617,362467,Berkeley Cafe Hot Entree,Wednesday,
+618,362467,Daily Soup Specials,Thursday,
+619,362467,Sizzlin Salads,Wednesday,
+620,362467,Blue Glass Breakfast Special,Wednesday,
+621,362467,Asian Noodle Bowl,Thursday,
+622,362467,Sizzlin Salads,Friday,
+623,362467,Chef's Table Entree,Wednesday,
+624,340128,Smoky Dry Rubbed Chicken Wings,Max's Snax,13.0
+625,340128,Black & Tan Beer-Battered Vidalia Onion Rings,Max's Snax,7.5
+626,340128,Turkey Club Waffle,Waffle Sandwiches,15.0
+627,340128,California Burger,The Brenner Burgers,17.0
+628,340128,Chicken Alfredo Penne,Knife and Fork,18.0
+629,340128,The King of Chocolate's Crispy Mac & Cheese,Kids Menu - Yummy Food,9.0
+630,340128,The Palace's Smiling Pizza,Kids Menu - Yummy Food,9.0
+631,340128,Mexican Spicy Hot Chocolate,Hot Chocolate,5.95
+632,340128,Pure Chocolate Granita,Milkshakes & Choctails,7.95
+633,340128,Chocolate Hazelnut Milkshake,Milkshakes & Choctails,7.95
+634,291636,Meatballs,Starters,5.0
+635,291636,Virginia Baked Ham,Sandwiches,6.0
+636,291636,Sun Dried Tomato & Basil Hummus,Sandwiches,6.0
+637,291636,Six Pepper Crusted Grilled Chicken,Big Plates,10.0
+638,291636,Smoked Turkey,Sandwiches,6.5
+639,291636,Tuna Melt,Sandwiches,6.0
+640,291636,Fish Fry,Big Plates,11.0
+641,291636,Gianormous Omelette,Big Plates,9.0
+642,291636,Grandma's Breakfast,Brunch Menu,7.0
+643,291636,Chicken Pot Pie Spring Rolls,Starters,6.0
+644,613,Chicken or Veal Parmigiana,Entrees,15.0
+645,613,Pan Roasted Cod Loin,Entrees,20.0
+646,613,Eggplant Parmigiana,Vegetarian,15.0
+647,613,Baby Spinach Salad,Salads,9.0
+648,613,Chicken or Veal Piccata,Entrees,15.0
+649,613,Grilled Tuna,Entrees,20.0
+650,613,Scallops,House Seafood Specialties,16.0
+651,613,Mozzarella Marinara,Appetizers,6.0
+652,613,Zuppa Di Pesce,House Seafood Specialties,60.0
+653,613,Sauteed Broccoli Raab,Appetizers,8.0
+654,365934,Lemon Blossom,Tuesday,3.25
+655,365934,2016 Graduation Dozen,Seasonals,3.25
+656,365934,Beach Dozen,Seasonals,3.25
+657,365934,St. Patricks Day Dozen,Seasonals,3.25
+658,365934,Summer Dozen,Seasonals,3.25
+659,365934,Chocolate Lovers Dozen,Seasonals,3.25
+660,365934,Gluten-Free Dozen,Classics,3.25
+661,365934,Republican Dozen,Classics,3.25
+662,365934,Vanilla 2,Classics,3.25
+663,365934,Vanilla & Chocolate,Classics,3.25
+664,361423,Cheese & Charcuterie Plate,Things to Share,22.0
+665,361423,New England Lobster Roll,Bit and Saver,25.0
+666,361423,Shrimp Ceviche,Raw and Nice,14.0
+667,361423,Oysters,Raw and Nice,3.0
+668,361423,Torched Tuna & Avocado,Raw and Nice,19.0
+669,361423,House-Made Barbeque Potato Chips,Things to Share,12.0
+670,361423,Trio of Mezzo Dips,Things to Share,14.0
+671,361423,White Peach & Watermelon Salad,Bit and Saver,12.0
+672,361423,Dipping Dots,Rooftop & Ending,7.0
+673,361423,Guacamole & Salsa Fresca,Things to Share,14.0
+674,478621,Spaghetti Alla Matriciana,Pasta,9.0
+675,478621,Chicken Broccoli,Pasta,9.0
+676,478621,Pasta Di Casa with Vegetabales,Pasta,11.0
+677,478621,Chicken Parm Panini,Panini,10.0
+678,478621,Melanzane,Panini,9.0
+679,478621,Almond and Apple,Insalate,
+680,478621,Bolognese,Pastas,
+681,478621,Ravioli D'aragosta,Pastas,
+682,478621,Cozze con Vino,Piattini Hot,
+683,478621,Flatbread Funghi,Piattini Hot,
+684,274411,Tuna Cold Cub,Cold Subs,6.31
+685,274411,Pepperoni Traditional Pizza,Traditional & Sicilian Pizza,10.49
+686,274411,Caesar Salad,Salads,3.97
+687,274411,Chicken Cutlet Sub,Hot Subs,7.24
+688,274411,Barbecue Chicken Traditional Pizza,Traditional & Sicilian Pizza,10.49
+689,274411,Fries,Appetizers,2.8
+690,274411,Chicken Parmigiana Sub,Hot Subs,7.24
+691,274411,Caesar Salad Wrap,Wraps,7.0
+692,274411,16'' Cheese Pizza,Pizza,12.99
+693,274411,15 Slice Sicilian Pizza,Pizza,26.99
+694,1340,Aloo Gobi Masallam *,Vegetarian Entrees,13.95
+695,1340,"Low-Fat Mozzarella & Pepper Jack Cheeses, Cilantro & Spices",Tantric's Naanza - Indian Pizza,
+696,1340,Kulcha - Soft Flatbread,Breads,4.95
+697,1340,Bhel Poori,"Soups, Salads And Chaats",5.95
+698,1340,Crispy Pan Fried Shrimp,"Chicken, Seafood & Lamb Appetizers",9.95
+699,1340,Malabar Crab Cakes,"Chicken, Seafood & Lamb Appetizers",9.95
+700,1340,Tantric Non-Vegetarian Maharaja Dinner For 2,Tantric Combos,40.0
+701,1340,Chicken Tikka Masala,Chicken Entrees,15.95
+702,1340,Shrimp Vindaloo,Seafood Entrees,19.95
+703,1340,Vegetarian,Tantric Platters,9.95
+704,521164,Mint Chocolate Chunk,Ice Cream,
+705,521164,Bourbon Brown Butter,Ice Cream,
+706,521164,Salted Caramel Blondie,Ice Cream,
+707,521164,The Tonight Dough™ Starring Jimmy Fallon,Ice Cream,
+708,521164,Brownie Batter,Ice Cream,
+709,521164,Caramel Almond Brittle Non-Dairy,Non-Dairy Frozen Dessert,
+710,521164,Mocha Fudge Brownie,Moo-phoria Light Ice Cream,
+711,521164,Chocolate Fudge Brownie,Ice Cream,
+712,521164,Coconut Almond Fudge Chip,Non-Dairy Frozen Dessert,
+713,521164,Raspberry,Frozen Yogurt,
+714,951,New England Clam Chowder,Appetizers,
+715,951,Romaine Spears,Salads,
+716,951,Moroccan Arctic Char,Main Dishes,
+717,951,LBK Board,In Between - Charcuterie Plus Cheese,
+718,951,Egg Casserole,From The Hearth Oven,
+719,951,Grilled Steak Plus Eggs,From The Kitchen,
+720,951,Farm Country sausage,Sides,
+721,951,Fresh Summer Fruit,Sides,
+722,951,Romaine Spears,Salads,
+723,951,Oak Burger,Sandwiches,
+724,382,Seared Scallops with Sun-dried Tomato Mascarpone Ravioli,Antipasti,15.95
+725,382,Minestrone,Zuppe,6.95
+726,382,Chicken Marsala,Secondi Piatti,25.95
+727,382,Involtini di Melanzane,Antipasti,12.95
+728,382,Penne Bolognese,Pasta,12.95
+729,382,Linguine Alla Vongole,Pasta,13.95
+730,382,Chicken Parmigiano,Sandwiches and Panini,10.95
+731,382,"Goat Cheese, Tomato and Pancetta Panini",Sandwiches and Panini,10.95
+732,382,Formaggi e Frutti,Antipasti,12.95
+733,382,Penne Bolognese,Pasta,21.95
+734,281109,Lamb Do-Piaza,Lamb,14.99
+735,281109,Lamb Tikka Masala,Lamb,15.99
+736,281109,Aloo Naan,Fresh Baked Indian Bread,4.0
+737,281109,Seekh Kabab,Tandoori Special,14.95
+738,281109,Rasmalai,Dessert,4.0
+739,281109,Salty Lassi,Beverages,3.0
+740,281109,Vegetable Samosa,Appetizers,4.0
+741,281109,Aloo Tikki,Appetizers,4.0
+742,281109,Chicken Tikka,Appetizers,7.0
+743,281109,Chicken Saagwala,Chicken,13.99
+744,396024,Sticky Bun,Bakery,2.6
+745,396024,Ventura,Espresso Based - Cold Beverages,6.0
+746,396024,Caprese Salad,Sandwiches and Salads,6.42
+747,396024,Iced Coffee,Coffee - Cold Beverages,2.5
+748,396024,Chemex,Coffee - Hot Beverages,4.0
+749,396024,Iced Americano,Espresso Based - Cold Beverages,2.5
+750,396024,Doubleshot,Espresso Based - Hot Beverages,4.5
+751,396024,Mocha,Espresso Based - Hot Beverages,4.75
+752,396024,Coffee,Coffee - Hot Beverages,3.0
+753,396024,Zest,Espresso Based - Hot Beverages,2.75
+754,363623,Seasonal Soup of the Day,Soups,5.95
+755,363623,Mediterranean Grilled Chicken,Sandwiches,8.5
+756,363623,Bagel with Cream Cheese,Breakfast,2.95
+757,363623,Turkey or Vegetarian Chili,Soups,5.95
+758,363623,Dexter Salted Caramel Cupcake,Baked Goods Cupcakes,3.0
+759,363623,Buttery Breakfast Sandwich,Breakfast,6.75
+760,363623,Yogurt Parfait,Breakfast,5.95
+761,363623,Chickpea Falafel Burger,Burgers,12.95
+762,363623,Lemon Blueberry Scone,Other Baked Goods,2.95
+763,363623,Plain Croissant,Other Baked Goods,2.95
+764,384233,Assorted Meats,Antipasto Plates,10.0
+765,384233,Pollo,Sandwiches,6.95
+766,384233,Bow Ties,Pastas,
+767,384233,Arugula and Pear Salad,Insalate,6.99
+768,384233,Gnocchi - Tortellini,Pastas,7.95
+769,384233,"Lettuce, Tomatoes, Cheese, Onion, Pickles, Hots, Olives, Tuna or Chicken",Insalate,6.99
+770,384233,Caffe Latte,Beverages - Coffee,2.5
+771,384233,Prosciutto di Parma,Antipasto Plates,11.0
+772,384233,Grande Antipasto Firenze,Antipasto Plates,12.95
+773,384233,Prosciutto,Sandwiches,6.95
+774,1507,Black Angus Burger,Sandwiches,15.0
+775,1507,Gingerbread Man,Coffee Interpretations,9.0
+776,1507,Quesadilla,Starters,12.0
+777,1507,Truffle Frites,Starters,6.0
+778,1507,Pepperoni Flatbread,Starters,10.0
+779,1507,Black Angus Burger,Sandwiches,15.0
+780,1507,French Toast,Early Risers,10.0
+781,1507,Lobster Bisque,Soups,6.0
+782,1507,French Fries,Sides,5.0
+783,1507,Peach & Blackberry Cobler,Desserts,6.0
+784,1233,Almond Granola Or Hot Oatmeal,Simplicity,7.0
+785,1233,Buttermilk Pancakes,From The Griddle,8.0
+786,1233,Canadian Bacon,Sides,4.5
+787,1233,Fresh Squeezed Orange Juice,Beverages,4.0
+788,1233,"Coffee, Tea",Beverages,3.5
+789,1233,Double Espresso,Beverages,4.5
+790,1233,Milk,Beverages,3.5
+791,1233,Bruschetta,Starters,8.0
+792,1233,Fettuccine Scampi,Entrees,16.0
+793,1233,Pumpkin Pie,Desserts,5.0
+794,157,2. Bagel Sandwich,Breakfast,1.95
+795,157,Evelyn Sortified,Breakfast,2.95
+796,157,Tomato Avocado Melt,Breakfast,5.95
+797,157,Shaken Green Iced Tea,Iced Drinks,2.25
+798,157,French Soda,Iced Drinks,2.85
+799,157,Hammer Head,Iced Drinks,2.85
+800,157,4. Smoked Salmon Sandwich Special,Breakfast,6.5
+801,157,8. Berkeley Omelet Special,Breakfast,5.95
+802,157,Egg Cheese Sandwich,Breakfast,3.95
+803,157,Turkey Pesto,Breakfast,5.95
+804,1200,Crispy Sweetbreads,First Course - Pasta,14.0
+805,1200,Creamy Mashed Potatoes,Main Course - Side Dishes,7.0
+806,1200,Coconut Creme Brulee,Desserts,7.0
+807,1200,Assorted Housemade Ice Creams and Sorbets,Desserts,7.0
+808,1200,Today's Selection of Artisan Cheese,Desserts,15.0
+809,1200,Salad of Asparagus,First Course - Spring Salads,12.0
+810,1200,Roasted Artichokes with Lemon,Main Course - Side Dishes,12.0
+811,1200,Chocolate Tart,Desserts,7.0
+812,1200,Braised Beef Brisket,Main Course - Beef,25.0
+813,1200,Sauteed Sweet Maine Shrimp,First Course - Seafood,12.0
+814,1053,Soup of The Day,Soups,5.99
+815,1053,"Roasted Eggplant, Spinach & Feta - Half",Flatbread,6.99
+816,1053,Baked Stuffed Spinoccoli,"Chicken, Seafood Steak and Ribs",14.99
+817,1053,Shrimp and Crab Dip,Appetizers,12.79
+818,1053,Broccoli & Cheddar,Soups,5.99
+819,1053,Top Sirloin Steak,"Chicken, Seafood Steak and Ribs",12.99
+820,1053,Rattlesnake Pasta,Pasta,14.79
+821,1053,Black & Bleu,1/2 Lb Burger,12.49
+822,1053,Cheddar Burger,1/2 Lb Burger,11.49
+823,1053,Deep Dish,Creat Your Own Pizza,12.99
+824,825,Chicken Sausage Flatbread,Starters,12.75
+825,825,Chopped Salad,Soups & Salads,6.95
+826,825,Eggplant Parmesan,Specialty Pastas,15.95
+827,825,"Our Famous Rigatoni ""D""",Specialty Pastas,19.95
+828,825,Rigatoni Arrabbiata,Specialty Pastas,16.95
+829,825,Shrimp Scampi,Seafood,24.95
+830,825,Warm Apple Crostada,Desserts,8.25
+831,825,Vera's Lemon Cookies,Desserts,3.5
+832,825,Spinach and Artichoke al Forno,Starters,12.5
+833,825,Italian Tossed Salad,Soups & Salads,6.5
+834,822,Spinach Artichoke Dip,Appetizers,12.0
+835,822,Spiked Sprouts,Appetizers,7.0
+836,822,Chicken Sandwich,Sandwiches & Burgers,13.0
+837,822,Dublin Burger,Sandwiches & Burgers,16.0
+838,822,Steak & Bleu Salad,Soups & Salads,19.0
+839,822,Chicken Sandwich,Sandwiches & Burgers,13.0
+840,822,Irish Eggs Benny,MJs Favorites,13.0
+841,822,Short Rib Hash,MJs Favorites,17.0
+842,822,Loaded Nachos,Late Night - Appetizers,13.0
+843,822,Onion Rings,Late Night - Appetizers,8.0
+844,379432,Cheeseburger,Sandwiches,13.0
+845,379432,Lamb Meatballs,Appetizers,10.0
+846,379432,Tacos De Rajas,Appetizers,8.0
+847,379432,Half Chicken,Entrees,17.0
+848,379432,Little Gem Caesar,Appetizers,8.0
+849,379432,Red Snapper A La Veracruzana,Entrees,19.0
+850,379432,Grilled Pork Loin,Entrees,22.0
+851,379432,Cubano,Sandwiches,13.0
+852,379432,Wild Boar Chitarra,Entrees,20.0
+853,379432,Grilled Cheese,Sandwiches,8.0
+854,1342,Tortilla Espanola,Tapas,6.0
+855,1342,Patatas Bravas,Tapas,7.0
+856,1342,Arroz Y Habas,Tapas,7.0
+857,1342,Crispy Chicken Empanada,Tapas,6.0
+858,1342,Ensalada Mixta,Tapas,8.5
+859,1342,Ravioles de Mariscos,Tapas,10.5
+860,1342,Vieiras al Azafran,Tapas,12.0
+861,1342,Costillitas,Tapas,10.0
+862,1342,Plato de Embutidos,Charcuteria,16.0
+863,1342,Plato de Queso,Charcuteria,12.0
+864,355827,Spinach & Artichoke,Breakfast,
+865,355827,Cinnamon Swirl & Raisin Bagel,Bagels & Spreads,
+866,355827,"Ham, Egg & Cheese Breakfast Sandwich",Breakfast,
+867,355827,Chocolate Chip Bagel,Bagels & Spreads,
+868,355827,Plain Cream Cheese,Bagels & Spreads,
+869,355827,Blueberry Bagel,Bagels & Spreads,
+870,355827,Reduced-Fat Hazelnut Cream Cheese,Bagels & Spreads,
+871,355827,Reduced-Fat Wild Blueberry Cream Cheese,Bagels & Spreads,
+872,355827,Pecan Roll,Bakery,
+873,355827,Chocolate Pastry,Bakery,
+874,78,New England Clam Chowder Cup,Soups & Salads,6.0
+875,78,Chilled Lobster Salad,Soups & Salads,27.0
+876,78,Captain's Platter,Seafood Specialties,27.0
+877,78,1 1/4 lbs. Maine Lobster,Lobster,38.0
+878,78,Chilled Lobster Salad,Soups & Salads,27.0
+879,78,Lemon Sole,Seafood Specialties,39.0
+880,78,Seafood Fra Diavolo,Seafood Specialties,33.0
+881,78,Peppermint Ice Cream Pie,Sweets,9.0
+882,78,Premium Roast Coffee,After Dinner Drinks,3.75
+883,78,Super-Lump Crab Cake,Appetizers,16.0
+884,1008,Mandarin Crunch Salad,Salads & Soups,9.95
+885,1008,Crispy Green Beans,Street Fare,7.95
+886,1008,Cecilia's Shrimp Dumplings,Dim Sum,6.95
+887,1008,Vegetable Spring Rolls,Dim Sum,4.5
+888,1008,Sichuan-Style Asparagus,Market Sides,5.95
+889,1008,Water,Beverages,5.5
+890,1008,Half Gallon of Iced Tea,Beverages,5.5
+891,1008,GF Fried Rice,Gluten Free,6.5
+892,1008,GF Ginger Chicken with Broccoli,Gluten Free,15.95
+893,1008,GF Shrimp with Lobster Sauce,Gluten Free,16.95
+894,355945,The North End,Italian Signatures,6.75
+895,355945,Sweet Carolina Q,Big Chicken Wraps,6.5
+896,355945,Bagelville Bagels,Breakfast,
+897,355945,Mexican,Back Bay Omelette Wraps,4.5
+898,355945,Roasted Turkey BLT,Classic Sandwich Board,6.75
+899,355945,BLT On Sourdough or Not,Classic Sandwich Board,5.75
+900,355945,Chicken Margherita,Italian Signatures,7.0
+901,355945,Chicago Beef,Specialty Sandwiches,6.75
+902,355945,Spicy Italian,Italian Signatures,6.5
+903,355945,The Mad Sicilian,Italian Signatures,6.5
+904,484849,Snapple,Beverages,2.0
+905,484849,Spring Water,Beverages,1.5
+906,484849,Passion Fruit Smoothie,Smoothies,3.75
+907,484849,A6. Soft Shell Crab,Appetizers,11.45
+908,484849,A10. Vegetable Tempura,Appetizers,7.45
+909,484849,S1. Miso Soup,Soup and Salads,2.5
+910,484849,S7. Garden Salad,Soup and Salads,2.95
+911,484849,SP3. Dynamyc Special Roll,Special Rolls,8.45
+912,484849,SP18. Special Naruto Roll,Special Rolls,12.95
+913,484849,SC12. Sakki Don Combo,Sushi and Sashimi Combo,19.95
+914,2437,Irish Breakfast,Black Teas,
+915,2437,Victorian Rose Tea,Flavored Black,
+916,2437,Sencha,Green,
+917,2437,Vanilla Green,Flavored Green,
+918,2437,Strawberry Sencha,Flavored Green,
+919,2437,Kir Royale,Herbals,
+920,2437,Sweet Camomile Mint,Herbals,
+921,2437,Peach Rooibos,Rooibos,
+922,2437,Lapsang Souchong Imperial,Flavored Black,
+923,2437,Gingerbread,Flavored Black,
+924,342367,Hot & Cold Tuna Tartare,Appetizers,19.0
+925,342367,Jian's Crab Rangoons,Appetizers,15.0
+926,342367,Lettuce Wraps,Appetizers,16.0
+927,342367,Hot & Sour Soup,Appetizers,9.0
+928,342367,Teriyaki Noodle Steak,Wok & Noodles,29.0
+929,342367,Vegetable,Fried Rice,15.0
+930,342367,Char Sui Pork,Fried Rice,18.0
+931,342367,Prime Beef,Fried Rice,22.0
+932,342367,"Lobster, Pineapple & Bacon",Fried Rice,30.0
+933,342367,Surf & Turf,Features,46.0
+934,445,Mini Bruschetta,Spuntini,9.0
+935,445,Halibut with Baby Clams,Caserecci,39.0
+936,445,Atlantic Halibut,Pesce,35.0
+937,445,Caesar Salad,Piatti del Bar,9.0
+938,445,Main Lobster Tail Supplimenti,Supplimenti,28.0
+939,445,Brussel Sprouts and Cippolini,Contorni,10.0
+940,445,Herb Parmigiano Polenta,Contorni,8.0
+941,445,Bearnaise Sauce,Sauces,
+942,445,Steakhouse Burger Lunch,Lunch Panini and Pizze,15.0
+943,445,Grilled Chicken Pizza Lunch,Lunch Panini and Pizze,16.0
+944,704,Roasted Garlic and Lemon Hummus Platter,Appetizers,10.0
+945,704,New England Clam Chowder Soup,Soups,6.6
+946,704,Mixed Greens Salad,Salads,10.0
+947,704,Kitchen Burger,Signature Burgers,14.0
+948,704,Coleslaw,Sides,3.9
+949,704,Tiramisu,Desserts,9.0
+950,704,Homemade Chips,Sides,3.9
+951,704,Tomato and Mozzarella Salad,Salads,12.0
+952,704,Reuben,Signature Sandwiches,12.0
+953,704,16.9 oz. Bottled Water,Beverages,2.49
+954,301933,Vegetable Tempura,Appetizers From the Kitchen,8.25
+955,301933,Avocado Green Salad,Soup and Salad,6.95
+956,301933,Avocado Green Salad,Salad with Fresh Mesculin,7.5
+957,301933,Scallop,Nigiri Sushi and Sashimi,5.75
+958,301933,Sashimi  Regular Combo,Sushi and Sashimi Combo,26.95
+959,301933,Rainbow Combo,Sushi and Sashimi Combo,28.95
+960,301933,Ume Shiso Roll,Vegetarian Maki,5.0
+961,301933,Spicy Tuna with Tempura Flake Roll,Makimono,7.95
+962,301933,Salmon with Cream Cheese Roll,Makimono,6.95
+963,301933,Umai Combo C,Umai Combos,16.95
+964,367178,Milkshake,Smoothies and Shakes,4.21
+965,367178,Smartwater,Beverages,2.57
+966,367178,Teriyaki Burrito,Burritos and Bowls,5.61
+967,367178,Charred Broccoli Salad,Salads and Wraps,
+968,367178,Huevos Chorizo Bowl Breakfast,Breakfast,4.67
+969,367178,Goloco Burrto,Burritos and Bowls,5.61
+970,367178,HeartBeet,Smoothies and Shakes,4.21
+971,367178,Jummy Carter Shake,Smoothies and Shakes,4.21
+972,367178,Yucatan Burrito,Burritos and Bowls,5.61
+973,367178,The Summer Bowl,Burritos and Bowls,7.01
+974,509302,P9. Honey Garlic Fried Chicken,Starters and Soups,9.95
+975,509302,M2. Unagi Don,Donburi,14.95
+976,509302,R10. Unagi Roll,Simple Rolls,6.95
+977,509302,S1. Crispy Crunch Roll,Wabora Special Rolls,12.95
+978,509302,S2. Crispy Valentine Roll,Wabora Special Rolls,13.95
+979,509302,W3. Tuna Tower,Wabora Signature Rolls,19.95
+980,509302,L7. Shrimp Tempura and Spicy Tuna Rolls Lunch Box Special,Lunch Box Special,13.95
+981,509302,L12. Bulgogi Lunch Box Special,Lunch Box Special,13.95
+982,509302,P5. Fried Gyoza,Starters and Soups,6.95
+983,509302,P10. Nacho Sushi,Starters and Soups,7.95
+984,359661,"Rice, Beans, Greens and Roasted Veggie",Veggie Bowl,10.0
+985,359661,Veggie Rice,Sides,3.0
+986,359661,1/4 Rack,St. Louis Ribs,7.0
+987,359661,Each Cornbread,Sides,2.0
+988,359661,Pulled Pork,Sandwiches,9.0
+989,359661,Full Rack,St. Louis Ribs,24.0
+990,359661,Pinto Beans,Sides,3.0
+991,359661,Collard Greens,Sides,3.0
+992,359661,Chopped Brisket,Sandwiches,11.0
+993,359661,1/2 Rack,St. Louis Ribs,13.0
+994,503516,Edamame,Appetizer,5.78
+995,503516,Crispy Chicken FInger,Appetizer,6.78
+996,503516,Barbarian Noodle,Stir Dry Noodle and Ramen,12.68
+997,503516,Curry Beef Flank,Over Rice,12.89
+998,503516,Soda,Soda and Tea,2.68
+999,503516,Seaweed Salad,Salad,5.89
+1000,503516,Tofu Salad,Salad,6.68
+1001,503516,Sho-yu Ramen,Ramen,13.58
+1002,503516,Green Tea Ice Cream,Ice Cream,3.5
+1003,503516,Almond Bubble Tea,Bubble Tea,4.68
+1004,359637,Red Bull,Beverages,5.0
+1005,359637,Naruto Cucumber Roll,Zensai (Appetizer) From The Sushi Bar,14.0
+1006,359637,Pan Fried Gyoza,Small Plates (Hot),9.0
+1007,359637,Itadaki Spicy Fries,Small Plates (Fried),7.7
+1008,359637,Tuna-Cuc Roll,Makimono (Classic Rolls),11.0
+1009,359637,Sashimi Dinner,Entrees,37.0
+1010,359637,Agedashi Tofu,Small Plates (Fried),9.0
+1011,359637,Chicken Kara-Age,Small Plates (Fried),10.0
+1012,359637,Aburi Salmon Roll,Makimono (Special Rolls),16.5
+1013,359637,Mango Roll,Makimono (Vegetarian Rolls),13.0
+1014,475913,Mini Oyster Paninos,Small Plates,12.0
+1015,475913,Butter Poached King Crab,Medium Plates,29.0
+1016,475913,SpaghettI Arugulata,Medium Plates,15.0
+1017,475913,Grilled Branzino,Large Plates,75.0
+1018,475913,Burrata,Small Plates,13.0
+1019,475913,Charred Octopus,Medium Plates,17.0
+1020,475913,Barolo Braised Osso Bucco,Large Plates,48.0
+1021,475913,Crispy Eggplant Carpaccio,Small Plates,10.0
+1022,475913,Sweet Potato-Kale-Quinoa Cakes,Large Plates,23.0
+1023,475913,Grilled Italian Pound Cake,Sweets,9.0
+1024,278676,Empanada de Queso,Tapas,
+1025,278676,Eggplant Tot,Tapas,
+1026,278676,Deep Fried Rainbow Cauliflower,Tacos,
+1027,278676,Jalisco Chocolate Chip Pancakes,Main Courses,
+1028,278676,Chocolate Chip Pancakes,Kids Menu,
+1029,278676,Huevos Rancheros,Brunch Fiesta - Main Courses,
+1030,278676,Grilled Festival Corn,Tapas,
+1031,278676,Corozones de Pollo,Tacos,
+1032,278676,Chef's Nachos,More,
+1033,278676,Crispy Octopus,First Course,14.0
+1034,336287,F.C.C.F.T.,A Little Brunch,14.0
+1035,336287,Cakes,A Little Brunch,6.0
+1036,336287,House Salad,A Little Lunch,11.0
+1037,336287,Quinoa Burger,A Little Lunch,13.0
+1038,336287,Corned Beef Has,All Things Eggs,13.0
+1039,336287,Duck & Sweet Potato Hash,All Things Eggs,14.0
+1040,336287,Bacon,Sides,5.0
+1041,336287,Home Fries,Sides,4.0
+1042,336287,Braised Collard Greens,Sides,7.0
+1043,336287,Eggs Sammy,A Little Brunch,11.0
+1044,360290,Harvest Bowl,warm bowls,
+1045,360290,Rad Thai,salads,
+1046,360290,Cucumber Ginger Lime Fresca,beverages,
+1047,360290,Hummus Tahina,salads,
+1048,360290,Shroomami,warm bowls,
+1049,360290,Guacamole Greens,salads,
+1050,360290,OMG Omega,salads,
+1051,360290,Lemon Fresca,beverages,
+1052,360290,Pesto Portobello,warm bowls,
+1053,360290,Iced Chai,beverages,
+1054,500282,Clam Chowder in a Bread Bowl,Soups,12.0
+1055,500282,Blueberry Bite,Seasonal Salad,2.5
+1056,500282,Sea-Salted Caramel Brownie Bite,Sweets,2.5
+1057,500282,The Other Guys,Beverages,2.0
+1058,500282,L.G.C. Combo,Luke's Trio,16.0
+1059,500282,Tail and Kale Salad,Vegetarian Salad,15.0
+1060,500282,Lobster Grilled Cheese with Two Sides,Lobster Grilled Cheese (Our LGC),16.0
+1061,500282,Crab Grilled Cheese with a Side and a Drink,Crab Grilled Cheese (Our CGC),14.0
+1062,500282,North Atlantic,Can't decide?,15.0
+1063,500282,Tail and Kale with a Side and a Drink,Vegetarian Salad,19.0
+1064,389295,Cobb Salad,Lunch,10.0
+1065,389295,Egg Salad Sandwich,Lunch,9.0
+1066,389295,Fried Oyster Sliders,Late Night,5.0
+1067,389295,Bacon Biscuits,Large,12.0
+1068,389295,Meatball Sliders,Large,15.0
+1069,389295,Beet-Cured Salmon Bagel,Brunch,12.0
+1070,389295,Cornbread,Pastry & Breads,6.0
+1071,389295,Sangria,Beverages,12.0
+1072,389295,Pork Rinds,Bar,5.0
+1073,389295,Lil' Burger,Bar,5.0
+1074,323374,Chicken Parm Gluten-Free Crust Pizza,Gluten-Free Crust Pizzas,18.0
+1075,323374,Aloha Gluten-Free Crust Pizza,Gluten-Free Crust Pizzas,17.0
+1076,323374,Small Caesar Salad,Salads,5.0
+1077,323374, Small Capresse Salad,Salads,6.0
+1078,323374,Vinny's BLT Sandwich,Sandwiches,9.0
+1079,323374,Salsiccia Sandwich,Sandwiches,10.0
+1080,323374,Soda,Beverages,2.25
+1081,323374,Smart Water,Beverages,2.75
+1082,323374,Caprese Salad,Salads,6.0
+1083,323374,Blazin' Buffalo Gluten-Free Crust Pizza,Gluten-Free Crust Pizzas,18.0
+1084,476876,Cousin Oliver,Burgers and Sandwiches,6.99
+1085,476876,Crisp Veggies,Sides,5.28
+1086,476876,Side Citrus & Avocado,Sides,5.99
+1087,476876,Acai Berry Smoothie,Smoothies,6.99
+1088,476876,Vanilla Milkshake,Milkshakes,5.99
+1089,476876,Kid's Turkey Burger,Kids' Menu,5.99
+1090,476876,Catering The Ranchers Egg Bowl (Per Person),Catering Breakfast,30.0
+1091,476876,Catering Cousin Oliver Chicken (Per Person),Catering Sandwiches,42.5
+1092,476876,Catering Power Bowl,Catering Greens & Grain Bowls,55.0
+1093,476876,Catering B.GOOD Box (Per Person),Catering Assortments,15.0
+1094,353440,Avocado Toast,Snacks,9.0
+1095,353440,Fried Chicken Taco,Tacos,11.0
+1096,353440,Fresco,Guacamole,10.0
+1097,353440,Tocino,Guacamole,12.0
+1098,353440,Churros,Finishing Touches,10.0
+1099,353440,Key Lime Kiss,Tequila Night Caps,10.0
+1100,353440,Grilled Street Corn,Snacks,9.0
+1101,353440,Jicama Chopped Salad,Street Food,11.0
+1102,353440,Especial,Guacamole,15.0
+1103,353440,Chicken Asado Skewers,Street Food,11.0
+1104,334979,Grilled Duck Breast*,Composed Entrees,26.0
+1105,334979,The Pink Lady,Craft Cocktails,
+1106,334979,Strawberry Daiquiri,Craft Cocktails,
+1107,334979,"Rosé, Seasonal",White,12.0
+1108,334979,"Barbera d'Alba: Giacosa Fratelli, Italy",Red,11.0
+1109,334979,"Carmenere: Casa Silva, Chile",Red,12.0
+1110,334979,"Pinot Noir: Brandborg, Benchlands, Oregon",Red,12.0
+1111,334979,"Bud Light, MO",Draft,5.0
+1112,334979,Barrel-Aged Papa Joe,Signature Craft Cocktails,
+1113,334979,Shut the Front Door,Signature Craft Cocktails,
+1114,900,Side of Yellow Dressing,Side Orders,1.25
+1115,900,Sparkling Water,Beverages,3.95
+1116,900,Vegetables Tempura,Appetizers,7.95
+1117,900,Vegetable and Tofu Soup,Soups,5.95
+1118,900,Pik-Pow Fried Rice,Noodles & Fried Rice,12.95
+1119,900,Red Curry,Entree & Curry,13.95
+1120,900,Garlic Shrimp,Montien's Specialty,19.95
+1121,900,Shrimp Teriyaki,Montien's Specialty,19.95
+1122,900,Pik-Pow Fried Rice,(Lunch) Noodles & Fried Rice,10.95
+1123,900,Cashew Nut Lunch,(Lunch) Entree & Curry,10.95
+1124,778,Puttanesca,Pasta & Sauce,10.95
+1125,778,Pizzaioli,Pasta & Sauce,10.95
+1126,778,Saltimbocca,Pasta & Sauce,10.95
+1127,778,Pepperoni & Ricotta,Calzones,8.95
+1128,778,Eggplant,Pizza,10.95
+1129,778,Garden,Salads,3.0
+1130,778,Shrimp Caesar,Salads,7.0
+1131,778,Soup of the Day,Soups,2.95
+1132,778,Chicken Florentine,Chicken,14.95
+1133,778,Chicken Pizzaiola,Chicken,14.95
+1134,734,Shrimp Cocktail,Beginnings and Small Plates,2.0
+1135,734,Blue Lump Crab Cakes Fresh Herbed Remoulade,Beginnings and Small Plates,14.0
+1136,734,Ahi Tuna Martini a Lightly Seared Concoction,Beginnings and Small Plates,14.0
+1137,734,Corn & Red Bean Salad with Grilled Shrimp,Salads,12.0
+1138,734,Roast Chicken (hormone Free),Entrees,18.0
+1139,734,Steamed Vegetables,Sides,7.0
+1140,734,"Swordish Skewers, Yellow and Red Peppers",Lunch Entrees,12.0
+1141,734,Grilled Vegetables Ratatouille Provincial,Lunch Entrees,9.0
+1142,734,Smoked Salmon Wrapped Sea Scallops with Bearnaise Sauce,Beginnings and Small Plates,12.0
+1143,734,Swordfish Skewers Yellow and Red Peppers,Beginnings and Small Plates,12.0
+1144,360511,White Pizza,Afternoon Menu,15.0
+1145,360511,Turkey Club,Sandwiches & Classics,12.0
+1146,360511,Chicken,Sandwiches & Classics,13.0
+1147,360511,Prosciutto & Arugula,Pizza,15.0
+1148,360511,Kale Cobb Salad,Soups & Salads,15.0
+1149,360511,Eggs Any Style,Breakfast All Day,12.0
+1150,360511,Chicken n' Waffles,Sandwiches & Classics,19.0
+1151,360511,Social Burger,Sandwiches & Classics,23.0
+1152,360511,Chicken Salad Wrap,Sandwiches & Classics,13.0
+1153,360511,Italian Sub,Sandwiches & Classics,15.0
+1154,387,House Made Potato Chips,Vegetarian - To Start,6.0
+1155,387,House Made Potato Chips,Late Night  To Start,6.0
+1156,387,Simple Greens,Late Night - From the Garden,11.0
+1157,387,City Table Ramen,Late Night - Entrees,16.0
+1158,387,City Table Chopped,Soups & Salads,14.0
+1159,387,Margherita Pizza,Late Night  To Start,12.0
+1160,387,Oysters,To Start,2.5
+1161,387,Surf & Turf Tacos,To Start,15.0
+1162,387,City Table Chopped,From the Garden,14.0
+1163,387,Pan Seared Faroe Islands Salmon,Entrees,26.0
+1164,789,Legals Signature Crab Cake,Appetizers,16.95
+1165,789,New England Clam Chowder,Chowders & Salads,6.75
+1166,789,Lobster Bisque,Chowders & Salads,8.5
+1167,789,Shrimp,Char Grilled,23.95
+1168,789,Annas Baked Boston Cod,Legal Classics,22.95
+1169,789,Seafood Casserole,Legal Classics,28.95
+1170,789,Crispy Lettuce and Tomato Salad,Kids Menu,1.95
+1171,789,Wood Grilled Fish of the Day,Kids Menu,9.95
+1172,789,Chicken Fingers,Kids Menu,7.95
+1173,789,All American Cheese Burger,Kids Menu,8.25
+1174,388962,Carolina BBQ,Wings,10.0
+1175,388962,Buffalo Wings,Wings,10.0
+1176,388962,Sauteed Brussels Sprouts or Cauliflower,Stocked Wood Fried Pizza,8.0
+1177,388962,The Toasty Pineapple,Milkshakes,12.0
+1178,388962,Pan Seared Cauliflower Fritters,Starters,8.0
+1179,388962,The Porky,Pizzas,16.0
+1180,388962,Veggie Pizza,Pizzas,15.0
+1181,388962,BBQ Chicken and Bacon,Pizzas,15.0
+1182,388962,Honey Bacon Bianca,Pizzas,15.0
+1183,388962,Sauteed Brussels Sprouts or Cauliflower,Starters,10.0
+1184,588,Roasted Portobello Mushroom Ravioli,Appetizers,15.95
+1185,588,Seared Ahi Tuna,Small Plates,22.5
+1186,588,16 oz. Prime Dry-Aged Ribeye,Steak,61.95
+1187,588,Chipotle Cheddar Macaroni and Cheese,Sides,10.5
+1188,588,14 oz. Certified Angus Beef Ribeye,Steak,50.95
+1189,588,20 oz. Prime Bone-in Ribeye,Steak,57.95
+1190,588,Double-Cut Shoestring Potatoes,Sides,10.5
+1191,588,French Onion Soup,Appetizers,13.95
+1192,588,Housemade Burrata,Appetizers,14.5
+1193,588,Colossal Shrimp Cocktail,Appetizers,21.5
+1194,366,Fried Dumplings,Appetizers,6.95
+1195,366,Yellow Curry,Thai Curry,14.95
+1196,366,Tofu Hot Basil Dinner,Vegetarian Corner,13.95
+1197,366,Baby Corn,Entrees,13.95
+1198,366,Chicken Madness,House Specialties,14.95
+1199,366,Sweet Chili Salmon,House Specialties,17.95
+1200,366,Salmon Teriyaki,House Specialties,15.95
+1201,366,Mango Fish,From the Ocean,18.95
+1202,366,Choo Chee Marmaid,From the Ocean,16.95
+1203,366,Khao Moo Dang,Rice Plates,10.95
+1204,277381,Cinnamon Chai Pecan Sticky,Every Day Flavors $3,
+1205,277381,The Lucky Cupcake,Every Day Flavors $3,
+1206,277381,Gluten Free Cupcakes,Specialty Cupcakes,3.0
+1207,277381,Carob Peanut Butter Pupcakes And Cheesy Catnip Kittycakes,Specialty Cupcakes,1.75
+1208,277381,Cupcake Towers*,Cupcake Displays,6.0
+1209,277381,Fresh Strawberries,Create Your Own Cupcake,
+1210,277381,Chocolate And Vanilla Cupcakes,Every Day Flavors $3,
+1211,277381,Display Rentals,Cupcake Displays,
+1212,277381,Monday,Flavors Of The Day,
+1213,277381,Thursday,Flavors Of The Day,
+1214,1136,Bowl of Seasonal Soup,Fresh Greens,5.99
+1215,1136,Brewer's Cobb,Fresh Greens,13.29
+1216,1136,Texas Fire Ribeye,The Butcher Shop,22.49
+1217,1136,3/4 lb. 2:00 AM Burger,Between the Buns,14.99
+1218,1136,Margherita Pizza,Pizzas,11.79
+1219,1136,Crispy Chicken Fingers,Beer Bites,9.99
+1220,1136,Grilled Veggie Quesadilla,Beer Bites,10.29
+1221,1136,Side Classic Caesar Salad,Fresh Greens,4.29
+1222,1136,Lemon Salmon,Crafted Entrées,15.99
+1223,1136,Rockin'' Red Rice,Sides,2.99
+1224,350083,Ice Cream Or Sorbet,Desserts,8.0
+1225,350083,Stella Artois,Beer - Draft $5.50,
+1226,350083,Guinness Or Samuel Adams Lager,Beer - Draft $5.50,
+1227,350083,Corona,Beer - Bottled Imported $6,
+1228,350083,Gorgonzola Caesar,...,13.0
+1229,350083,Plaza Sidecar,Classic Cocktails $12,
+1230,350083,El Presidente,Classic Cocktails $12,
+1231,350083,Bud Light,Beer - Bottled Domestic $5.50,
+1232,350083,Traditional Black Angus Meatloaf,...,20.0
+1233,350083,Fried Chicken Wings,...,8.0
+1234,306215,***Gift Order NO CC Imprint Required***,Extras,
+1235,306215,Chafing Dish Set-Up,Beverages,15.0
+1236,306215,Eco-Friendly Utensils,Beverages,0.15
+1237,306215,Dasani Bottled Water (16.9oz.),Beverages,1.85
+1238,306215,6 + 6 (6 cans of Coke and 6 cans of Diet Coke) ,Beverages,18.0
+1239,306215,6 Cans of Diet Coke,Beverages,9.0
+1240,306215,Canada Dry Ginger Ale (12oz. Cans),Beverages,1.5
+1241,306215,12 Cans of Coke,Beverages,18.0
+1242,306215,6 Cans of Coke,Beverages,9.0
+1243,306215,Noche Mini Burger,Small Plates,5.0
+1244,415,Artichoke and Spinach Dip,Dinner Appetizers,7.0
+1245,415,Grilled Mesa Shrimp,Dinner Appetizers,9.0
+1246,415,Grilled Calamari,Dinner Appetizers,9.0
+1247,415,Barbacoa,Signature Dinner Entrees,17.0
+1248,415,Fire and Spice,Signature Dinner Entrees,18.0
+1249,415,Chips and Chile Con Queso,Lunch Appetizers,5.95
+1250,415,Soup of the Day,Lunch Soups and Stews,3.0
+1251,415,Zuni Roll,Lunch Sandwiches,8.75
+1252,415,Ranch Burger,Lunch Sandwiches,7.5
+1253,415,Cottonwood Steak Roll,Lunch Sandwiches,6.75
+1254,1212,Basket of Fries,Appetizers,8.0
+1255,1212,Soup of The Day,Soups & Salads,9.0
+1256,1212,Fish & Chips,Solas Favorites,20.0
+1257,1212,Lenox Chicken Sandwich ,Burgers & Sandwiches,14.0
+1258,1212,Margherita Flatbread Pizza,Late Night Menu,14.0
+1259,1212,Basket of Fries with Curry Sauce,Appetizers,10.0
+1260,1212,Cobb Salad,Soups & Salads,16.0
+1261,1212,Solas Burger,Burgers & Sandwiches,15.0
+1262,1212,Turkey Club,Burgers & Sandwiches,14.0
+1263,1212,Reuben Egg Rolls,Appetizers,13.0
+1264,319371,Medium Salad Box,Lunch and Dinners,7.95
+1265,319371,Falafel Balls,Side Orders,3.0
+1266,319371,Chicken Shawarma Sandwich,Lunch and Dinners,5.0
+1267,319371,Beef Shawarma Sandwich,Lunch and Dinners,6.0
+1268,319371,Large Salad Box,Lunch and Dinners,9.95
+1269,319371,Big Bang,Laffa Deals,9.99
+1270,319371,Pita Bread,Side Orders,0.75
+1271,319371,Water,Drinks,1.5
+1272,319371,Mediterranean Lentil Soup,Laffa's Gourmet Soup,3.95
+1273,319371,Potato Tomato Soup,Laffa's Gourmet Soup,3.95
+1274,1099,Dolce De Leche,Dessert-sweet Endings From Rebecca's,39.0
+1275,1099,Chocolate Raspberry Cake,Dessert-sweet Endings From Rebecca's,39.0
+1276,1099,"Prosciuto, Mozzarella And Asparagus Stuffed Chicken",Entrees - Chicken Entrees,11.95
+1277,1099,Chicken Marsala,Entrees - Chicken Entrees,11.95
+1278,1099,Cheeses,Wraps And Sandwiches-deli Sandwiches,7.95
+1279,1099,Condiments,Wraps And Sandwiches-deli Sandwiches,7.95
+1280,1099,Waldorf Salad With Chicken,Salads- Entree Salads,7.95
+1281,1099,Spreads,Wraps And Sandwiches-deli Sandwiches,7.95
+1282,1099,Chicken Parmesan,Entrees - Chicken Entrees,11.95
+1283,1099,Countryside Salad,Salads- Entree Salads,9.25
+1284,1517,Chicken Caesar Wrap,Specialty Sandwiches,9.5
+1285,1517,Full Rack of Ribs,St. Louis-Style Rib Dinner,21.95
+1286,1517,BBQ Pulled Chicken,BBQ Dinners,14.95
+1287,1517,Mozzarella Sticks,Snack Attack,
+1288,1517,Miller High Life,Miller High Life,4.5
+1289,1517,Mac & Cheese Balls,Starters,7.95
+1290,1517,Boneless Buffalo Wings,Its Wing Thing,8.95
+1291,1517,The Bacon Bleu Cheese Burger*,Whiskey's Burgers,9.75
+1292,1517,The Reuben,Specialty Sandwiches,11.95
+1293,1517,The Rachel,Specialty Sandwiches,11.95
+1294,1359,Crispy Green Bean Fries,Appetizers,
+1295,1359,Jack Daniel's Sampler,Appetizers,
+1296,1359,Broccoli Cheese Soup,Soups,
+1297,1359,Petite Sirloin & Half-Rack Of Ribs,Black Angus Steaks,
+1298,1359,Jack Daniel's Sirloin & Shrimp,Jack Daniel Grill,
+1299,1359,Hamburger,For The Kids - Lunch/ Dinner Menu,
+1300,1359,Chicken Fingers,For The Kids - Lunch/ Dinner Menu,
+1301,1359,Berry Strawberry Smoothie,For The Kids - Signature Slushes & Smoothies,
+1302,1359,Sundae,For The Kids - Desserts,
+1303,1359,Jack Daniel's Chicken & Shrimp,Best Of Friday's Menu - Entrees,
+1304,373311,Pret's Chicken Noodle,Soups,
+1305,373311,Roast Beef & Horseradish Cream,Baguettes,
+1306,373311,Pret's Ham & Cheese,Baguettes,
+1307,373311,Lebanese Chicken Flatbread,Wraps,
+1308,373311,Bang Bang Chicken Wrap,Wraps,
+1309,373311,Superfruit Pot,Pret Pots,
+1310,373311,Almond Croissant,Bakery,
+1311,373311,Pain Au Raisin,Bakery,
+1312,373311,Caramel Latte 12 oz,Organic Coffee,
+1313,373311,Hot Chocolate 12 oz,Hot Drink,
+1314,260700,Steak Frites,Plats Principaux,26.0
+1315,260700,Chicken Hushwee,Plats Principaux,18.0
+1316,260700,Jumbo Pistou Shrimp,Plats Principaux,24.0
+1317,260700,Celeriac Slaw,A La Carte,4.0
+1318,260700,4 Shrimp,Demi Plateau,
+1319,260700,Chateaubriand,Plats Pour Deux,58.0
+1320,260700,Creme Brulee,Desserts,7.0
+1321,260700,Espresso,Coffee - Tea,2.75
+1322,260700,Sauteed Cod,Entrees,17.0
+1323,260700,Pork Rillettes,Hors D' Oeuvres,9.0
+1324,291485,Croque Monsieur,Plats Principaux,14.0
+1325,291485,Selection of Oysters,Cru,19.0
+1326,291485,Wagyu Tartare,Cru,16.0
+1327,291485,Oxtail Tortellini,Pates,29.0
+1328,291485,Cranberry Caramel Tart,Desserts,12.0
+1329,291485,Caesar Salad,Plats Principaux,12.0
+1330,291485,Croque Madame,Plats Principaux,16.0
+1331,291485,Artisanal Cheese Board,Premier Plats,
+1332,291485,Monkfish,Mer & Terre,31.0
+1333,291485,Chocolate Kahlua Custard,Desserts,12.0
+1334,294559,Tomato Soup,Homemade Soups,4.0
+1335,294559,Skinny Fries,Signature Sides $3,
+1336,294559,Pan Fried Chicken Sandwich,Other Good Stuff,10.0
+1337,294559,Nachitos,Bar Snacks,5.0
+1338,294559,Veggie Burger,Signature Burgers,12.0
+1339,294559,The MacDaddy Burger,Signature Burgers,13.0
+1340,294559,Mashed Potatoes,Signature Sides $3,
+1341,294559,Original Mini Burgers,Sliders,9.0
+1342,294559,Macho Nachos,Bar Snacks,9.0
+1343,294559,Cheese Quesadilla,Bar Snacks,8.0
+1344,336619,Clam Chowder,Starting Game Plan,
+1345,336619,Grilled Chicken BLT Wrap,Handhelds,
+1346,336619,Monster Dog,Handhelds,
+1347,336619,Buffalo Wings,Sliders & Wings,
+1348,336619,Ultimate Veggie,Burgers,
+1349,336619,Braised Short Ribs,Knife and Fork,
+1350,336619,Stout Soaked Bread Pudding,Sweets,
+1351,336619,Crunchy French Toast,Modern Classics,
+1352,336619,Taylor Ham,Etc.,
+1353,336619,Seasonal Fruit and Berries,Etc.,
+1354,361825,Jones Cane Sugar Soda,Beverages,2.0
+1355,361825,Gyro Plate,Rice Plates,7.0
+1356,361825,Combo Mix Rice Plate: Chicken and Gyro,Rice Plates,7.0
+1357,361825,Chicken and Rice Plate,Rice Plates,7.0
+1358,361825,Hubert's Lemonade,Beverages,3.0
+1359,361825,Rice,Extras,1.0
+1360,361825,Salad Plate,Salad Plate,7.0
+1361,361825,Grilled Tofu and Rice Plate,Rice Plates,7.0
+1362,361825,Baklava,Extras,1.0
+1363,361825,Water and Sparkling Water,Beverages,2.0
+1364,358409,Complicated Salad,Classics Remixed,12.0
+1365,358409,Smoky BBQ Pulled Chicken,American Standards,10.0
+1366,358409,Banana Bread Pudding,A Sweet Treat,7.0
+1367,358409,Buffaloed Rock Shrimp,Classics Remixed,13.0
+1368,358409,Buffalo Soldiers,Classics Remixed,13.0
+1369,358409,Mango Mint Iced Tea,Artisanal Coffee & Tea,3.0
+1370,358409,Christina's Sorbet,A Sweet Treat,5.0
+1371,358409,Mediterranean Chickpea Burger,American Standards,10.0
+1372,358409,Arugula Salad,On The Side,4.0
+1373,358409,Creme Fraiche Cole Slaw,On The Side,3.0
+1374,365030,Salad Verte (Circa 1906),Begin,10.0
+1375,365030,Breakfast Sandwich (Circa 1762),Continue,12.0
+1376,365030,Creme Brulee (Circa 1691),Finish,8.0
+1377,365030,Second Course,Kitchen's Tomato $48,15.0
+1378,365030,Jack Rose (Circa 1931),Cocktails,
+1379,365030,Champagne (1850),Cocktails,
+1380,365030,The Grand Sallet (Circa 1638),Continue,16.0
+1381,365030,Tournedos Rossini (Circa 1833),Continue,32.0
+1382,365030,Toffee Pudding (Circa 1890),Finish,9.0
+1383,365030,Third Course,Kitchen's Tomato $48,18.0
+1384,340056,Crispy Potatoes,Market Breakfast $22,
+1385,340056,Choice Of Bacon,Market Breakfast $22,
+1386,340056,English Muffin Or Bagel,Baked Goods,4.0
+1387,340056,Applewood Smoked Bacon,Sides $6,
+1388,340056,Crispy Herb Potatoes,Sides $6,
+1389,340056,Seasonal Fruit,Sides $6,
+1390,340056,Espresso,Coffee,5.0
+1391,340056,Organic Breakfast,Tea $5,
+1392,340056,Orange,Juice $5,
+1393,340056,Crispy Calamari,Appetizers,14.0
+1394,258601,Pomodoro e Mozzarella Burrata,Antipasti,14.0
+1395,258601,Asparagus,Sides,9.0
+1396,258601,Souffle al Cioccolato,Dolci,12.0
+1397,258601,Beef Tenderloin,Secondi,42.0
+1398,258601,Scallops,Secondi,38.0
+1399,258601,Pumpkin Mousse,Dolci,10.0
+1400,258601,Gelato or Sorbet,Dolci,10.0
+1401,258601,House Salad ,Antipasti,11.0
+1402,258601,Pumpkin and Sage Mezzaluna,Pasta,24.0
+1403,258601,Tagliatelle alla Peppino,Pasta,34.0
+1404,292653,Catering - Baby Corn Pakoras,Catering - Appetizers,30.0
+1405,292653,Catering - Pepper Beef,Catering - Entrees,35.0
+1406,292653,Meatball Manchurian,Entrees,10.95
+1407,292653,Vegetable  Fried Rice,Rice and Noodles,8.95
+1408,292653,Singapore Noodles,Rice and Noodles,9.95
+1409,292653,12 Cans of Diet Coke ,Beverages,18.0
+1410,292653,Catering - Hawker-Style Hot Garlic Chicken,Catering - Entrees,35.0
+1411,292653,Catering - Shrimp Black Pepper Sauce,Catering - Entrees,35.0
+1412,292653,"Catering - Calcutta Style Hot & Sour Soup (1 Quart, Serves 4)",Catering - Soups,10.0
+1413,292653,Canada Dry Ginger Ale (12oz. Cans),Beverages,1.5
+1414,364866,House Garden Salad,Snack,3.0
+1415,364866,Christmas,Signature Roll,9.0
+1416,364866,Double Match,Signature Roll,9.0
+1417,364866,Sashimi Platter*,Sushi Combo $9,
+1418,364866,Tuna Don*,Sushi Combo $9,
+1419,364866,Chirashi*,Sushi Combo $9,
+1420,364866,Assorted Veggie Fried Rice,Noodle & Rice,7.0
+1421,364866,Tempura Ramen Or Udon Soup,Ramen & Udon,9.0
+1422,364866,Spicy Kimchi Ramen Soup,Ramen & Udon,8.0
+1423,364866,Yakitori,Bento,8.0
+1424,482568,Carrot Zinger Juice,Juices,5.99
+1425,482568,Green Refresher Juice,Juices,5.49
+1426,482568,Greek Yogurt Parfait,Breakfast,4.99
+1427,482568,Market Wrap,Wraps,8.29
+1428,482568,Mighty Detox Juice,Juices,5.99
+1429,482568,Hard Boiled Eggs,Breakfast,2.49
+1430,482568,Buffalo Salad,Salads,7.99
+1431,482568,Pangoa Bowl,Bowls,8.49
+1432,482568,Pokii,Limited Time Offer,7.99
+1433,482568,Reviive Juice,Juices,6.49
+1434,363334,"Tonawanda Boneless Chicken """"Wings""""",Appetizers,
+1435,363334,The Alamo,Entrees,
+1436,363334,The NY,Entrees,
+1437,363334,The Louisiana,Entrees,
+1438,363334,The Wisconsin,Entrees,
+1439,363334,The San Franciscan,Entrees,
+1440,363334,The Baltimore,Entrees,
+1441,363334,The Delmonico,Entrees,
+1442,363334,The New England,Entrees,
+1443,363334,The L.A.,Entrees,
+1444,496750,Local Mesclun Salad,Appetizers,
+1445,496750,Chocolate Peppermint Brownie,Desserts,
+1446,496750,Salad of Roasted Beets,To Start,
+1447,496750,Wood Grilled Calamari,Appetizers,
+1448,496750,Ricotta Gnocchi,Appetizers,
+1449,496750,Pork and Beef Bierwurst,Entrees,
+1450,496750,Lemon Tart,Desserts,
+1451,496750,Swordfish Belly Pastrami,Salted & Raw,
+1452,496750,Brioche French Toast,To Continue,
+1453,496750,Wood Grilled Broccoli,Appetizers,
+1454,379193,Dragon Egg,Appetizers from Ikura's Sushi Bar,7.95
+1455,379193,6 Piece Tuna Tataki,Appetizers from Ikura's Sushi Bar,8.95
+1456,379193,1 Piece Salmon Nigiri,Nigiri,2.75
+1457,379193,1 Piece Albacore Tuna Nigiri,Nigiri,2.75
+1458,379193,3 Piece Torched Squid Sashimi,Sashimi,6.25
+1459,379193,3 Piece Mackerel Sashimi,Sashimi,6.25
+1460,379193,3 Piece Tuna Sashimi,Sashimi,7.0
+1461,379193,3 Piece Smoke Salmon Sashimi,Sashimi,7.0
+1462,379193,Avocado Roll,Vegetable Roll,3.95
+1463,379193,Fermented Soy Bean Roll,Vegetable Roll,3.95
+1464,389271,Salt & Pepper Prawns,Appetizers,19.0
+1465,389271,Roasted Brussel Sprouts,Appetizers,14.0
+1466,389271,Chocolate Cremeux,Desserts - Modern,14.0
+1467,389271,Biscuits and Gravy,Entrees,
+1468,389271,Seasonal Ice Creams and Sorbets,Desserts - Classic,9.0
+1469,389271,Bentons Country Ham,Entrees,
+1470,389271,Sausages,Sides,
+1471,389271,Monk Fish,Entrees,39.0
+1472,389271,Home Fries,Sides,
+1473,389271,Bacon,Sides,
+1474,367689,Decaf English Breakfast,Premium Loose Leaf Teas - Black,
+1475,367689,Wedding Blend,Premium Loose Leaf Teas - Green,
+1476,367689,Blood Orange Hibiscus,Premium Loose Leaf Teas - Herbal,
+1477,367689,Blue Flower Earl Grey,Premium Loose Leaf Teas - Black,
+1478,367689,Wild Mushroom Butter,Savory Tea Sandwiches,
+1479,367689,Roasted Ham,Savory Tea Sandwiches,
+1480,367689,Irish Breakfast,Premium Loose Leaf Teas - Black,
+1481,367689,China Green Jade,Premium Loose Leaf Teas - Green,
+1482,367689,Matcha,Premium Loose Leaf Teas - Latte,
+1483,367689,Devonshire Double Cream,Tea Scones,
+1484,284238,"Roasted garlic, Cambazola cheese, Tuscan olive relish",Pizzetta,12.0
+1485,284238,"Octopus, red wine, caper berries, parsley salad",Carpaccios,12.0
+1486,284238,Herbed Ricotta Gnudi,"Pasta, Risotto",18.0
+1487,284238,Wild Boar Bolognese,Excerpts From the Menu,
+1488,284238,Lobster Minestrone,Antipasti,9.0
+1489,284238,Warm Marinated Olives,Stuzzichini,5.0
+1490,284238,Potato Gnocchi,"Pasta, Risotto",17.0
+1491,284238,Wild Boar Bolognese,"Pasta, Risotto",18.0
+1492,284238,Sliced Prosciutto & Homemade Mozzarella,Antipasti,12.0
+1493,284238,Mozzarella Cheese al Minuto,Antipasti,10.0
+1494,396433,Shrimp Toast (Bahn Mi Tom),Starters,7.0
+1495,396433,Canh Chua Soup,Soup,6.0
+1496,396433,Bahn Hoi,Grill,11.0
+1497,396433,Kimchi Fried Rice,Fried Rice,11.0
+1498,396433,Prik Pow Fried Rice,Fried Rice,11.0
+1499,396433,Massaman Curry,Mix and Match,11.0
+1500,396433,Sriracha Seafood,Fish and Seafood,15.0
+1501,396433,Real Fruit Smoothie,Beverages,4.25
+1502,396433,Thai Iced Tea,Beverages,3.5
+1503,396433,House Coffee,Beverages,2.5
+1504,335394,Sparkling Water,Beverages,2.0
+1505,335394,Sashimi,Appetizers,10.95
+1506,335394,Doomsday Roll,Genki Special,15.75
+1507,335394,Sashimi Combo with Rice,Entrees,31.95
+1508,335394,Octopus,Nigiri,5.45
+1509,335394,Sea Urchin,Nigiri,8.45
+1510,335394,Chicken Curry Rice Lunch Special,Lunch Specials,10.95
+1511,335394,All Natural Sparkling Juice,Beverages,3.5
+1512,335394,Fresh Summer Roll,Appetizers,10.95
+1513,335394,Organic Salad,Salad,6.55
+1514,1361,Cranberry Juice,Beverages,4.0
+1515,1361,Unsweetened Iced Jasmine Tea,Beverages,2.5
+1516,1361,Chicken Satay,Appetizers,7.95
+1517,1361,Seafood Noodle Soup,Noodle Soup,10.95
+1518,1361,Tropical Noodle,Stir-Fried Noodles,10.95
+1519,1361,Massaman Curry,Thai Curry,13.95
+1520,1361,Spicy Tofu,Vegetarian,12.95
+1521,1361,Paradise Garden,Vegetarian,12.95
+1522,1361,Ga-Prow,House Specialties,16.95
+1523,1361,Jasmine Rice,Side Orders,2.0
+1524,742,Espresso,After Dinner Drinks,3.5
+1525,742,Brunch Blueberry Pancakes,Brunch Main Dishes,14.0
+1526,742,Brunch Kids Cheddar Chive Omelet,Brunch Kids Meals,7.0
+1527,742,Brunch Kids Lox and Bagel,Brunch Kids Meals,7.0
+1528,742,Chicken Piccata,American Classics,19.75
+1529,742,Joe's Mac and Five Cheese,American Classics,15.95
+1530,742,Grilled Chicken Sandwich,Signature Sandwiches,15.25
+1531,742,The Standard Burger,Prime Burgers,14.75
+1532,742,Fish and Chips,American Classics,20.95
+1533,742,Ultimate BLT,Signature Sandwiches,14.95
+1534,367022,Pringles,Snacks & Accessories,3.0
+1535,367022,Orange You Glad,Cocktails,10.0
+1536,367022,Old Cuban,Cocktails,10.0
+1537,367022,Dark & Stormy,Cocktails,9.0
+1538,367022,Sawyer Cash,Cocktails,10.0
+1539,367022,Johnnie Walker Blue,Scotch Whisky,250.0
+1540,367022,Pyrat Pistol,Rum,75.0
+1541,367022,Mojito,Mixers - Stirrings Specialty Mixers,
+1542,367022,Ginger Beer,Sodas,
+1543,367022,Sprite,Sodas,
+1544,332792390,Foie Gras Torchon Millefuille,Appetizers,23.0
+1545,332792390,Oysters,Raw Bar,3.25
+1546,332792390,Wild White Shrimp Cocktail,Raw Bar,4.0
+1547,332792390,Milk or Chocolate Milk,Kids Menu - Beverages,3.5
+1548,332792390,Chocolate or Vanilla Milkshake,Kids Menu - Beverages,6.0
+1549,332792390,Maple-Mustard Glazed Salmon,Lunch,28.0
+1550,332792390,"Kale, Apple & Bacon Salad",Appetizers,14.0
+1551,332792390,Tempura Fried Green Beans,Side,8.0
+1552,332792390,Cauliflower Caponata,Side,8.0
+1553,332792390,Gingerbread Tres Leches,Dessert,9.0
+1554,501221,Bottled Soda,Drinks,2.25
+1555,501221,G-Dog,Burgers and Dogs,4.95
+1556,501221,Seasoned Waffle Fries,Sides,4.45
+1557,501221,Chicken Sandwich with Cheese,Sandwiches and More,7.45
+1558,501221,Chicken Sandwich with Bacon,Sandwiches and More,7.7
+1559,501221,Veggie Griddler with Cheese,Sandwiches and More,6.95
+1560,501221,OG Griddler with Cheese,Burgers and Dogs,6.45
+1561,501221,Cheese Dog,Burgers and Dogs,5.45
+1562,501221,Chicken Sandwich,Sandwiches and More,6.95
+1563,501221,Hand Spun Pint Shake,Goodies,6.0
+1564,303717,Crab Fritters,Appetizers,14.0
+1565,303717,Chicken Soup,Soups & Salads,8.0
+1566,303717,Spiced Seared Tuna,Mains,28.0
+1567,303717,12oz New York Strip,Mains,32.0
+1568,303717,Braised Short Ribs,Mains,34.0
+1569,303717,Strawbarbrita,Seasonal Cocktails $13,
+1570,303717,Chocolate Egg Cream,Non-Alcoholic $9,
+1571,303717,Miller High Life,Bottle Beers,4.0
+1572,303717,Allagash Belgian White,Bottle Beers,6.0
+1573,303717,Ducheese De Bourgogne Red Ale,Bottle Beers,10.0
+1574,508136,Eco-Friendly Utensils,Beverages,0.15
+1575,508136,Chickpea Salad,Salads,1.25
+1576,508136,Fried Eggplant Salad,Salads,1.25
+1577,508136,Dutch Mayo,Sauces,1.25
+1578,508136,Curry Ketchup Sauce,Sauces,1.25
+1579,508136,#1 Platter,Platters,7.8
+1580,508136,Green Pickles,Pickles,1.25
+1581,508136,Tomato Cucumber Salad,Salads,1.25
+1582,508136,Garlic Parsley Sauce,Sauces,1.25
+1583,508136,Stroopwafel,Dessert Menu (Archived),1.8
+1584,389133,Yogurt Green or Black Tea,Fruit Tea,4.5
+1585,389133,Passion Fruit Slush,Smoothie,4.5
+1586,389133,Matcha Red Bean Smoothie,Smoothie,4.5
+1587,389133,Lemon,Chatime Jelly,4.75
+1588,389133,Kamquat Green Tea,Fruit Tea,4.5
+1589,389133,Black Tea Mousse,Mousse,4.5
+1590,389133,Banana Chocolate Smoothie,Smoothie,4.5
+1591,389133,Coffee Smoothie,Smoothie,4.5
+1592,389133,Lemon Green Moji Tea,Moji Tea,4.95
+1593,389133,Passion Fruit Green Moji Tea,Moji Tea,4.95
+1594,357264,Quinoa Medley,Healthy Options,
+1595,357264,DelRossoâs Dog Of The Day,Sandwiches And Other Belly Fillers,
+1596,357264,Sausage And Peppers,Sandwiches And Other Belly Fillers,
+1597,357264,Breakfast Sandwich,Sandwiches And Other Belly Fillers,
+1598,357264,Italian Porchetta,Sandwiches And Other Belly Fillers,
+1599,357264,Chicken Chimmy Sammy,Sandwiches And Other Belly Fillers,
+1600,357264,Warm Spiced Cider,Beverages,
+1601,357264,Baked Pasta,Sandwiches And Other Belly Fillers,
+1602,357264,One Dollar Hot Dog,Snacks,
+1603,357264,Signature Homemade Meatballs,Sandwiches And Other Belly Fillers,
+1604,307644,Wing Ding Dinner ,Entrees,9.95
+1605,307644,Tuna Wrap,Wraps,7.95
+1606,307644,Veggie,Panini,8.5
+1607,307644,Steak and Cheese with Mushrooms,Subs,8.25
+1608,307644,Tuna Salad,Salads,8.5
+1609,307644,Chicken Kabob,Entrees,9.95
+1610,307644,Steak Tip Wrap,Wraps,8.95
+1611,307644,Turkey Wrap,Wraps,7.95
+1612,307644,Greek Chicken Wrap,Wraps,7.95
+1613,307644,Cajun Chicken,Panini,8.5
+1614,277119,Breakfast Grilled Crack*,Main,9.0
+1615,277119,Natalie's Fresh Squeezed Orange Juice,Beverages,4.0
+1616,277119,Hot Coffee,Drink,2.75
+1617,277119,San Pellegrino,Drink,2.0
+1618,277119,Breakfast Grilled Crack*,Sandwiches,9.0
+1619,277119,Orange Juice,Drink,3.0
+1620,277119,M&P House Breakfast Sandwich*,Main,8.0
+1621,277119,Veggie Grilled Cheese '18,Sandwiches,12.0
+1622,277119,Fancy*,Sandwiches,9.0
+1623,277119,Classic*,Sandwiches,4.5
+1624,358,Famous Factory Meatloaf,Specialties,
+1625,358,Stuffed Chicken Tortillas,Specialties,
+1626,358,Chicken and Biscuits,Specialties,
+1627,358,Renee's Special,Lunch Specials,
+1628,358,Sweet Potato Fries,Side Dishes,
+1629,358,Sauteed Spinach,Side Dishes,
+1630,358,Fresh Broccoli,Side Dishes,
+1631,358,Peach Smoothie,Iced & Frozen Drinks,
+1632,358,Certified Organic Coffee,Iced & Frozen Drinks,
+1633,358,Certified Organic Black and Herb Teas,Iced & Frozen Drinks,
+1634,893,Maine Crab Ravioli,Appetizer,18.0
+1635,893,Sauteed Spinach & Garlic,Sides,8.0
+1636,893,Mistral Assiette,Dessert,18.0
+1637,893,Egg Whites,Entree,14.0
+1638,893,Milk Chocolate Chip Pancakes,Entree,14.0
+1639,893,Chocolate Glaze Donuts,Mistral Boulangerie,6.0
+1640,893,Warm Apple Tart,Dessert,13.0
+1641,893,Creme Brulee,Dessert,13.0
+1642,893,Jumbo Lump Crab,Entree,22.0
+1643,893,Carrot Cake Madeleines,Mistral Boulangerie,6.0
+1644,2587187,Tilex,Household Cleaning Accessories,3.95
+1645,2587187,Dishwashing Liquid,Household Cleaning Accessories,3.25
+1646,2587187,Kodak Disposable Camera,Paper Goods and Other House Items,16.25
+1647,2587187,Soy Milk,Drinks,6.25
+1648,2587187,Dasani Water,Drinks,2.0
+1649,2587187,5 Hour Energy Shot,Energy Drinks,3.75
+1650,2587187,Napkin Pack,Paper Goods and Other House Items,2.5
+1651,2587187,Bounty Paper Towels,Paper Goods and Other House Items,3.25
+1652,2587187,Crest Toothpaste,Pharmacy Items,4.25
+1653,2587187,Regular Candy Bars,Snacks,1.25
+1654,303719,Spicy Asian Rock Shrimp,Small Plates - Seafood,11.0
+1655,303719,P.E.I. Mussels,Small Plates - Seafood,10.0
+1656,303719,Classic Tater Tots,Small Plates - Other Things,6.0
+1657,303719,Spinach & Feta Ravioli,Small Plates - Other Things,8.0
+1658,303719,Beer Battered Fish Fillet Sandwich,Sandwiches,13.0
+1659,303719,Edamame Dumplings,More,10.0
+1660,303719,The Coolidge Steak,Entrees,29.0
+1661,303719,Sweet Potato Coins,Small Plates - Vegetables,8.0
+1662,303719,Brahmin Social Caesar,Gardens,12.0
+1663,303719,Crab Cakes,Small Plates - Seafood,10.0
+1664,389273,Sausage & Broccoli,Pizza,
+1665,389273,Caprese,Pizza,
+1666,389273,Quattro Formaggi,Pizza,
+1667,389273,Vegetariana,Pizza,
+1668,389273,Pesto Pizza,Pizza,
+1669,389273,Cotto E Fungi,Pizza,
+1670,389273,Patate E Prosciutto Cotto,Pizza,
+1671,389273,Gamberi E Pomodorini,Pizza,
+1672,389273,Capperi E Alici,Pizza,
+1673,389273,Diavola,Pizza,
+1674,389214,Cheese Board,Starter,18.0
+1675,389214,Buffalo Chicken Bleu Cheese,Flatbreads,16.0
+1676,389214,Lobster Roll,Mains,22.0
+1677,389214,Free Range Roasted Chicken,Mains,26.0
+1678,389214,Precinct Burger,Mains,17.0
+1679,389214,The Green Muenstah Burger,Mains,17.0
+1680,389214,Soup and Salad,Express Business Lunch,12.0
+1681,389214,Prosciutto Wrapped Dates,Appetizers,8.0
+1682,389214,Steak Frites,Mains,12.0
+1683,389214,Chicken Pot Pie,Mains,20.0
+1684,302990,Penne w/Chicken & Sausage,Pasta,12.95
+1685,302990,Grilled Homemade Sausage Dinner,Bistro Fare,10.95
+1686,302990,Signature Cream of Tomato Basil Soup (Bowl),Casual Fare,4.0
+1687,302990,Geoffrey's Classic Caesar with Spicy Shrimp,Casual Fare,10.95
+1688,302990,Michael's Favorite Pizza,Sandwiches & Grilled Flatbreads Pizza's,9.95
+1689,302990,Shrimp Cakes,Appetizers,8.95
+1690,302990,Warm Goat Cheese Salad with Grilled Chicken,Specialty Salads,10.95
+1691,302990,California Turkey Melt,Lunch Menu,7.95
+1692,302990,"Sweet Potato Puree, Mashed Potatoes",Sides,3.0
+1693,302990,"Orange, Cranberry, V8 or Pink Grapefruit","Java, Juices & Such",2.95
+1694,353103,Sweet Potato,Sandwiches,9.0
+1695,353103,Hot Chocolate,Drinks - Hot,3.5
+1696,353103,Tisanes Mem Tea,Drinks - Hot,2.0
+1697,353103,Roasted Lamb,Sandwiches,9.0
+1698,353103,Quiche of The Day,Everything Else,7.0
+1699,353103,Stuffed Bread of The Day,Everything Else,7.0
+1700,353103,Peanut Butter with Maldon Salt,Cookies,2.0
+1701,353103,Coconut Cream,Tartlettes,1.25
+1702,353103,Muffin cakes,Breakfast,3.25
+1703,353103,Latte or Chai Spice Latte,Drinks - Hot,3.25
+1704,258600,Cousin Oliver,Made As,5.99
+1705,258600,Add Crisp Veggies & Drink,Combos,3.49
+1706,258600,Coke,Bottled Drinks,1.99
+1707,258600,Honest Tea,Bottled Drinks,1.99
+1708,258600,West-Side,Made As,5.99
+1709,258600,Burger,Burgers And Sandwiches,
+1710,258600,West-Side,Made As,
+1711,258600,B.Good,Made As,
+1712,258600,Burgers,BBQ,10.99
+1713,258600,Add Fries & Drink,Combos,2.59
+1714,373370,Super Green Salad,Plant-Based Salads,10.5
+1715,373370,Original Hummus Toast,Toast,6.95
+1716,373370,BYO Smoothie Bowl,Breakfast Bowl and Snacks,8.95
+1717,373370,Ginger Shot,Organic Cold-Pressed Juices,4.0
+1718,373370,Wheatgrass Shot,Organic Cold-Pressed Juices,5.0
+1719,373370,Forbidden Rice Bowl,Plant-Based Salads,10.5
+1720,373370,Coco Blue,Organic Smoothies,8.25
+1721,373370,Mango Green,Organic Smoothies,8.25
+1722,373370,Almond Love,Organic Smoothies,8.25
+1723,373370,Blueberry Bliss,Organic Smoothies,8.25
+1724,277042,Edamame,Appetizers,4.95
+1725,277042,Zaru Soba Or Udon,Noodles,7.95
+1726,277042,Pork Shougayaki,Teriyaki,10.95
+1727,277042,Chicken Stir-Fry Don,Donburi,8.95
+1728,277042,Sashimi,Sushi & Sashimi,13.95
+1729,277042,Maki Combo,Sushi & Sashimi,10.95
+1730,277042,Sanshoku Don,Sushi & Sashimi,10.95
+1731,277042,Sushi Sashimi Bento,Sushi & Sashimi,13.95
+1732,277042,Yamakake,Sushi Bar Appetizers,8.95
+1733,277042,Spicy Seafood And Vegetable Soup,Soup & Salad,8.95
+1734,753,Meat Samosas (2),Appetizers Hot,6.0
+1735,753,Chicken Pakoras,Appetizers Hot,6.0
+1736,753,Coconut and Tomato Soup,Soups,5.5
+1737,753,Beef Saag,Beef,18.0
+1738,753,Chicken Vindaloo,Chicken,17.0
+1739,753,Chicken Korma,Chicken,17.0
+1740,753,Shrimp Saag,Seafood,21.0
+1741,753,Aloo Bhindi,Vegetarian Delights,16.0
+1742,753,Punjabi Dal Ghost,Kashmir Specialties,19.0
+1743,753,Chicken Do-Piaza,Kashmir Specialties,17.0
+1744,63723,Roasted Brussels Sprouts,Sides,14.0
+1745,63723,Mini Hot Fudge Sundae,Small Plates,6.0
+1746,63723,Green Salad,Appetizers,13.0
+1747,63723,Fried Calamari,Appetizers,18.0
+1748,63723,Pan-Roasted Salmon,Entrees,37.0
+1749,63723,American Kobe Cap Steak,A la Carte - The Best of the Best,71.0
+1750,63723,Black Truffle-Foie Gras,Sauces,6.0
+1751,63723,French Fries,Sides,10.0
+1752,63723,Vanilla Bean Creme Brulee,Desserts,11.0
+1753,63723,Bordelaise,Sauces,3.0
+1754,932,2 Large Cheese Pizzas and Medium BBQ Chicken Fingers,Menu Coupons,34.99
+1755,932,2 Large Cheese Pizzas and Medium BBQ Wings,Menu Coupons,34.99
+1756,932,2 Large Cheese Pizzas and Medium Buffalo Wings,Menu Coupons,34.99
+1757,932,Large 1 Topping Pizza and Small Buffalo Wings,Menu Coupons,23.99
+1758,932,Jalapeno Poppers,Sides & Appetizers,9.49
+1759,932,French Fries,Sides & Appetizers,4.99
+1760,932,Tuna Salad,Salads,9.99
+1761,932,Crispy Chicken Caesar Salad,Salads,11.49
+1762,932,Chicken Greek Wrap,Wraps,9.99
+1763,932,Turkey Club Wrap,Wraps,9.99
+1764,13,12. Doro Tibs,Chicken Entrees,18.95
+1765,13,14. Ye-Sega Alcha,Traditional Beef Entrees,15.95
+1766,13,42. Addis Red Sea Special Combo for 2,Combination Dishes,35.0
+1767,13,1b. Spiced Ground Beef Sambusa,Appetizers,7.95
+1768,13,18. Zilzi-Tibs,Traditional Beef Entrees,18.95
+1769,13,24. Quanta Firfir,Lamb Entrees,19.95
+1770,13,41. Doro Wot Lite,Combination Dishes,22.0
+1771,13,3. Ye-Awaze Dabo,Appetizers,5.0
+1772,13,21. Lamb Lega Tibs,Lamb Entrees,19.95
+1773,13,32. Ye-Meser Wot,Vegetarian Vegan Dishes,15.95
+1774,248917,Formaggio,Desserts,
+1775,248917,Insalata,Late Night,11.0
+1776,248917,Calamari,Late Night,12.0
+1777,248917,Hanger Steak,Late Night,19.0
+1778,248917,"Fresh, Mozzarella, Tomato Sauce And Basil",Late Night - Specialty Pizzas,11.0
+1779,248917,Ipoglosso,Entrees,36.0
+1780,248917,Sasso Tiramisu,Desserts,12.0
+1781,248917,Sorbetti,Desserts,
+1782,248917,Arista,Entrees,28.0
+1783,248917,Citrus Zabaione,Desserts,10.0
+1784,280239,Chicken Kara-Age,Hot Appetizers,8.95
+1785,280239,Sake Kinutamaki,Cold Appetizers,8.5
+1786,280239,"Hashbrowns, Fried Apples, Biscuit",Cold Appetizers,
+1787,280239,Eggstro'dnaire,Cold Appetizers,
+1788,280239,Sourdough Toast,Cold Appetizers,
+1789,280239,Miso Soup,Soups,3.5
+1790,280239,Exotic Mushroom Miso,Soups,6.5
+1791,280239,One Egg,Sushi and Sashimi,
+1792,280239,Two Pancakes,Sushi and Sashimi,
+1793,280239,Squid,Sushi and Sashimi,4.0
+1794,326729,House Salad,Salads & Soups,10.0
+1795,326729,Greek Salad,Salads & Soups,11.0
+1796,326729,Vegetarian Italian Grilled Cheese,Sandwiches,10.0
+1797,326729,Roast Turkey,Sandwiches,12.0
+1798,326729,Buffalo Chicken Flatbread,Pizza,12.0
+1799,326729,Seasonal Fruit Pie,Dessert,8.0
+1800,326729,Tuna Tartare,Dinner Appetizers,12.0
+1801,326729,Filet Mignon,Entrees,34.0
+1802,326729,Lobster Mac 'N Cheese,Pasta,12.0
+1803,326729,Mashed Potatoes,Sides,3.0
+1804,476129,Roost Chopped Cobb Salad,Sandwiches and Salads,
+1805,476129,Nutella  Almond French Toast ,Breakfast for Lunch,
+1806,476129,Steak Frites,Entrees,
+1807,476129,Roasted 1/2 Chicken,Entrees,
+1808,476129,Grilled Chicken,Entrees,
+1809,476129,New England Clam Chowder,Starters,
+1810,476129,Bison Burger ,Entrees,
+1811,476129,Wood Fired Margherita Pizza,Starters,
+1812,476129,Baby Spinach Salad,Starters,
+1813,476129,Lobster Ravioli,Entrees,
+1814,268597,Eggs Shakshuka,Mains,15.0
+1815,268597,Fall-Off-The-Bone' Baby Back Ribs,Hors D'oeuvres,14.25
+1816,268597,Bacon,Sides,5.0
+1817,268597,Seasonal Fruit Cup,Sides,8.0
+1818,268597,Housemade Chestnut Straccetti Pasta,Mains,23.0
+1819,268597,Short Rib,Sandwiches & Salads,18.0
+1820,268597,Big Dinner Salad Grilled Steak,Sandwiches & Salads,28.0
+1821,268597,Fall-Off-The-Bone' Baby Back Pork Ribs,Hors D'oeuvres,15.0
+1822,268597,Schmaltz Fried Rice,Sides,9.5
+1823,268597,Johnny Cake with Sofrito Pork,Mains,18.0
+1824,268111,Soup of The Day,Appetizers,7.0
+1825,268111,Applewood Smoked Turkey Melt,Sandwiches & Panini,10.0
+1826,268111,Classic Pepperoni,Pizza on A Paddle,20.0
+1827,268111,Crispy Fried Calamari,Seafood Starters,15.0
+1828,268111,Chilled Seafood Tower (For Two),Seafood Starters,48.0
+1829,268111,Butternut Squash Mezzaluna,Hand Crafted Pasta,20.0
+1830,268111,Pan Seared Diver Scallops,The Docks,28.0
+1831,268111,Petite Filet Mignon 6oz,Rustic Italian Steak House,32.0
+1832,268111,Italian Spring Rolls,Appetizers,13.0
+1833,268111,Baby Spinach Salad,Salads,12.0
+1834,268936,Lobster Roll,Main Courses,22.0
+1835,268936,Milk,"Coffee, Tea & More",1.95
+1836,268936,Guiness,Bottled Beer,6.5
+1837,268936,2010 Pinot Bianco,White,9.0
+1838,268936,2010 Malbec Argentina Jelu,Red,10.0
+1839,268936,Vegetable Mousakka,Starters,12.0
+1840,268936,Roasted Beets,Starters,11.0
+1841,268936,Iced Tea,"Coffee, Tea & More",2.5
+1842,268936,Hugo,Cocktails,10.5
+1843,268936,Rosemary & Cucmber Martini,Cosmos & Martinis,12.5
+1844,260830,Crispy Whole Branzino,Entrees,34.0
+1845,260830,Oysters of the Day,Raw Bar,
+1846,260830,Littlenecks,Raw Bar,2.55
+1847,260830,Maine Lobster Roll,Sandwiches,29.0
+1848,260830,Shishito Peppers,Sides,8.0
+1849,260830,Slow-Roasted Pumpkin Bisque,Seasonal Appetizers,16.0
+1850,260830,Littlenecks,Raw Bar,2.55
+1851,260830,Caviar,Raw Bar,60.0
+1852,260830,New England Clam Chowder,Classic Appetizers,14.0
+1853,260830,Local Cherrystones,Raw Bar,2.55
+1854,362597,Firehouse Meatball,Hot Specialty Subs,
+1855,362597,Hot Turkey & Provolone,Kid's Combos,
+1856,362597,Honey Ham,Additional Hot Subs,
+1857,362597,Freshly Brewed Iced Tea,Beverages,
+1858,362597,Hot Ham & Provolone,Kid's Combos,
+1859,362597,Cookie,Sides,
+1860,362597,Bacon,Medium Sub Add-Ons,
+1861,362597,Firehouse Soups,Salad & Chili,
+1862,362597,Turkey Bacon Ranch,Hot Specialty Subs,
+1863,362597,Coca-Cola Freestyle Fountain Beverages,Beverages,
+1864,396000,Espresso,Coffee,2.75
+1865,396000,Chai Latte,Tea & More,3.5
+1866,396000,Chocolate Pistachio Biscotti,Dairy Free Menu,
+1867,396000,Chocolate Croissant,Breakfast Menu,3.5
+1868,396000,Seasonal Dome,Gluten Free,
+1869,396000,Jittery Hen,Sandwiches,8.95
+1870,396000,Biscotti,Dairy Free Menu,
+1871,396000,Smoked Salmon on Bagel,Breakfast Menu,7.5
+1872,396000,Croissant,Breakfast Menu,3.0
+1873,396000,Roasted Chicken,Sandwiches,8.95
+1874,476296,Quail Egg Skewer,Food Truck Menu,1.5
+1875,476296,Lamb Kidney Skewer,Food Truck Menu,3.5
+1876,476296,Lamb Skewer,Food Truck Menu,1.5
+1877,476296,Cabbage Skewer,Healthy Options,1.5
+1878,476296,Chicken Skewer,Food Truck Menu,1.5
+1879,476296,Beef Skewer,Food Truck Menu,1.5
+1880,476296,Sausage Skewer,Food Truck Menu,1.5
+1881,476296,Poland Spring,Healthy Options,1.0
+1882,476296,Shrimp Skewer,Food Truck Menu,2.0
+1883,476296,Tofu Skewer,Healthy Options,1.5
+1884,906,Center Cut Iceberg,Salads,
+1885,906,Morton's Prime Burger,Burgers,
+1886,906,Double Chocolate Mousse,Desserts,
+1887,906,Sliced Beefsteak Tomato,Soup & Salads,
+1888,906,Porterhouse Steak,Prime Steak & Chops,
+1889,906,Braised Beef Short Rib,"Signature Dishes, Poultry & Seafood",
+1890,906,Sour Cream Mashed Potatoes,Side Dishes,
+1891,906,Parmesan & Truffle Matchstick Fries,Side Dishes,
+1892,906,Chocolate Cake,Desserts,
+1893,906,Souffle for Two,Desserts,
+1894,137060,Festive Fruit Salad,Breakfast Selection,3.95
+1895,137060,Sliced Seasonal Fruit ,A La Carte Offerings,4.5
+1896,137060,Tea service,Beverages,1.25
+1897,137060,Fat-Free Tuna,Specialty Wrap Selection,6.95
+1898,137060,Vegetarian,Panini Sandwich Selection,6.95
+1899,137060,Classic Greek Salad,Salads - Side Salads,4.45
+1900,137060,Yogurt Parfait,A La Carte Offerings,3.5
+1901,137060,Whole Cakes,Dessert Selection,39.95
+1902,137060,Specialty Wrap and Sandwich Platter,Sandwich Combinations,6.95
+1903,137060,Party Sandwiches - Italian ,Sandwich Combinations,79.99
+1904,1218,Fazzoletti,Pasta,19.0
+1905,1218,Romaine,Primi,16.0
+1906,1218,Foie Gras,Primi,26.0
+1907,1218,Gelato - Sorbetto,Dolci,10.0
+1908,1218,Chicken,Secondi,32.0
+1909,1218,Tiramisu,Dolci,13.0
+1910,1218,Spaghetti,Pasta,19.0
+1911,1218,Insalata,Primi,17.0
+1912,1218,Cauliflower Gratinata,Contorni,9.0
+1913,1218,Gnocchi,Pasta,26.0
+1914,1028,Arugula,Salads,7.0
+1915,1028,Alsatian,Pizza,14.75
+1916,1028,The Adult Ice Cream Soda,Ice Cream Specialties,11.0
+1917,1028,Caesar,Salads,8.5
+1918,1028,Carnitas Taco,Starters,4.0
+1919,1028,"Salami, Olive & Cheese Plate",Starters,6.0
+1920,1028,"Chorizo, Potato & Goat Cheese",Pizza,14.75
+1921,1028,Dishes & Cones,Ice Cream ,4.25
+1922,1028,Vanilla Ice Cream,Dessert Special,5.75
+1923,1028,Chicken Mole Taco,Starters,4.0
+1924,1362,Kra-Tong Thong,Appetizers,5.25
+1925,1362,Steamed Butterflies,Appetizers,4.95
+1926,1362,Jumbo Shrimp Choo-Chi,Specialties & Seafood,15.95
+1927,1362,Duck Choo-Chi,Specialties & Seafood,15.95
+1928,1362,Seafood Orgy,Specialties & Seafood,7.25
+1929,1362,Beef Shrimp Or Duck,Meat & Vegetable,7.25
+1930,1362,Cashew Nuts,Meat & Vegetable,
+1931,1362,Ginger,Meat & Vegetable,
+1932,1362,Bell Pepper,Meat & Vegetable,
+1933,1362,Secret Garden,Vegetable Lovers,6.95
+1934,352104,Organic Celery Salad,First Courses,9.0
+1935,352104,Arugula,Enoteca Menu,7.0
+1936,352104,"Maine Mussels Steamed In A Tomato, Saffron Broth",Enoteca Menu,11.0
+1937,352104,Sauteed Whole Black Back Flounder Filets,Main Courses,24.0
+1938,352104,Sauteed Chicken Breast,Enoteca Menu,16.0
+1939,352104,Soppressata,Enoteca Menu,7.0
+1940,352104,Bruschetta,Enoteca Menu,8.0
+1941,352104,Fettuccine,Enoteca Menu,11.0
+1942,352104,Minestra Of Lobster Broth,First Courses,12.0
+1943,352104,San Daniele Prosciutto,First Courses,19.0
+1944,344501,Tico's Mac and Cheese,Late Night - Small Plates,12.0
+1945,344501,Two Textured Beef,Late Night - Tacos,11.0
+1946,344501,Crunchy Chicken BLT,Sandwiches,12.0
+1947,344501,Caesar Salad,Entrees,16.0
+1948,344501,Salmon,Entrees,26.0
+1949,344501,Shishito Peppers,Tapas & Small Plates,11.0
+1950,344501,Risotto,Tapas & Small Plates,14.0
+1951,344501,Red Snapper,"Ceviche, Crudgo, Tiradito, Tartare",14.0
+1952,344501,Salmon,"Ceviche, Crudgo, Tiradito, Tartare",13.0
+1953,344501,Striped Bass,"Ceviche, Crudgo, Tiradito, Tartare",14.0
+1954,1476,Fried Calamari,Hot Bites,15.0
+1955,1476,Suzuki,Nigiri and Sashimi,7.0
+1956,1476,Shime Saba,Nigiri and Sashimi,5.5
+1957,1476,Uni,Nigiri and Sashimi,8.5
+1958,1476,Tangy Baked Scallops,Hot Mains,33.0
+1959,1476,Spicy Salmon Roll,Regular Sushi Rolls,7.5
+1960,1476,Tangy Baked Mushrooms Maki Roll,Regular Sushi Rolls,8.0
+1961,1476,Hot Vegan Maki Roll,Regular Sushi Rolls,10.0
+1962,1476,Crunchy Shrimp Pasta,Rice and Noodles,25.0
+1963,1476,Oshi-Tuna Box,Osaka-Style Box Sushi,16.0
+1964,283265,Tuna Salad,Entrée Salads,7.95
+1965,283265,Mediterranean Pizza,Gourmet Pizza,
+1966,283265,Pasta W/ Sautéed Shrimp & Broccoli,Catering - Pasta,49.95
+1967,283265,Bottled Water,Beverages,0.95
+1968,283265,Orange Juice,Beverages,15.99
+1969,283265,Garden Salad,Catering - Fresh Salad,39.95
+1970,283265,Tuna Salad,Catering - Fresh Salad,55.95
+1971,283265,Pasta W/ Meatballs,Catering - Pasta,45.95
+1972,283265,Café Americano,Espresso Bar,3.1
+1973,283265,Bottled Beverages,Beverages,1.65
+1974,353201,Sopa De Tortilla,Soups,8.0
+1975,353201,Ensalada Izabella,Salads,8.0
+1976,353201,Al Carbon,Tortas $10.50,
+1977,353201,Norte,Quesadillas $9,
+1978,353201,Black Beans,Sides,3.0
+1979,353201,Vegetable Quesadilla,Small Plates,10.5
+1980,353201,Fajitas,Main Dishes,24.0
+1981,353201,Carne Asada,Main Dishes,24.0
+1982,353201,Tinga Torta,House Favorites $9.50,
+1983,353201,Skinny Doli,Brunch Cocktails,11.95
+1984,520045,Baked Turkey PIta,Seasonal Chef Creations,8.35
+1985,520045,Build Your Own Barley Bowl,Build Your Own Entree,9.35
+1986,520045,Honest Tea,Drinks,3.75
+1987,520045,Sprite,Drinks,3.05
+1988,520045,Build Your Own Baby Spinach Salad,Build Your Own Entree,9.35
+1989,520045,Build Your Own Kale Salad Bowl,Build Your Own Entree,9.35
+1990,520045,Savory Quinoa Bowl,Chef Creations,9.35
+1991,520045,"Beet, Olive & Spicy Feta Salad",Chef Creations,8.95
+1992,520045,Spring Pork Rice Bowl,Chef Creations,9.95
+1993,520045,Original Fries,On the Side,2.45
+1994,11,Baked Littleneck Clams Casino,Appetizers,17.0
+1995,11,Caesar Salad,Salads,13.0
+1996,11,Aged Prime Delmonico,Steak & Chops,49.0
+1997,11,Filet Mignon,Steak & Chops,44.0
+1998,11,Housemade Cheesecake,Desserts,11.0
+1999,11,Gourmet Special Roast Coffee,Coffees,3.75
+2000,11,Blueberry Coffee Cake,Appetizers,10.0
+2001,11,Abe & Louie's Salad,Salads,12.0
+2002,11,Eggs Benedict,Brunch,16.0
+2003,11,Sweet Potato Fries,Sides,8.0
+2004,234,Tuna Tartare,Bar Menu - Two's Company,
+2005,234,Buffalo Chicken Hot Pockets,Bar Menu - Two's Company,
+2006,234,Chicken Cordon Bleu Bites,Bar Menu - Three's A Crowd,
+2007,234,Tuna Poke,Appetisers,
+2008,234,12 oz. Ny Strip,From the Grill,
+2009,234,S'mores Square,Kids Menu  - Sweets,
+2010,234,Hot Chocolate,Kids Menu - Beverages,
+2011,234,Poached Seckel Pear,Dessert,
+2012,234,Chocolate Bristol Tower Cake,Dessert,
+2013,234,Cuban Sandwich,Burgers & Sandwiches,
+2014,843,Crispy Fried Grits,Tapas,10.0
+2015,843,Masa Burger with Monterey Jack,Picaditas,12.95
+2016,843,Spicy Tuna Tartare with Soy Ginger Cilantro Vinaigrette,Picaditas,14.95
+2017,843,Nut Crusted Texas Toast,Main Courses,10.75
+2018,843,Masa-Burgesa on a Brioche Bun,Main Courses,14.45
+2019,843,Kale Salad,First Course,8.95
+2020,843,Chocolate Truffle Tamale,Dessert Manu,6.95
+2021,843,Ice Cream or Sorbet,Dessert Manu,6.95
+2022,843,Caramelized Plantain Empanada,First Courses,9.25
+2023,843,Santa Fe Style Eggs Benedict atop Southwestern Biscuits,Main Courses,10.75
+2024,382864,Pasta e Fagioli,Zuppe,6.5
+2025,382864,Caprese,Insalate,9.99
+2026,382864,Penne con Pollo,Farinacei,17.99
+2027,382864,Gnocchi di Sorrento,Farinacei,18.99
+2028,382864,Bistecca alla Brace,Secondi,32.99
+2029,382864,Spaghetti & Meatballs,Kids,6.0
+2030,382864,Hazelnut Truffle,Specialty Hot Coffee Drinks,
+2031,382864,Piccante,Oak-Fired Pizza,14.99
+2032,382864,Orecchiette Salsiccia,Farinacei,16.99
+2033,382864,Tortelloni All'aragosta,Farinacei,23.99
+2034,1141,Roast Beef Sub,"12"" Cold Subs",11.0
+2035,1141,Shrimp Plate,Complete Dinners,15.95
+2036,1141,"2 Large Cheese Pizzas, Large Chicken Tenders and 2-Liter Soda Special",Menu Coupons,38.95
+2037,1141,Fried Ravioli,Appetizers,9.95
+2038,1141,Garden Salad,Fresh Salads,7.95
+2039,1141,Meatball Sub,"12"" Hot Subs",11.0
+2040,1141,Eggplant Sub,"12"" Hot Subs",11.0
+2041,1141,Pepper and Egg Sub,"12"" Hot Subs",10.0
+2042,1141,Steak and Onion Sub,"12"" Hot Subs",11.0
+2043,1141,Italian Sausage Hot Sub,"12"" Hot Subs",11.0
+2044,366233,Lemongrass Ginger Pork Dumplings,Bowls,7.5
+2045,366233,Winter Porridge,Winter Porridge,6.0
+2046,366233,Hawthorne Valley Kimchi,Winter Porridge,1.0
+2047,366233,Steam Bun,Snacks,2.0
+2048,366233,Stir Fried Greens,Small,6.0
+2049,366233,General Ko's Wings,Savory,12.0
+2050,366233,Pierogi Dumplings,Bowls,7.5
+2051,366233,Bacon,Winter Porridge,2.75
+2052,366233,Three Sisters Dumplings,Bowls,7.5
+2053,366233,Hot Dog Bites,Winter Porridge,2.5
+2054,373578,Jason's Signature Boneless Buttermilk Fried Chicken,Mains,22.0
+2055,373578,Maple Doughnuts,Desserts,10.0
+2056,373578,Steak & Egg Frites,Mains,20.0
+2057,373578,Skirt Steak Frites,Mains,27.0
+2058,373578,Spicy Honey Chicken Wings,Mains,14.0
+2059,373578,Boston Cream Pie Pancakes,Mains,13.0
+2060,373578,1/2 Dozen Oysters,Shareables,18.0
+2061,373578,Margherita Pizza,Shareables,14.0
+2062,373578,Roasted Pepper & Tomato Bisque,Soup & Salads,10.0
+2063,373578,Lemon Pepper Fried Calamari,Shareables,14.0
+2064,342065,Smoked Salmon,Savory Tea Sandwiches,
+2065,342065,Sencha,Premium Loose Leaf Teas - Green,
+2066,342065,Fresh Fruit Tartlet,Sweet Petits Fours,
+2067,342065,Raspberry Thumbprints,Sweet Petits Fours,
+2068,342065,Matcha,Premium Loose Leaf Teas - Latte,
+2069,342065,Shrimp Salad,Savory Tea Sandwiches,
+2070,342065,Decaf English Breakfast,Premium Loose Leaf Teas - Black,
+2071,342065,Cucumber,Savory Tea Sandwiches,
+2072,342065,Glazed Lemon Poppy Seed Cake,Sweet Petits Fours,
+2073,342065,Plain & Currant,Tea Scones,
