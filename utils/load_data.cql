@@ -9,10 +9,10 @@ MATCH (p2:Person) where p2.user_id = line[1]
 MERGE (p2)-[:friends_with]->(p1)
 
 LOAD CSV WITH HEADERS FROM 'file:///restaurants.csv' AS line
-CREATE (:Restaurant {restaurant_id: line.restaurant_id, restaurant_name: line.restaurant_name, price_range: line.price_range, address: line.address, cuisine: line.cuisine})
+CREATE (:Restaurant {restaurant_id: line.restaurant_id, restaurant_name: line.restaurant_name, price_range: line.price_range, street: line.street, city: line.city, cuisines: line.cuisines})
 
 LOAD CSV WITH HEADERS FROM 'file:///foods.csv' AS line
-CREATE (:Food {restaurant_id: line.restaurant_id, item: line.item, category: line.category, item_price: line.item_price, food_id: line.food_id})
+CREATE (:Food {menu_id: line.menu_id, restaurant_id: line.restaurant_id, item: line.menu_item, subsection: line.subsection, price: line.price})
 
 MATCH (f:Food)
 MATCH (r:Restaurant) where r.restaurant_id = f.restaurant_id
@@ -26,11 +26,8 @@ MATCH (o:Orders)
 MATCH (n:Person) where o.user_id = n.user_id
 MERGE (o)-[:ordered_by]->(n)
 
-MATCH (o:Orders)-[r:ordered_by]->(n:Person) where n.user_id = '1'
-RETURN o, r, n
-
 MATCH (o:Orders)
-MATCH (f:Food) where o.menu_id = f.food_id
+MATCH (f:Food) where o.menu_id = f.menu_id
 MERGE (o)-[:ordered_item]->(f)
 
 
