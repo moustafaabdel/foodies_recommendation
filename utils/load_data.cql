@@ -12,7 +12,7 @@ LOAD CSV WITH HEADERS FROM 'file:///restaurants.csv' AS line
 CREATE (:Restaurant {restaurant_id: line.restaurant_id, restaurant_name: line.restaurant_name, price_range: line.price_range, street: line.street, city: line.city, cuisines: line.cuisines})
 
 LOAD CSV WITH HEADERS FROM 'file:///foods.csv' AS line
-CREATE (:Food {menu_id: line.menu_id, restaurant_id: line.restaurant_id, item: line.menu_item, subsection: line.subsection, price: line.price})
+CREATE (:Food {menu_id: line.menu_id, restaurant_id: line.restaurant_id, item: line.menu_item_name, subsection: line.subsection, price: line.price})
 
 MATCH (f:Food)
 MATCH (r:Restaurant) where r.restaurant_id = f.restaurant_id

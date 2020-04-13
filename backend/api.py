@@ -28,11 +28,25 @@ def get_user_by_id(user_id):
     return jsonify(neo4j.get_users_json(user_id))
 
 
-# Endpoint --> recommendation #1 (by users w/ similar taste) by user id
+# Endpoint --> recommendation by users w/ similar tastes, same restaurant
 @app.route('/api/users/<int:user_id>/recommendation_1')
 @cross_origin()
-def get_recommendation_by_user_id(user_id):
-    return jsonify(neo4j.get_recommendation(user_id))
+def get_recommendation_by_similar_tastes(user_id):
+    return jsonify(neo4j.get_recommendation(user_id, 1))
+
+
+# Endpoint --> recommendation by same category dish, same restaurant
+@app.route('/api/users/<int:user_id>/recommendation_2')
+@cross_origin()
+def get_recommendation_by_simiar_category(user_id):
+    return jsonify(neo4j.get_recommendation(user_id, 2))
+
+
+# Endpoint --> recommendation by friends, same restaurant
+@app.route('/api/users/<int:user_id>/recommendation_3')
+@cross_origin()
+def get_recommendation_by_friends(user_id):
+    return jsonify(neo4j.get_recommendation(user_id, 3))
 
 
 if __name__ == '__main__':

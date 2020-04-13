@@ -17,11 +17,10 @@ const AboutComponent = () => {
                         <p>This is a minimalist food recommendation system highlighting the capabilities of graph databases by 
                             recommending dishes to try at particular restaurants. The frontend is written in React, the backend in 
                             Flask/Python, and the database is Neo4J.</p>
-                        <p>While this food recommendation system does offer the capability to recommend food based on
-                            metrics such as what your friends enjoy (similarly to other popular food recommendation services), 
-                            this recommendation system also utilizes how metrics such as the dishes you like, restaurants you like, 
-                            and the genres of food you like and how they may be similar to other people's tastes. Then, we 
-                            utilize that commonality to provide you with new options of food to try!</p>
+                        <p>This food recommendation is based around recommending dishes at the same restaurant that servers
+                             a user's favorite dish. Specifically, it allows three modes of recommendation: 1. recommend a dish 
+                             based on what your friends like, 2. recommend a dish based on those who like your dish also like, and 
+                             3. recommend a dish of a similar genre to your favorite dish.</p>
                         <p>Completed as a project by Kristi Bui, Moustafa Abdelaziz, Aasish Basani, and 
                             Vidhi Gondalia for Spring 2020 DS4300 (Large Scale Information, Storage and Retrieval) at Northeastern
                             University.</p>

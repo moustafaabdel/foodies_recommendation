@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import { findAllUsers, findSimilarUserDishRecommendation, findUserFavorites } from '../services/UserService';
+import { findAllUsers, findSimilarUserDishRecommendation, findSimilarCategoryDishRecommendation, findDishFriendsRecommendation } from '../services/UserService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUtensils, faFrown } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,14 +18,28 @@ class HomeComponent extends React.Component {
     // Query server (Neo4J) for recommendation for selected user
     getRecommendedDish(user_id, rec_type) {
 
-        if (rec_type === '2') {
+        switch(rec_type) {
+            case '1':
+                findDishFriendsRecommendation(user_id)
+                    .then(dish => {this.setState(
+                        {recommended: dish}
+                    )});
+                break;
 
-            findSimilarUserDishRecommendation(user_id)
-                .then(dish => {this.setState(
-                    {recommended: dish}
-                )})
+            case '2':
+                findSimilarUserDishRecommendation(user_id)
+                    .then(dish => {this.setState(
+                        {recommended: dish}
+                    )});
+                break;
+
+            case '3':
+                findSimilarCategoryDishRecommendation(user_id)
+                    .then(dish => {this.setState(
+                        {recommended: dish}
+                    )});
+                break;
         }
-
     }
 
     componentDidMount = async () => {
@@ -95,9 +109,23 @@ class HomeComponent extends React.Component {
                         <span className='recommendation'>
                             Hmmm... this person seems to order <b>{this.state.recommended[0].item}</b> from <b>{this.state.recommended[1].restaurant_name}</b> a lot.
                         </span>
+
+                        {this.state.selectedRec === '1' ? 
                         <span className='recommendation'>
-                        Others like this person like ordering <b>{this.state.recommended[2].item}</b>.
+                            Their friends enjoy ordering <b>{this.state.recommended[2].item}</b>.
                         </span>
+                        
+                        : this.state.selectedRec === '2' ?
+                        <span className='recommendation'>
+                            Others who like this dish also like ordering <b>{this.state.recommended[2].item}</b>.
+                        </span>
+
+                        :
+                        <span className='recommendation'>
+                            A dish similar to this one is <b>{this.state.recommended[2].item}</b>.
+                        </span>
+                        }
+
                     </div>
                     }
 

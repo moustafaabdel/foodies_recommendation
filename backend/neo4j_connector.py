@@ -10,9 +10,10 @@ class Neo4J_API:
         self.session = None
 
 
+    # initialize driver connection to Neo4J
     def init_connection(self, app):
         self.app = app
-        self.driver = self.connect('bolt://localhost:7687', 'neo4j', 'Student2020')
+        self.driver = self.connect('bolt://localhost:7687', 'kristi', 'bui')
         self.session = self.driver.session()
 
 
@@ -27,7 +28,8 @@ class Neo4J_API:
         if id == '':
             query = "MATCH (n:Person) RETURN n.feet_height, n.weight, n.gender, n.user_id, n.inches_height"
         else:
-            query = "MATCH (n:Person) WHERE n.user_id = '" + str(id) + "' RETURN n.feet_height, n.weight, n.gender, n.user_id, n.inches_height"
+            query = "MATCH (n:Person) WHERE n.user_id = '" + str(id) + "' " \
+                    "RETURN n.feet_height, n.weight, n.gender, n.user_id, n.inches_height"
 
         return self.session.run(query)
 
@@ -66,42 +68,7 @@ class Neo4J_API:
         return self.session.run(query)
 
 
-    # wrapper for getting recommendation data
-    def get_recommendation(self, id):
-        res = self.recommend_dish_based_on_similar_users(id)
-
-        # Only one line in result
-        for line in res:
-            favorite_dish = line['p1_top_food']
-            restaurant = line['r']
-            recommended_dish = line['p2_recommended_dish']
-
-        json = []
-
-        try:
-
-            json.append({'item': favorite_dish['item'],
-                        'food_id': favorite_dish['food_id'],
-                        'category': favorite_dish['category'],
-                        'restaurant_id': favorite_dish['restaurant_id']})
-            json.append({'cuisine': restaurant['cuisine'],
-                        'price_range': restaurant['price_range'],
-                        'address': restaurant['address'],
-                        'restaurant_id': restaurant['restaurant_id'],
-                        'restaurant_name': restaurant['restaurant_name']})
-            json.append({'item': recommended_dish['item'],
-                        'food_id': recommended_dish['food_id'],
-                        'category': recommended_dish['category'],
-                        'restaurant_id': recommended_dish['restaurant_id']})
-
-        except UnboundLocalError:
-
-            # No value for this (no recommended dish!)
-            json.append({'item': 'none'})
-
-        return json
-
-#recommendation #2, dish in the same category 
+    # recommendation #2: dishes of similar category at same restaurant
     def recommend_dish_similar_users_category(self, id):
         query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)-[:ordered_item]\
                 ->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food, p1_top_order, r \
@@ -114,10 +81,28 @@ class Neo4J_API:
                 AND (p2_recommended_dish.restaurant_id = r.restaurant_id) AND \
                 (p2_recommended_dish.category = p1_top_food.category) RETURN p1_top_food, r, p2_recommended_dish \
                 ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
+
         return self.session.run(query)
-# wrapper for getting recommendation data for second methond 
-    def get_recommendation_2(self, id):
-        res = self.recommend_dish_similar_users_category(id)
+
+
+    # recommendation #3: dishes that your friends like at same restaurant
+    def recommend_dish_friends(self, id):
+
+        query = ""
+
+        return self.session.run(query)
+
+
+    # wrapper for recommendation queries
+    def get_recommendation(self, id, rec_type):
+
+        # query for specific rec
+        if rec_type == 1:
+            res = self.recommend_dish_based_on_similar_users(id)
+        elif rec_type == 2:
+            res = self.recommend_dish_similar_users_category(id)
+        elif rec_type == 3:
+            res = self.recommend_dish_friends(id)
 
         # Only one line in result
         for line in res:
@@ -130,17 +115,19 @@ class Neo4J_API:
         try:
 
             json.append({'item': favorite_dish['item'],
-                        'food_id': favorite_dish['food_id'],
-                        'category': favorite_dish['category'],
+                        'subsection': favorite_dish['subsection'],
+                        'menu_id': favorite_dish['menu_id'],
+                        'price': favorite_dish['price'],
                         'restaurant_id': favorite_dish['restaurant_id']})
-            json.append({'cuisine': restaurant['cuisine'],
-                        'price_range': restaurant['price_range'],
-                        'address': restaurant['address'],
+            json.append({'cuisines': restaurant['cuisine'],
+                        'city': restaurant['city'],
+                        'street': restaurant['street'],
                         'restaurant_id': restaurant['restaurant_id'],
                         'restaurant_name': restaurant['restaurant_name']})
-            json.append({'item': recommended_dish['item'],
-                        'food_id': recommended_dish['food_id'],
-                        'category': recommended_dish['category'],
+            son.append({'item': recommended_dish['item'],
+                        'subsection': recommended_dish['subsection'],
+                        'menu_id': recommended_dish['menu_id'],
+                        'price': recommended_dish['price'],
                         'restaurant_id': recommended_dish['restaurant_id']})
 
         except UnboundLocalError:
@@ -148,14 +135,16 @@ class Neo4J_API:
             # No value for this (no recommended dish!)
             json.append({'item': 'none'})
 
-        return json    
+        return json
+
+
 #for debugging purposes
-def main():
-
-    db = Neo4J_API()
-    db.init_connection('debugging')
-
-    print(db.get_recommendation_2(3))
-
-
-main()
+# def main():
+#
+#     db = Neo4J_API()
+#     db.init_connection('debugging')
+#
+#     print(db.get_recommendation_2(3))
+#
+#
+# main()
