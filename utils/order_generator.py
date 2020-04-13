@@ -7,7 +7,7 @@ from numpy.random import choice
 
 
 # 10000 users to emulate Northeastern student body (num students on campus)
-NUM_USERS = 10000
+NUM_USERS = 5000
 
 # 2073 menu items
 NUM_ORDERS = 2073
@@ -65,7 +65,7 @@ def generate_rand_orders(user_id, output):
 
     num_orders = choice(list_of_orders, 1, p=weights)
 
-    list_of_orders = random.sample(range(NUM_USERS), num_orders[0])
+    list_of_orders = random.sample(range(NUM_ORDERS), num_orders[0])
 
 
     for menu_id in list_of_orders:
