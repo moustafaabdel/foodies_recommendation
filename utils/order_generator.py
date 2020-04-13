@@ -1,98 +1,112 @@
-
-
 import random
-import math
 from numpy.random import choice
+import pandas as pd
+from weight_generator import get_list_of_weights
+
+#-----------------------------------------------------------#
+# Generates orders for users with a weighted distribution for
+#   number of orders and restaurants ordered from
+#-----------------------------------------------------------#
 
 
-
-# 10000 users to emulate Northeastern student body (num students on campus)
+# Represent rough estimate of Northeastern student body actively on campus
 NUM_USERS = 5000
+# 2073 menu items pulled from us_menu_api
+NUM_ITEMS = 2073
 
-# 2073 menu items
-NUM_ORDERS = 2073
-
+#######################################################
+# Used to get order number
+#######################################################
 order_num = 0
 def get_order_num():
     global order_num
     order_num += 1
     return order_num
 
-def get_list_of_weights():
-    # Considering there is inefficient data to create and actual
-    # scale-free distribution, we created a rough scale free distribution
-    # EXTREMELY ROUGH SCALE-FREE DISTRIBUTION:
-    #       0     -   8      orders = 80%       [weights_first]
-    #       8    -   12      orders = 10%       [weights_second]
-    #       12    -   20      orders = 8%       [weights_third]
-    #       20    -   30      orders = 2%      [weights_fourth]
-    #       30    -   2073     orders = 0%      [weights_fifth]
 
-    first_ceiling = 8
-    second_ceiling = 12
-    third_ceiling = 20
-    fourth_ceiling = 30
-    fifth_ceiling = 2073
-
-    dist_first = 0.80
-    dist_second = 0.10
-    dist_third = 0.08
-    dist_fourth = 0.02
-    dist_fifth = 0.0
-
-    num_elements_first = first_ceiling
-    num_elements_second = second_ceiling - first_ceiling
-    num_elements_third = third_ceiling - second_ceiling
-    num_elements_fourth = fourth_ceiling - third_ceiling
-    num_elements_fifth = fifth_ceiling - fourth_ceiling
-
-    weights_first = [dist_first/num_elements_first] * num_elements_first
-    weights_second = [dist_second/num_elements_second] * num_elements_second
-    weights_third = [dist_third/num_elements_third] * num_elements_third
-    weights_fourth = [dist_fourth/num_elements_fourth] * num_elements_fourth
-    weights_fifth = [dist_fifth/num_elements_fifth] * num_elements_fifth
-
-    total_weights = weights_first + weights_second + weights_third + weights_fourth + weights_fifth
-
-    return total_weights
+def get_items_from_restaurants(data, restaurants_to_order_from):
+    restaurants = data.loc[data['restaurant_id'].isin(restaurants_to_order_from)]
+    return restaurants['menu_id'].tolist()
 
 
-def generate_rand_orders(user_id, output):
+###############################################################################
+# Generate random orders for specified user from n number of chosen restaurants
+# where n is a random value between 1 & 5.
+# Probability of total number of orders shown below.
+###############################################################################
+def generate_rand_orders(user_id, rand_food_orders, data, restaurant_ids):
     global order_num
+    # Weighted distribution using 5 ceilings & weights (see weight_generator.py)
+    # 20%   chance of having    0-5     orders
+    # 70%   chance of having    5-12    orders
+    # 8%    chance of having    12-20   orders
+    # 2%    chance of having    20-30   orders
+    # 0%    chance of having    30 <    orders
+    weights = get_list_of_weights(5, 0.2, 12, 0.7, 20, 0.08, 30, 0.02, 2073, 0)
+    weighted_num_orders = choice(list(range(1, NUM_ITEMS + 1)), 1, p=weights)
+    num_orders = weighted_num_orders[0]
 
-    weights = get_list_of_weights()
-    list_of_orders = list(range(1, NUM_ORDERS + 1))
+    # Choose up to 4 random restaurants specified user will order from to simulate customer loyalty
+    # Pigeonhole - 70% of users will order from at least one restaurant more than once
+    num_restaurants = random.randint(1,4)
 
-    num_orders = choice(list_of_orders, 1, p=weights)
+    restaurants_to_order_from = random.sample(restaurant_ids, num_restaurants)
+    list_of_options_from_restaurant = get_items_from_restaurants(data, restaurants_to_order_from)
 
-    list_of_orders = random.sample(range(NUM_ORDERS), num_orders[0])
+    adjustment_size = 1
+    # Will ensure that there are enough options for the user to choose from
+    while num_orders > len(list_of_options_from_restaurant):
+        restaurants_to_order_from = random.sample(restaurant_ids, num_restaurants + adjustment_size)
+        list_of_options_from_restaurant = get_items_from_restaurants(data, restaurants_to_order_from)
+        adjustment_size *= 2
+
+    list_of_orders = random.sample(list_of_options_from_restaurant, num_orders)
 
 
     for menu_id in list_of_orders:
         #number of times user ordered a meal
         num_times_ordered = random.randint(1, 3)
-        output.append(str(get_order_num()) + ',' + str(user_id) + ',' + str(menu_id) + ',' + str(num_times_ordered))
+        rand_food_orders.append(str(get_order_num()) + ',' + str(user_id) + ',' + str(menu_id) + ',' + str(num_times_ordered))
+
+    return rand_food_orders
 
 
+##############################################
+# Restaurant ID
+##############################################
+def get_restaurant_ids():
 
-    return output
+    with open('us_menu_api/data/restaurant_ids.csv','r') as csv_file:
+        lines = csv_file.readlines()
 
+    restaurant_ids = []
+    for line in lines:
+        data = line.split(',')
+        restaurant_ids.append(data[0])
 
-def main():
+    return restaurant_ids
 
-
-    # Generate random food orders
-    rand_food_orders = []
-
-    for x in range(0, NUM_USERS):
-        rand_food_orders = generate_rand_orders(x + 1, rand_food_orders)
-
-    filename = 'us_menu_api/data/random_food_orders.csv'
-    with open(filename, 'w') as file:
-        for line in rand_food_orders:
+##############################################
+# Generates CSV using path and provided list
+##############################################
+def tocsv(path, list):
+    with open(path, 'w') as file:
+        for line in list:
             file.write(line)
             file.write('\n')
     file.close()
+
+def main():
+    # Generate random food orders
+    rand_food_orders = []
+
+    data = pd.read_csv("us_menu_api/data/foods.csv")
+    restaurant_ids = get_restaurant_ids()
+    for x in range(0, NUM_USERS):
+        rand_food_orders = generate_rand_orders(x + 1, rand_food_orders, data, restaurant_ids)
+
+    filename = 'us_menu_api/data/random_food_orders.csv'
+    tocsv(filename, rand_food_orders)
 
 
 
