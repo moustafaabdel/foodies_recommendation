@@ -6,11 +6,11 @@ Final project for Northeastern University Spring 2020 Large Scale Information, S
 
 ### Important File/Program Locations:
 
-**Final Report Summary/Analysis:** final_report.pdf
+**Final Report Summary/Analysis:** foodies_final_report_ds4300.pdf
 
 **Neo4J Data & Cyphers:** utils directory
 - *Scaled data:* us_menu_api/data/*.csv
-- *Scripts to generate data:* order_generator.py, user_generator.py
+- *Scripts to generate data:* order_generator.py, user_generator.py, weight_generator.py
 - *Neo4J loading data cyphers:* load_data.cql
 - *Neo4J recommendation cyphers:* recommendations.cql
 

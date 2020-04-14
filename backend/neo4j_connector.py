@@ -55,32 +55,28 @@ class Neo4J_API:
     def recommend_dish_based_on_similar_users(self, id):
 
         query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)" \
-                "-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food," \
-                " p1_top_order, r ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1 MATCH " \
-                "(p1_top_food)<-[:ordered_item]-(p2_top_order:Orders) WHERE NOT (p2_top_order = " \
-                "p1_top_order) WITH p1, p1_top_food, p1_top_order, p2_top_order, r ORDER BY " \
-                "toInteger(p2_top_order.order_count) DESC LIMIT 1 MATCH (p2_top_order)-" \
-                "[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)-" \
-                "[:ordered_item]->(p2_recommended_dish:Food) WHERE NOT (p2_recommended_order"\
-                " = p2_top_order) AND (p2_recommended_dish.restaurant_id = r.restaurant_id) " \
-                "RETURN p1_top_food, r, p2_recommended_dish ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
+                "-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant)" \
+                "WITH p1, p1_top_food, p1_top_order, r ORDER BY toInteger(p1_top_order.order_count)" \
+                " DESC LIMIT 1 MATCH (p1_top_food)<-[:ordered_item]-(p2_top_order:Orders)" \
+                "WHERE NOT (p2_top_order = p1_top_order) WITH p1, p1_top_food, p1_top_order," \
+                " p2_top_order, r ORDER BY toInteger(p2_top_order.order_count) DESC LIMIT 1" \
+                " MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-" \
+                "(p2_recommended_order:Orders)-[:ordered_item]->(rec_dish:Food)" \
+                "WHERE NOT (p2_recommended_order = p2_top_order) AND (rec_dish.restaurant_id" \
+                " = r.restaurant_id) RETURN p1_top_food, r, rec_dish ORDER BY " \
+                "toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
 
         return self.session.run(query)
 
 
     # recommendation #2: dishes of similar category at same restaurant
     def recommend_dish_similar_users_category(self, id):
-        query = "MATCH (p1:Person {user_id: '" + str(id) + "'})<-[:ordered_by]-(p1_top_order:Orders)-[:ordered_item]\
-                ->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, p1_top_food, p1_top_order, r \
-                ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1\
-                MATCH (p1_top_food)<-[:ordered_item]-(p2_top_order:Orders)\
-                WHERE NOT (p2_top_order = p1_top_order) WITH p1, p1_top_food, p1_top_order, p2_top_order, r \
-                ORDER BY toInteger(p2_top_order.order_count) DESC LIMIT 1\
-                MATCH (p2_top_order)-[:ordered_by]->(p2:Person)<-[:ordered_by]-(p2_recommended_order:Orders)\
-                -[:ordered_item]->(p2_recommended_dish:Food) WHERE NOT (p2_recommended_order = p2_top_order) \
-                AND (p2_recommended_dish.restaurant_id = r.restaurant_id) AND \
-                (p2_recommended_dish.category = p1_top_food.category) RETURN p1_top_food, r, p2_recommended_dish \
-                ORDER BY toInteger(p2_recommended_order.order_count) DESC LIMIT 1"
+        query = "MATCH (p1:Person {user_id: '1'})<-[:ordered_by]-(p1_top_order:Orders)-" \
+        "[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant) WITH p1, " \
+        "p1_top_food, p1_top_order, r ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1" \
+        " MATCH (r)<-[:menu_item]-(rec_dish:Food)<-[:ordered_item]-(restaurant_orders:Orders)" \
+        " WHERE (p1_top_food.subsection in rec_dish.subsection) AND NOT (p1_top_food = rec_dish)" \
+        " RETURN p1_top_food, r, rec_dish ORDER BY toInteger(restaurant_orders.order_count) DESC LIMIT 1"
 
         return self.session.run(query)
 
@@ -88,7 +84,13 @@ class Neo4J_API:
     # recommendation #3: dishes that your friends like at same restaurant
     def recommend_dish_friends(self, id):
 
-        query = ""
+        query = "MATCH (p1:Person {user_id: '1'})<-[:ordered_by]-(p1_top_order:Orders)" \
+        "-[:ordered_item]->(p1_top_food:Food)-[:menu_item]->(r:Restaurant)" \
+        "WITH p1, p1_top_food, p1_top_order, r ORDER BY toInteger(p1_top_order.order_count) DESC LIMIT 1" \
+        " MATCH (p1)-[:friends_with]->(friend:Person)<-[:ordered_by]-(friends_orders:Orders)-" \
+        "[:ordered_item]->(rec_dish:Food) WHERE (rec_dish.restaurant_id " \
+        "= p1_top_food.restaurant_id) AND NOT (p1_top_food.menu_id = rec_dish.menu_id)" \
+        " RETURN p1_top_food, r, rec_dish ORDER BY toInteger(friends_orders.order_count) DESC LIMIT 1"
 
         return self.session.run(query)
 
@@ -108,7 +110,7 @@ class Neo4J_API:
         for line in res:
             favorite_dish = line['p1_top_food']
             restaurant = line['r']
-            recommended_dish = line['p2_recommended_dish']
+            recommended_dish = line['rec_dish']
 
         json = []
 
@@ -123,8 +125,9 @@ class Neo4J_API:
                         'city': restaurant['city'],
                         'street': restaurant['street'],
                         'restaurant_id': restaurant['restaurant_id'],
-                        'restaurant_name': restaurant['restaurant_name']})
-            son.append({'item': recommended_dish['item'],
+                        'restaurant_name': restaurant['restaurant_name'],
+                        'price_range': restaurant['price_range']})
+            json.append({'item': recommended_dish['item'],
                         'subsection': recommended_dish['subsection'],
                         'menu_id': recommended_dish['menu_id'],
                         'price': recommended_dish['price'],
@@ -136,15 +139,3 @@ class Neo4J_API:
             json.append({'item': 'none'})
 
         return json
-
-
-#for debugging purposes
-# def main():
-#
-#     db = Neo4J_API()
-#     db.init_connection('debugging')
-#
-#     print(db.get_recommendation_2(3))
-#
-#
-# main()

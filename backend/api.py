@@ -35,7 +35,7 @@ def get_recommendation_by_similar_tastes(user_id):
     return jsonify(neo4j.get_recommendation(user_id, 1))
 
 
-# Endpoint --> recommendation by same category dish, same restaurant
+# Endpoint --> recommendation by same subcategory dish, same restaurant
 @app.route('/api/users/<int:user_id>/recommendation_2')
 @cross_origin()
 def get_recommendation_by_simiar_category(user_id):
